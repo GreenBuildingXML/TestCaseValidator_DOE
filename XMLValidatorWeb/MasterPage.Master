@@ -1,0 +1,34 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs"
+    Inherits="XMLValidatorWeb.MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link rel="stylesheet" href="~/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/gbXML.css" />
+    <script language="javascript" type="text/javascript">
+
+    </script>
+    
+</head>
+<body>
+    <form id="form1" runat="server">
+
+    <div class="branding">
+        <img id="Img1" runat="server" class="advantix-logo" src="~/Images/header_new.png"
+            alt="logo" />
+        <img id="Img2" runat="server" class="designguide-logo" src="~/Images/header01.jpg"
+            alt="logo" />
+    </div>
+
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server" />
+
+    </form>
+
+
+</body>
+
+</html>
