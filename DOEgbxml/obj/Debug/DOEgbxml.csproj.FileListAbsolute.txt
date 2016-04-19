@@ -1,0 +1,9 @@
+C:\Users\Chiensi\Documents\Visual Studio 2010\Projects\DOEgbxml\DOEgbxml\bin\Debug\DOEgbxml.dll
+C:\Users\Chiensi\Documents\Visual Studio 2010\Projects\DOEgbxml\DOEgbxml\bin\Debug\DOEgbxml.pdb
+C:\Users\Chiensi\Documents\Visual Studio 2010\Projects\DOEgbxml\DOEgbxml\bin\Debug\log4net.dll
+C:\Users\Chiensi\Documents\Visual Studio 2010\Projects\DOEgbxml\DOEgbxml\bin\Debug\VectorMath.dll
+C:\Users\Chiensi\Documents\Visual Studio 2010\Projects\DOEgbxml\DOEgbxml\bin\Debug\log4net.xml
+C:\Users\Chiensi\Documents\Visual Studio 2010\Projects\DOEgbxml\DOEgbxml\bin\Debug\VectorMath.pdb
+C:\Users\Chiensi\Documents\Visual Studio 2010\Projects\DOEgbxml\DOEgbxml\obj\Debug\DOEgbxml.dll
+C:\Users\Chiensi\Documents\Visual Studio 2010\Projects\DOEgbxml\DOEgbxml\obj\Debug\DOEgbxml.pdb
+C:\Users\Chiensi\Documents\Visual Studio 2010\Projects\DOEgbxml\DOEgbxml\obj\Debug\DOEgbxml.csprojResolveAssemblyReference.cache
