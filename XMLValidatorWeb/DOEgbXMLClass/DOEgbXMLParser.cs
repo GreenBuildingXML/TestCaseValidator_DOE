@@ -54,15 +54,19 @@ namespace DOEgbXML
 
         static Dictionary<string, string> filepaths = new Dictionary<string, string>()
         {
-            {"Test1" ,Path.Combine(HttpRuntime.AppDomainAppPath,"SupportFiles/TestFiles/Test Case 1 - Standard File.xml")},
-            {"Test2" ,Path.Combine(HttpRuntime.AppDomainAppPath,"SupportFiles/TestFiles/Test Case 2 - Standard File.xml")},
+            //{"Test1" ,Path.Combine(HttpRuntime.AppDomainAppPath,"SupportFiles/TestFiles/Test Case 1 - Standard File.xml")},
+            //{"Test2" ,Path.Combine(HttpRuntime.AppDomainAppPath,"SupportFiles/TestFiles/Test Case 2 - Standard File.xml")},
             {"Test3" ,Path.Combine(HttpRuntime.AppDomainAppPath,"SupportFiles/TestFiles/Test Case 3 - Standard File.xml")},
-            {"Test4" ,Path.Combine(HttpRuntime.AppDomainAppPath,"SupportFiles/TestFiles/Test Case 4 - Standard File.xml")},
-            {"Test5" ,Path.Combine(HttpRuntime.AppDomainAppPath,"SupportFiles/TestFiles/Test Case 5 - Standard File.xml")},
+            //{"Test4" ,Path.Combine(HttpRuntime.AppDomainAppPath,"SupportFiles/TestFiles/Test Case 4 - Standard File.xml")},
+            //{"Test5" ,Path.Combine(HttpRuntime.AppDomainAppPath,"SupportFiles/TestFiles/Test Case 5 - Standard File.xml")},
+            {"Test6" ,Path.Combine(HttpRuntime.AppDomainAppPath,"SupportFiles/TestFiles/Test Case 6 - Standard File.xml")},
             {"Test7" ,Path.Combine(HttpRuntime.AppDomainAppPath,"SupportFiles/TestFiles/Test Case 7 - Standard File.xml")},
             {"Test8" ,Path.Combine(HttpRuntime.AppDomainAppPath,"SupportFiles/TestFiles/Test Case 8 - Standard File.xml")},
-            {"Test25" ,Path.Combine(HttpRuntime.AppDomainAppPath,"SupportFiles/TestFiles/Test Case 25 - Standard File.xml")},
-            {"Test28" ,Path.Combine(HttpRuntime.AppDomainAppPath,"SupportFiles/TestFiles/Test Case 28 - Standard File.xml")},
+            {"Test12" ,Path.Combine(HttpRuntime.AppDomainAppPath,"SupportFiles/TestFiles/Test Case 12 - Standard File.xml")},
+            //{"Test25" ,Path.Combine(HttpRuntime.AppDomainAppPath,"SupportFiles/TestFiles/Test Case 25 - Standard File.xml")},
+            //{"Test28" ,Path.Combine(HttpRuntime.AppDomainAppPath,"SupportFiles/TestFiles/Test Case 28 - Standard File.xml")},
+            {"Whole Building Test 1" ,Path.Combine(HttpRuntime.AppDomainAppPath,"SupportFiles/TestFiles/Whole Building Test Case 1 - Standard File.xml")},
+            {"Whole Building Test 2" ,Path.Combine(HttpRuntime.AppDomainAppPath,"SupportFiles/TestFiles/Whole Building Test Case 2 - Standard File.xml")}
         };
 
 
@@ -79,7 +83,7 @@ namespace DOEgbXML
         public void StartTest(XmlReader xmldoc, string testToRun, string username)
         {
             Conversions c = new Conversions();
-            
+
             TestToRun = testToRun;
             globalMatchObject = new gbXMLMatches();
             globalMatchObject.Init();
@@ -130,19 +134,19 @@ namespace DOEgbXML
                         string type = at.Value;
                         testVol = (Conversions.volumeUnitEnum)System.Enum.Parse(typeof(Conversions.volumeUnitEnum), type, true);
                         //we know the test files are in cubic feet
-                        volumeConversion = c.GetVolumeUnitConversion(testVol,Conversions.volumeUnitEnum.CubicFeet);
-                        if(volumeConversion == -999)
+                        volumeConversion = c.GetVolumeUnitConversion(testVol, Conversions.volumeUnitEnum.CubicFeet);
+                        if (volumeConversion == -999)
                         {
                             //return with an error message stating contact system administrator with a code
                         }
-                        
+
                     }
                     else if (at.Name == "areaUnit")
                     {
                         string type = at.Value;
                         testArea = (Conversions.areaUnitEnum)System.Enum.Parse(typeof(Conversions.areaUnitEnum), type, true);
-                        areaConversion = c.GetAreaConversion(testArea,Conversions.areaUnitEnum.SquareFeet);
-                        if(areaConversion == -999)
+                        areaConversion = c.GetAreaConversion(testArea, Conversions.areaUnitEnum.SquareFeet);
+                        if (areaConversion == -999)
                         {
                             //return with an error message stating contact system administrator with a code
                         }
@@ -151,7 +155,7 @@ namespace DOEgbXML
                     {
                         string type = at.Value;
                         testLength = (Conversions.lengthUnitEnum)System.Enum.Parse(typeof(Conversions.lengthUnitEnum), type, true);
-                        lengthConversion = c.GetLengthConversion(testLength,Conversions.lengthUnitEnum.Feet);
+                        lengthConversion = c.GetLengthConversion(testLength, Conversions.lengthUnitEnum.Feet);
                         if (lengthConversion == -999)
                         {
                             //return with an error message stating contact system administrator with a code
@@ -161,7 +165,7 @@ namespace DOEgbXML
             }
 
             //if isMetric is true, then we would like to convert the test file's numbers to US-IP units
-            if(isMetric) gbXMLTestFile = ConvertMetricToUS(gbXMLTestFile);
+            if (isMetric) gbXMLTestFile = ConvertMetricToUS(gbXMLTestFile);
 
             List<XmlDocument> gbXMLdocs = new List<XmlDocument>();
             gbXMLdocs.Add(gbXMLTestFile);
@@ -172,7 +176,7 @@ namespace DOEgbXML
 
             //Create a Log file that logs the success or failure of each test.
             //Eventually maybe I want to create a little HTML factory
-         
+
             output = "";
             log = "";
             table += "<div class='container'>" +
@@ -257,7 +261,7 @@ namespace DOEgbXML
             report.tolerance = DOEgbXMLBasics.Tolerances.SpaceAreaTolerance;
             report.testType = TestType.Space_Area;
             units = DOEgbXMLBasics.MeasurementUnits.sqft.ToString();
-            report = TestSpaceAreas(gbXMLdocs, gbXMLnsm, report, standardArea,testArea,areaConversion);
+            report = TestSpaceAreas(gbXMLdocs, gbXMLnsm, report, standardArea, testArea, areaConversion);
             AddToOutPut("Space Areas Test: ", report, true);
 
 
@@ -266,7 +270,7 @@ namespace DOEgbXML
             report.tolerance = DOEgbXMLBasics.Tolerances.VolumeTolerance;
             report.testType = TestType.Space_Volume;
             units = DOEgbXMLBasics.MeasurementUnits.cubicft.ToString();
-            report = TestSpaceVolumes(gbXMLdocs, gbXMLnsm, report, units);
+            report = TestSpaceVolumes(gbXMLdocs, gbXMLnsm, report, standardVol, testVol, volumeConversion);
             AddToOutPut("Space Volumes Test: ", report, true);
 
 
@@ -409,7 +413,7 @@ namespace DOEgbXML
                     report.subTestIndex = i;
 
                     //multiple units used, so ignore units
-                    report = GetPossibleSurfaceMatches(surface, TestSurfaces, report);
+                    report = GetPossibleSurfaceMatches(surface, TestSurfaces, report, standardLength, testLength, lengthConversion, standardArea, testArea, areaConversion);
 
                     AddToOutPut("Test 17 for Surface number " + i + " Result: ", report, false);
 
@@ -738,7 +742,7 @@ namespace DOEgbXML
                                 "<td>" + "&plusmn" + report.tolerance + " " + report.unit + "</td>" +
                                 "<td>Fail</td>" +
                                 "</tr>";
-                  
+
                 }
             }
 
@@ -842,7 +846,7 @@ namespace DOEgbXML
             return ipdoc;
         }
 
-       
+
 
         #region Test Functions
         private DOEgbXMLReportingObj GetUGSurfaceCount(List<XmlDocument> gbXMLDocs, List<XmlNamespaceManager> gbXMLnsm, DOEgbXMLReportingObj report, string Units)
@@ -2006,7 +2010,7 @@ namespace DOEgbXML
 
         }
 
-        public static DOEgbXMLReportingObj GetBuildingArea(List<XmlDocument> gbXMLDocs, List<XmlNamespaceManager> gbXMLnsm, DOEgbXMLReportingObj report, Conversions.areaUnitEnum standardUnits,Conversions.areaUnitEnum testUnits, double conversion)
+        public static DOEgbXMLReportingObj GetBuildingArea(List<XmlDocument> gbXMLDocs, List<XmlNamespaceManager> gbXMLnsm, DOEgbXMLReportingObj report, Conversions.areaUnitEnum standardUnits, Conversions.areaUnitEnum testUnits, double conversion)
         {
             //this summary is text that describes to a lay user what this test does, and how it works functionally.  The user should have some familiarity with the basic knowledge of gbXML 
             //added Feb 13 2013
@@ -2036,7 +2040,7 @@ namespace DOEgbXML
                     if (i % 2 != 0)
                     {
                         //setup standard result and test result
-                        if(conversion != 1) { report.MessageList.Add("Converted the test file from " + testUOM + " to " + report.unit + "."); }
+                        if (conversion != 1) { report.MessageList.Add("Converted the test file from " + testUOM + " to " + report.unit + "."); }
                         //apply the conversion factor on the test file always, regardless.
                         double standardArea = Convert.ToDouble(resultsArray[i]);
                         double testArea = Convert.ToDouble(resultsArray[(i - 1)]) * conversion;
@@ -2044,7 +2048,7 @@ namespace DOEgbXML
                         report.testResult.Add(String.Format("{0:#,0.00}", testArea.ToString()));
                         report.idList.Add("");
 
-                        
+
                         double difference = standardArea - testArea;
                         if (Math.Abs(difference) == 0)
                         {
@@ -2319,13 +2323,13 @@ namespace DOEgbXML
                                 if (testStoryHeight.ContainsKey(standardPair2.Key))
                                 {
                                     double matchkeydiff = Math.Abs(standardPair2.Value - testStoryHeight[standardPair2.Key]);
-                                    if(matchkeydiff == 0)
+                                    if (matchkeydiff == 0)
                                     {
                                         report.MessageList.Add("Matched Standard File's " + standardPair2.Value + " with Test File's " + testStoryHeight[standardPair2.Key] + " @ " + standardPair2.Key + report.unit + " Exactly");
                                         report.TestPassedDict.Add(standardPair2.Value.ToString(), true);
                                         continue;
                                     }
-                                    else if(matchkeydiff < report.tolerance)
+                                    else if (matchkeydiff < report.tolerance)
                                     {
                                         report.MessageList.Add("Matched Standard File's " + standardPair2.Value + " with Test File's " + testStoryHeight[standardPair2.Key] + " @ " + standardPair2.Key + report.unit + " within allowable tolerance.");
                                         report.TestPassedDict.Add(standardPair2.Value.ToString(), true);
@@ -2337,7 +2341,7 @@ namespace DOEgbXML
                                         report.TestPassedDict.Add(standardPair2.Value.ToString(), true);
                                         continue;
                                     }
-                                    
+
                                 }
                                 foreach (KeyValuePair<string, double> testPair in testStoryHeight)
                                 {
@@ -2347,7 +2351,7 @@ namespace DOEgbXML
                                     report.testResult.Add(testPair.Key);
                                     report.idList.Add(Convert.ToString(count));
 
-                                    difference = Math.Abs(Convert.ToDouble(standardPair2.Key) - Convert.ToDouble(testPair.Key)*conversion);
+                                    difference = Math.Abs(Convert.ToDouble(standardPair2.Key) - Convert.ToDouble(testPair.Key) * conversion);
                                     //store all levels and the difference between them
                                     if (StoryHeightMin > difference)
                                     {
@@ -2711,13 +2715,27 @@ namespace DOEgbXML
                         string spaceId;
                         if (i % 2 != 0)
                         {
-                            spaceId = node.Attributes[0].Value.ToString();
-                            testIDList.Add(spaceId);
+                            for(int n=0; n < node.Attributes.Count; n++)
+                            {
+                                if (node.Attributes[n].Name == "id")
+                                {
+                                    spaceId = node.Attributes[n].Value.ToString();
+                                    standardIdList.Add(spaceId);
+                                }
+                            }
+                            
                         }
                         else
                         {
-                            spaceId = node.Attributes[0].Value.ToString();
-                            standardIdList.Add(spaceId);
+                            for (int n = 0; n < node.Attributes.Count; n++)
+                            {
+                                if (node.Attributes[n].Name == "id")
+                                {
+                                    spaceId = node.Attributes[n].Value.ToString();
+                                    testIDList.Add(spaceId);
+                                    
+                                }
+                            }
                         }
                     }
                 }
@@ -2827,15 +2845,31 @@ namespace DOEgbXML
                         string area = spaceNode.InnerText;
                         if (i % 2 != 0)
                         {
-                            spaceId = spaceNode.ParentNode.Attributes[0].Value;
-                            //no conversion necessary
-                            standardFileAreaDict.Add(spaceId, Convert.ToDouble(area));
+                            for (int n = 0; n < spaceNode.ParentNode.Attributes.Count; n++)
+                            {
+                                if (spaceNode.ParentNode.Attributes[n].Name == "id")
+                                {
+                                    spaceId = spaceNode.ParentNode.Attributes[n].Value;
+                                    //no conversion necessary
+                                    standardFileAreaDict.Add(spaceId, Convert.ToDouble(area));
+                                    break;
+                                }
+                            }
+                            
                         }
                         else
                         {
-                            spaceId = spaceNode.ParentNode.Attributes[0].Value;
-                            double convertedArea = Convert.ToDouble(area) * conversion;
-                            testFileAreaDict.Add(spaceId, convertedArea);
+                            for (int n = 0; n < spaceNode.ParentNode.Attributes.Count; n++)
+                            {
+                                if (spaceNode.ParentNode.Attributes[n].Name == "id")
+                                {
+                                    spaceId = spaceNode.ParentNode.Attributes[n].Value;
+                                    double convertedArea = Convert.ToDouble(area) * conversion;
+                                    testFileAreaDict.Add(spaceId, convertedArea);
+                                    break;
+                                }
+                            }
+                            
                         }
                     }
                 }
@@ -2849,24 +2883,24 @@ namespace DOEgbXML
                         double standardFileSpaceArea = standardFileAreaDict[key];
 
 
-                        report.standResult.Add(String.Format("{0:#,0.00}",Convert.ToString(standardFileSpaceArea)));
-                        report.testResult.Add(String.Format("{0:#,0.00}", Convert.ToString(testFileSpaceArea)));
+                        report.standResult.Add(standardFileSpaceArea.ToString("#.000"));
+                        report.testResult.Add(testFileSpaceArea.ToString("#.000"));
                         report.idList.Add(key);
 
                         double difference = Math.Abs(testFileSpaceArea - standardFileSpaceArea);
                         if (difference == 0)
                         {
-                            report.MessageList.Add("For Space Id: " + key + ".  Success finding matching space area.  The Standard File and the Test File both have a space with an area = " + String.Format("{0:#,0.00}", testFileSpaceArea.ToString()) + " " + report.unit + ". ");
+                            report.MessageList.Add("For Space Id: " + key + ".  Success finding matching space area.  The Standard File and the Test File both have a space with an area = " + testFileSpaceArea.ToString("#.000") + " " + report.unit + ". ");
                             report.TestPassedDict.Add(key, true);
                         }
                         else if (difference < report.tolerance)
                         {
-                            report.MessageList.Add("For Space Id: " + key + ".  Success finding matching space area.  The Standard File space area of " + String.Format("{0:#,0.00}", standardFileSpaceArea.ToString()) + " and the Test File space area of " + String.Format("{0:#,0.00}", testFileSpaceArea.ToString()) + " " + report.unit + " is within the allowable tolerance of " + report.tolerance.ToString() + " " + report.unit);
+                            report.MessageList.Add("For Space Id: " + key + ".  Success finding matching space area.  The Standard File space area of " + standardFileSpaceArea.ToString("#.000") + " and the Test File space area of " + testFileSpaceArea.ToString("#.000") + " " + report.unit + " is within the allowable tolerance of " + report.tolerance.ToString() + " " + report.unit);
                             report.TestPassedDict.Add(key, true);
                         }
                         else
                         {
-                            report.MessageList.Add("For space Id: " + key + ".  Failure to find an space area match.  THe area equal to  = " + String.Format("{0:#,0.00}", standardFileSpaceArea.ToString()) + " " + report.unit + " in the Standard File could not be found in the Test File. ");
+                            report.MessageList.Add("For space Id: " + key + ".  Failure to find an space area match.  THe area equal to  = " + standardFileSpaceArea.ToString("#.000") + " " + report.unit + " in the Standard File could not be found in the Test File. ");
                             report.TestPassedDict.Add(key, false);
                         }
                     }
@@ -2896,11 +2930,11 @@ namespace DOEgbXML
             return report;
         }
 
-        public static DOEgbXMLReportingObj TestSpaceVolumes(List<XmlDocument> gbXMLDocs, List<XmlNamespaceManager> gbXMLnsm, DOEgbXMLReportingObj report, string Units)
+        public static DOEgbXMLReportingObj TestSpaceVolumes(List<XmlDocument> gbXMLDocs, List<XmlNamespaceManager> gbXMLnsm, DOEgbXMLReportingObj report, Conversions.volumeUnitEnum standardUnits, Conversions.volumeUnitEnum testUnits, double conversion)
         {
             report.passOrFail = true;
             string spaceId = "";
-            report.unit = Units;
+            report.unit = standardUnits.ToString();
             //assuming that this will be plenty large for now
             Dictionary<string, double> standardFileVolumeDict = new Dictionary<string, double>();
             Dictionary<string, double> testFileVolumeDict = new Dictionary<string, double>();
@@ -2920,12 +2954,14 @@ namespace DOEgbXML
                         if (i % 2 != 0)
                         {
                             spaceId = spaceNode.ParentNode.Attributes[0].Value;
-                            testFileVolumeDict.Add(spaceId, Convert.ToDouble(volume));
+                            //no conversion necessary
+                            standardFileVolumeDict.Add(spaceId, Convert.ToDouble(volume));
                         }
                         else
                         {
                             spaceId = spaceNode.ParentNode.Attributes[0].Value;
-                            standardFileVolumeDict.Add(spaceId, Convert.ToDouble(volume));
+                            double convertedValue = Convert.ToDouble(volume) * conversion;
+                            testFileVolumeDict.Add(spaceId, convertedValue);
                         }
                     }
                 }
@@ -2937,25 +2973,25 @@ namespace DOEgbXML
                         double standardFileVolume = standardFileVolumeDict[key];
                         double testFileVolume = testFileVolumeDict[key];
 
-                        report.standResult.Add(Convert.ToString(standardFileVolume));
-                        report.testResult.Add(Convert.ToString(testFileVolume));
+                        report.standResult.Add(standardFileVolume.ToString("#.000"));
+                        report.testResult.Add(testFileVolume.ToString("#.000"));
                         report.idList.Add(key);
 
                         double difference = Math.Abs(testFileVolume - standardFileVolume);
                         if (difference == 0)
                         {
-                            report.MessageList.Add("For Space Id: " + key + ".  Success finding matching space volume.  The Standard and Test Files both have identical volumes: " + testFileVolume + " " + Units + "for Space Id: " + key);
+                            report.MessageList.Add("For Space Id: " + key + ".  Success finding matching space volume.  The Standard and Test Files both have identical volumes: " + testFileVolume.ToString("#.000") + " " + report.unit + "for Space Id: " + key);
                             report.TestPassedDict.Add(key, true);
                         }
                         else if (difference < report.tolerance)
                         {
-                            report.MessageList.Add("For Space Id: " + key + ".  Success finding matching space volume.  The Standard Files space volume of " + standardFileVolume.ToString() + " " + Units + "and the Test File space volume: " + testFileVolume + " are within the allowed tolerance of" + report.tolerance.ToString() + " " + Units + ".");
+                            report.MessageList.Add("For Space Id: " + key + ".  Success finding matching space volume.  The Standard Files space volume of " + standardFileVolume.ToString("#.000") + " " + report.unit + "and the Test File space volume: " + testFileVolume.ToString("#.000") + " are within the allowed tolerance of" + report.tolerance.ToString() + " " + report.unit + ".");
                             report.TestPassedDict.Add(key, true);
                         }
                         else
                         {
                             //at the point of failure, the test will return with details about which volume failed.
-                            report.MessageList.Add("For Space Id: " + key + ".  Failure to find a volume match.  The Volume in the Test File equal to: " + testFileVolume.ToString() + " " + Units + " was not within the allowed tolerance.  SpaceId: " + key + " in the Standard file has a volume: " + standardFileVolume.ToString() + " .");
+                            report.MessageList.Add("For Space Id: " + key + ".  Failure to find a volume match.  The Volume in the Test File equal to: " + testFileVolume.ToString("#.000") + " " + report.unit + " was not within the allowed tolerance.  SpaceId: " + key + " in the Standard file has a volume: " + standardFileVolume.ToString("#.000") + " .");
                             report.TestPassedDict.Add(key, false);
                         }
                     }
@@ -4064,7 +4100,7 @@ namespace DOEgbXML
             }
         }
 
-        private DOEgbXMLReportingObj GetPossibleSurfaceMatches(SurfaceDefinitions surface, List<SurfaceDefinitions> TestSurfaces, DOEgbXMLReportingObj report)
+        private DOEgbXMLReportingObj GetPossibleSurfaceMatches(SurfaceDefinitions surface, List<SurfaceDefinitions> TestSurfaces, DOEgbXMLReportingObj report, Conversions.lengthUnitEnum standardLengthUnits, Conversions.lengthUnitEnum testLengthUnits, double lengthConversion, Conversions.areaUnitEnum standardAreaUnits, Conversions.areaUnitEnum testAreaUnits, double areaConversion)
         {
             //this summary is text that describes to a lay user what this test does, and how it works functionally.  The user should have some familiarity with the basic knowledge of gbXML 
             //added Mar 14 2013
@@ -4255,7 +4291,7 @@ namespace DOEgbXML
                         foreach (SurfaceDefinitions regSurface in possiblesList2)
                         {
                             //ensures likewise that all the test surface candidates are regular, 
-                            //if they are not, then the entire set is assumed to be irregular
+                            //TODO:  if they are not, then the entire set is assumed to be irregular (this could be improved)
                             isRegular = IsSurfaceRegular(regSurface);
                             if (isRegular == false) break;
                         }
@@ -4269,6 +4305,7 @@ namespace DOEgbXML
                             {
                                 //it first analyzes the test file to see if slivers are present.  If they are, it will fail the test
                                 //if slivers are not allowed for the test.  This is the first time we check for slivers
+                                //TODO:  consider removing or giving a feature to allow this to be overridded.
                                 if (testsurface.Width <= DOEgbXMLBasics.Tolerances.SliverDimensionTolerance || testsurface.Height <= DOEgbXMLBasics.Tolerances.SliverDimensionTolerance)
                                 {
                                     if (!DOEgbXMLBasics.SliversAllowed)
@@ -4279,8 +4316,8 @@ namespace DOEgbXML
                                     }
                                 }
                                 //otherwise, if the sliver test passes
-                                double widthDiff = Math.Abs(testsurface.Width - surface.Width);
-                                double heightDiff = Math.Abs(testsurface.Height - surface.Height);
+                                double widthDiff = Math.Abs((lengthConversion * testsurface.Width) - surface.Width);
+                                double heightDiff = Math.Abs((lengthConversion * testsurface.Height) - surface.Height);
                                 if (widthDiff > DOEgbXMLBasics.Tolerances.SurfaceWidthTolerance ||
                                     heightDiff > DOEgbXMLBasics.Tolerances.SurfaceHeightTolerance)
                                 {
@@ -4298,7 +4335,7 @@ namespace DOEgbXML
                                     }
                                     else
                                     {
-                                        report.MessageList.Add("Test file surface with id: " + testsurface.SurfaceId + " is within the width and height tolerances of " + DOEgbXMLBasics.Tolerances.SurfaceWidthTolerance + " ft and " + DOEgbXMLBasics.Tolerances.SurfaceHeightTolerance + "ft, respectively.");
+                                        report.MessageList.Add("Test file surface with id: " + testsurface.SurfaceId + " is within the width and height tolerances of " + DOEgbXMLBasics.Tolerances.SurfaceWidthTolerance + standardLengthUnits + " and " + DOEgbXMLBasics.Tolerances.SurfaceHeightTolerance + standardLengthUnits + ", respectively.");
                                         //go ahead and now check the polyloop coordinates, and then the insertion point
                                     }
                                 }
@@ -4352,7 +4389,9 @@ namespace DOEgbXML
                                             report.MessageList.Add("The coordinates of the test file polyloop has been incorrectly defined.");
                                             report.MessageList.Add("The coordinates should be 2D and could not be translated to 2D");
                                         }
-                                        double difference = Math.Abs(area - testSurfacesArea);
+                                        //convert from the test units to the standard units
+
+                                        double difference = Math.Abs(area - (testSurfacesArea * areaConversion));
                                         if (difference < area * DOEgbXMLBasics.Tolerances.SurfaceAreaPercentageTolerance)
                                         {
                                             possiblesList1.Add(testSurface);
@@ -4418,7 +4457,8 @@ namespace DOEgbXML
                                             report.MessageList.Add("The coordinates of the test file polyloop has been incorrectly defined.");
                                             report.MessageList.Add("The coordinates should be 2D and could not be translated to 2D");
                                         }
-                                        double difference = Math.Abs(area - testSurfacesArea);
+                                        //convert the testSurfaceArea
+                                        double difference = Math.Abs(area - (testSurfacesArea * areaConversion));
                                         if (difference < area * DOEgbXMLBasics.Tolerances.SurfaceAreaPercentageTolerance)
                                         {
                                             possiblesList1.Add(testSurface);
@@ -4481,7 +4521,8 @@ namespace DOEgbXML
                                             report.MessageList.Add("The coordinates of the test file polyloop has been incorrectly defined.");
                                             report.MessageList.Add("The coordinates should be 2D and could not be translated to 2D");
                                         }
-                                        double difference = Math.Abs(area - testSurfacesArea);
+                                        //provide area conversion
+                                        double difference = Math.Abs(area - (testSurfacesArea * areaConversion));
                                         if (difference < area * DOEgbXMLBasics.Tolerances.SurfaceAreaPercentageTolerance)
                                         {
                                             possiblesList1.Add(testSurface);
@@ -4609,7 +4650,8 @@ namespace DOEgbXML
                                         report.MessageList.Add("The coordinates of the test file polyloop has been incorrectly defined.");
                                         report.MessageList.Add("The coordinates should be 2D and could not be translated to 2D");
                                     }
-                                    double difference = Math.Abs(area - testarea);
+                                    //convert to the standard units
+                                    double difference = Math.Abs(area - (testarea * areaConversion));
                                     if (difference < area * DOEgbXMLBasics.Tolerances.SurfaceAreaPercentageTolerance)
                                     {
                                         possiblesList1.Add(testSurface);
@@ -4654,7 +4696,7 @@ namespace DOEgbXML
                             //check the polyLoop coordinates
                             foreach (Vector.CartCoord standardPolyLoopCoord in surface.PlCoords)
                             {
-                                report = GetPolyLoopCoordMatch(standardPolyLoopCoord, testSurface, report, surface.SurfaceId);
+                                report = GetPolyLoopCoordMatch(standardPolyLoopCoord, testSurface, report, surface.SurfaceId, lengthConversion);
                                 if (report.passOrFail)
                                 {
                                     continue;
@@ -4687,9 +4729,9 @@ namespace DOEgbXML
                         foreach (SurfaceDefinitions testSurface in possiblesList2)
                         {
                             //now match the differences
-                            double insPtXDiff = Math.Abs(testSurface.InsertionPoint.X - surface.InsertionPoint.X);
-                            double insPtYDiff = Math.Abs(testSurface.InsertionPoint.Y - surface.InsertionPoint.Y);
-                            double insPtZDiff = Math.Abs(testSurface.InsertionPoint.Z - surface.InsertionPoint.Z);
+                            double insPtXDiff = Math.Abs((testSurface.InsertionPoint.X * lengthConversion) - surface.InsertionPoint.X);
+                            double insPtYDiff = Math.Abs((testSurface.InsertionPoint.Y * lengthConversion) - surface.InsertionPoint.Y);
+                            double insPtZDiff = Math.Abs((testSurface.InsertionPoint.Z * lengthConversion) - surface.InsertionPoint.Z);
                             if (insPtXDiff > DOEgbXMLBasics.Tolerances.SurfaceInsPtXTolerance || insPtYDiff > DOEgbXMLBasics.Tolerances.SurfaceInsPtYTolerance || insPtZDiff > DOEgbXMLBasics.Tolerances.SurfaceInsPtZTolerance)
                             {
                                 report.MessageList.Add("Test file's Surface id: " + testSurface.SurfaceId + " insertion point coordinates do not both match the standard file surface id: " + surface.SurfaceId + ".  It has been removed as a candidate.");
@@ -4756,7 +4798,7 @@ namespace DOEgbXML
             }
         }
 
-        private static DOEgbXMLReportingObj GetPolyLoopCoordMatch(Vector.CartCoord standardPolyLoopCoord, SurfaceDefinitions testSurface, DOEgbXMLReportingObj report, string standardSurfaceId)
+        private static DOEgbXMLReportingObj GetPolyLoopCoordMatch(Vector.CartCoord standardPolyLoopCoord, SurfaceDefinitions testSurface, DOEgbXMLReportingObj report, string standardSurfaceId, double lengthConversion)
         {
             List<Vector.CartCoord> possibleMatch = new List<Vector.CartCoord>();
             List<Vector.CartCoord> exactMatch = new List<Vector.CartCoord>();
@@ -4766,20 +4808,20 @@ namespace DOEgbXML
             {
 
                 //find an appropriate match
-                double diffX = Math.Abs(testPolyLoopCoord.X - standardPolyLoopCoord.X);
+                double diffX = Math.Abs((testPolyLoopCoord.X * lengthConversion) - standardPolyLoopCoord.X);
                 if (diffX < DOEgbXMLBasics.Tolerances.SurfacePLCoordTolerance)
                 {
                     //found a perfect X Match
                     if (diffX == 0)
                     {
                         //test Y
-                        double diffY = Math.Abs(testPolyLoopCoord.Y - standardPolyLoopCoord.Y);
+                        double diffY = Math.Abs((testPolyLoopCoord.Y * lengthConversion) - standardPolyLoopCoord.Y);
                         if (diffY < DOEgbXMLBasics.Tolerances.SurfacePLCoordTolerance)
                         {
                             //perfect Y Match
                             if (diffY == 0)
                             {
-                                double diffZ = Math.Abs(testPolyLoopCoord.Z - standardPolyLoopCoord.Z);
+                                double diffZ = Math.Abs((testPolyLoopCoord.Z * lengthConversion) - standardPolyLoopCoord.Z);
                                 if (diffZ < DOEgbXMLBasics.Tolerances.SurfacePLCoordTolerance)
                                 {
                                     //perfect Z match
@@ -4808,7 +4850,7 @@ namespace DOEgbXML
                             //Y Match is within the allowable tolerance
                             else
                             {
-                                double diffZ = Math.Abs(testPolyLoopCoord.Z - standardPolyLoopCoord.Z);
+                                double diffZ = Math.Abs((testPolyLoopCoord.Z * lengthConversion) - standardPolyLoopCoord.Z);
                                 if (diffZ < DOEgbXMLBasics.Tolerances.SurfacePLCoordTolerance)
                                 {
                                     //perfect Z match
@@ -4845,13 +4887,13 @@ namespace DOEgbXML
                     {
                         //not a perfect X match, but within tolerance
                         //test Y
-                        double diffY = Math.Abs(testPolyLoopCoord.Y - standardPolyLoopCoord.Y);
+                        double diffY = Math.Abs((testPolyLoopCoord.Y * lengthConversion) - standardPolyLoopCoord.Y);
                         if (diffY < DOEgbXMLBasics.Tolerances.SurfacePLCoordTolerance)
                         {
                             //perfect Y Match
                             if (diffY == 0)
                             {
-                                double diffZ = Math.Abs(testPolyLoopCoord.Z - standardPolyLoopCoord.Z);
+                                double diffZ = Math.Abs((testPolyLoopCoord.Z * lengthConversion) - standardPolyLoopCoord.Z);
                                 if (diffZ < DOEgbXMLBasics.Tolerances.SurfacePLCoordTolerance)
                                 {
                                     //perfect Z match
@@ -4879,7 +4921,7 @@ namespace DOEgbXML
                             // the Y match is not perfect but within tolerance
                             else
                             {
-                                double diffZ = Math.Abs(testPolyLoopCoord.Z - standardPolyLoopCoord.Z);
+                                double diffZ = Math.Abs((testPolyLoopCoord.Z * lengthConversion) - standardPolyLoopCoord.Z);
                                 if (diffZ < DOEgbXMLBasics.Tolerances.SurfacePLCoordTolerance)
                                 {
                                     //perfect Z match

@@ -1,0 +1,2963 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<gbXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" temperatureUnit="C" lengthUnit="Meters" areaUnit="SquareMeters" volumeUnit="CubicMeters" version="0.37" useSIUnitsForResults="false" xmlns="http://www.gbxml.org/schema">
+  <Campus id="cmps-1">
+    <Location>
+      <Name>SanFrancisco</Name>
+      <Latitude>50</Latitude>
+      <Longitude>50</Longitude>
+      <CADModelAzimuth>0</CADModelAzimuth>
+      <ZipcodeOrPostalCode>94123</ZipcodeOrPostalCode>
+    </Location>
+    <Building id="bldg-0" buildingType="Office">
+      <Area>1160</Area>
+      <Space id="Space_0_0" lightScheduleIdRef="SmallHotel_GuestRoom_Light" equipmentScheduleIdRef="SmallHotel_GuestRoom_Equip" peopleScheduleIdRef="SmallHotel_GuestRoom_Occ">
+        <Name>Space_0_0</Name>
+        <PeopleNumber unit="SquareMPerPerson"> 0.0460</PeopleNumber>
+        <PeopleHeatGain unit="WattPerPerson" heatGainType="Total">131.8</PeopleHeatGain>
+        <PeopleHeatGain unit="WattPerPerson" heatGainType="Sensible">73.2</PeopleHeatGain>
+        <PeopleHeatGain unit="WattPerPerson" heatGainType="Latent">58.6</PeopleHeatGain>
+        <LightPowerPerArea unit="WattPerSquareMeter"> 11.8404</LightPowerPerArea>
+        <EquipPowerPerArea unit="WattPerSquareMeter"> 7.3195</EquipPowerPerArea>
+        <Area>560.0</Area>
+        <Volume>7840.0</Volume>
+        <ShellGeometry id="sgSpace_0_0" unit="Meters">
+          <ClosedShell>
+            <PolyLoop>
+              <CartesianPoint>
+                <Coordinate>-10.000000</Coordinate>
+                <Coordinate>-14.000000</Coordinate>
+                <Coordinate>0.000000</Coordinate>
+              </CartesianPoint>
+              <CartesianPoint>
+                <Coordinate>10.000000</Coordinate>
+                <Coordinate>-14.000000</Coordinate>
+                <Coordinate>0.000000</Coordinate>
+              </CartesianPoint>
+              <CartesianPoint>
+                <Coordinate>10.000000</Coordinate>
+                <Coordinate>-14.000000</Coordinate>
+                <Coordinate>14.000000</Coordinate>
+              </CartesianPoint>
+              <CartesianPoint>
+                <Coordinate>-10.000000</Coordinate>
+                <Coordinate>-14.000000</Coordinate>
+                <Coordinate>14.000000</Coordinate>
+              </CartesianPoint>
+            </PolyLoop>
+            <PolyLoop>
+              <CartesianPoint>
+                <Coordinate>10.000000</Coordinate>
+                <Coordinate>5.000000</Coordinate>
+                <Coordinate>0.000000</Coordinate>
+              </CartesianPoint>
+              <CartesianPoint>
+                <Coordinate>10.000000</Coordinate>
+                <Coordinate>14.000000</Coordinate>
+                <Coordinate>0.000000</Coordinate>
+              </CartesianPoint>
+              <CartesianPoint>
+                <Coordinate>10.000000</Coordinate>
+                <Coordinate>14.000000</Coordinate>
+                <Coordinate>14.000000</Coordinate>
+              </CartesianPoint>
+              <CartesianPoint>
+                <Coordinate>10.000000</Coordinate>
+                <Coordinate>5.000000</Coordinate>
+                <Coordinate>14.000000</Coordinate>
+              </CartesianPoint>
+            </PolyLoop>
+            <PolyLoop>
+              <CartesianPoint>
+                <Coordinate>10.000000</Coordinate>
+                <Coordinate>14.000000</Coordinate>
+                <Coordinate>0.000000</Coordinate>
+              </CartesianPoint>
+              <CartesianPoint>
+                <Coordinate>-10.000000</Coordinate>
+                <Coordinate>14.000000</Coordinate>
+                <Coordinate>0.000000</Coordinate>
+              </CartesianPoint>
+              <CartesianPoint>
+                <Coordinate>-10.000000</Coordinate>
+                <Coordinate>14.000000</Coordinate>
+                <Coordinate>14.000000</Coordinate>
+              </CartesianPoint>
+              <CartesianPoint>
+                <Coordinate>10.000000</Coordinate>
+                <Coordinate>14.000000</Coordinate>
+                <Coordinate>14.000000</Coordinate>
+              </CartesianPoint>
+            </PolyLoop>
+            <PolyLoop>
+              <CartesianPoint>
+                <Coordinate>-10.000000</Coordinate>
+                <Coordinate>14.000000</Coordinate>
+                <Coordinate>0.000000</Coordinate>
+              </CartesianPoint>
+              <CartesianPoint>
+                <Coordinate>-10.000000</Coordinate>
+                <Coordinate>-14.000000</Coordinate>
+                <Coordinate>0.000000</Coordinate>
+              </CartesianPoint>
+              <CartesianPoint>
+                <Coordinate>-10.000000</Coordinate>
+                <Coordinate>-14.000000</Coordinate>
+                <Coordinate>14.000000</Coordinate>
+              </CartesianPoint>
+              <CartesianPoint>
+                <Coordinate>-10.000000</Coordinate>
+                <Coordinate>14.000000</Coordinate>
+                <Coordinate>14.000000</Coordinate>
+              </CartesianPoint>
+            </PolyLoop>
+            <PolyLoop>
+              <CartesianPoint>
+                <Coordinate>-10.000000</Coordinate>
+                <Coordinate>-14.000000</Coordinate>
+                <Coordinate>0.000000</Coordinate>
+              </CartesianPoint>
+              <CartesianPoint>
+                <Coordinate>-10.000000</Coordinate>
+                <Coordinate>14.000000</Coordinate>
+                <Coordinate>0.000000</Coordinate>
+              </CartesianPoint>
+              <CartesianPoint>
+                <Coordinate>10.000000</Coordinate>
+                <Coordinate>14.000000</Coordinate>
+                <Coordinate>0.000000</Coordinate>
+              </CartesianPoint>
+              <CartesianPoint>
+                <Coordinate>10.000000</Coordinate>
+                <Coordinate>-14.000000</Coordinate>
+                <Coordinate>0.000000</Coordinate>
+              </CartesianPoint>
+            </PolyLoop>
+            <PolyLoop>
+              <CartesianPoint>
+                <Coordinate>-10.000000</Coordinate>
+                <Coordinate>-14.000000</Coordinate>
+                <Coordinate>14.000000</Coordinate>
+              </CartesianPoint>
+              <CartesianPoint>
+                <Coordinate>10.000000</Coordinate>
+                <Coordinate>-14.000000</Coordinate>
+                <Coordinate>14.000000</Coordinate>
+              </CartesianPoint>
+              <CartesianPoint>
+                <Coordinate>10.000000</Coordinate>
+                <Coordinate>14.000000</Coordinate>
+                <Coordinate>14.000000</Coordinate>
+              </CartesianPoint>
+              <CartesianPoint>
+                <Coordinate>-10.000000</Coordinate>
+                <Coordinate>14.000000</Coordinate>
+                <Coordinate>14.000000</Coordinate>
+              </CartesianPoint>
+            </PolyLoop>
+            <PolyLoop>
+              <CartesianPoint>
+                <Coordinate>10.000000</Coordinate>
+                <Coordinate>-14.000000</Coordinate>
+                <Coordinate>0.000000</Coordinate>
+              </CartesianPoint>
+              <CartesianPoint>
+                <Coordinate>10.000000</Coordinate>
+                <Coordinate>-5.000000</Coordinate>
+                <Coordinate>0.000000</Coordinate>
+              </CartesianPoint>
+              <CartesianPoint>
+                <Coordinate>10.000000</Coordinate>
+                <Coordinate>-5.000000</Coordinate>
+                <Coordinate>14.000000</Coordinate>
+              </CartesianPoint>
+              <CartesianPoint>
+                <Coordinate>10.000000</Coordinate>
+                <Coordinate>-14.000000</Coordinate>
+                <Coordinate>14.000000</Coordinate>
+              </CartesianPoint>
+            </PolyLoop>
+            <PolyLoop>
+              <CartesianPoint>
+                <Coordinate>10.000000</Coordinate>
+                <Coordinate>-5.000000</Coordinate>
+                <Coordinate>0.000000</Coordinate>
+              </CartesianPoint>
+              <CartesianPoint>
+                <Coordinate>10.000000</Coordinate>
+                <Coordinate>5.000000</Coordinate>
+                <Coordinate>0.000000</Coordinate>
+              </CartesianPoint>
+              <CartesianPoint>
+                <Coordinate>10.000000</Coordinate>
+                <Coordinate>5.000000</Coordinate>
+                <Coordinate>14.000000</Coordinate>
+              </CartesianPoint>
+              <CartesianPoint>
+                <Coordinate>10.000000</Coordinate>
+                <Coordinate>-5.000000</Coordinate>
+                <Coordinate>14.000000</Coordinate>
+              </CartesianPoint>
+            </PolyLoop>
+          </ClosedShell>
+        </ShellGeometry>
+        <CADObjectId>37fcf8c1-2573-4e5f-9ce8-597bc389f2e7</CADObjectId>
+        <SpaceBoundary surfaceIdRef="su-0_0_0">
+          <PlanarGeometry>
+            <PolyLoop>
+              <CartesianPoint>
+                <Coordinate>-10.000000</Coordinate>
+                <Coordinate>-14.000000</Coordinate>
+                <Coordinate>0.000000</Coordinate>
+              </CartesianPoint>
+              <CartesianPoint>
+                <Coordinate>10.000000</Coordinate>
+                <Coordinate>-14.000000</Coordinate>
+                <Coordinate>0.000000</Coordinate>
+              </CartesianPoint>
+              <CartesianPoint>
+                <Coordinate>10.000000</Coordinate>
+                <Coordinate>-14.000000</Coordinate>
+                <Coordinate>14.000000</Coordinate>
+              </CartesianPoint>
+              <CartesianPoint>
+                <Coordinate>-10.000000</Coordinate>
+                <Coordinate>-14.000000</Coordinate>
+                <Coordinate>14.000000</Coordinate>
+              </CartesianPoint>
+            </PolyLoop>
+          </PlanarGeometry>
+        </SpaceBoundary>
+        <SpaceBoundary surfaceIdRef="su-0_0_1">
+          <PlanarGeometry>
+            <PolyLoop>
+              <CartesianPoint>
+                <Coordinate>10.000000</Coordinate>
+                <Coordinate>5.000000</Coordinate>
+                <Coordinate>0.000000</Coordinate>
+              </CartesianPoint>
+              <CartesianPoint>
+                <Coordinate>10.000000</Coordinate>
+                <Coordinate>14.000000</Coordinate>
+                <Coordinate>0.000000</Coordinate>
+              </CartesianPoint>
+              <CartesianPoint>
+                <Coordinate>10.000000</Coordinate>
+                <Coordinate>14.000000</Coordinate>
+                <Coordinate>14.000000</Coordinate>
+              </CartesianPoint>
+              <CartesianPoint>
+                <Coordinate>10.000000</Coordinate>
+                <Coordinate>5.000000</Coordinate>
+                <Coordinate>14.000000</Coordinate>
+              </CartesianPoint>
+            </PolyLoop>
+          </PlanarGeometry>
+        </SpaceBoundary>
+        <SpaceBoundary surfaceIdRef="su-0_0_2">
+          <PlanarGeometry>
+            <PolyLoop>
+              <CartesianPoint>
+                <Coordinate>10.000000</Coordinate>
+                <Coordinate>14.000000</Coordinate>
+                <Coordinate>0.000000</Coordinate>
+              </CartesianPoint>
+              <CartesianPoint>
+                <Coordinate>-10.000000</Coordinate>
+                <Coordinate>14.000000</Coordinate>
+                <Coordinate>0.000000</Coordinate>
+              </CartesianPoint>
+              <CartesianPoint>
+                <Coordinate>-10.000000</Coordinate>
+                <Coordinate>14.000000</Coordinate>
+                <Coordinate>14.000000</Coordinate>
+              </CartesianPoint>
+              <CartesianPoint>
+                <Coordinate>10.000000</Coordinate>
+                <Coordinate>14.000000</Coordinate>
+                <Coordinate>14.000000</Coordinate>
+              </CartesianPoint>
+            </PolyLoop>
+          </PlanarGeometry>
+        </SpaceBoundary>
+        <SpaceBoundary surfaceIdRef="su-0_0_3">
+          <PlanarGeometry>
+            <PolyLoop>
+              <CartesianPoint>
+                <Coordinate>-10.000000</Coordinate>
+                <Coordinate>14.000000</Coordinate>
+                <Coordinate>0.000000</Coordinate>
+              </CartesianPoint>
+              <CartesianPoint>
+                <Coordinate>-10.000000</Coordinate>
+                <Coordinate>-14.000000</Coordinate>
+                <Coordinate>0.000000</Coordinate>
+              </CartesianPoint>
+              <CartesianPoint>
+                <Coordinate>-10.000000</Coordinate>
+                <Coordinate>-14.000000</Coordinate>
+                <Coordinate>14.000000</Coordinate>
+              </CartesianPoint>
+              <CartesianPoint>
+                <Coordinate>-10.000000</Coordinate>
+                <Coordinate>14.000000</Coordinate>
+                <Coordinate>14.000000</Coordinate>
+              </CartesianPoint>
+            </PolyLoop>
+          </PlanarGeometry>
+        </SpaceBoundary>
+        <SpaceBoundary surfaceIdRef="su-0_0_4">
+          <PlanarGeometry>
+            <PolyLoop>
+              <CartesianPoint>
+                <Coordinate>-10.000000</Coordinate>
+                <Coordinate>-14.000000</Coordinate>
+                <Coordinate>0.000000</Coordinate>
+              </CartesianPoint>
+              <CartesianPoint>
+                <Coordinate>-10.000000</Coordinate>
+                <Coordinate>14.000000</Coordinate>
+                <Coordinate>0.000000</Coordinate>
+              </CartesianPoint>
+              <CartesianPoint>
+                <Coordinate>10.000000</Coordinate>
+                <Coordinate>14.000000</Coordinate>
+                <Coordinate>0.000000</Coordinate>
+              </CartesianPoint>
+              <CartesianPoint>
+                <Coordinate>10.000000</Coordinate>
+                <Coordinate>-14.000000</Coordinate>
+                <Coordinate>0.000000</Coordinate>
+              </CartesianPoint>
+            </PolyLoop>
+          </PlanarGeometry>
+        </SpaceBoundary>
+        <SpaceBoundary surfaceIdRef="su-0_0_5">
+          <PlanarGeometry>
+            <PolyLoop>
+              <CartesianPoint>
+                <Coordinate>-10.000000</Coordinate>
+                <Coordinate>-14.000000</Coordinate>
+                <Coordinate>14.000000</Coordinate>
+              </CartesianPoint>
+              <CartesianPoint>
+                <Coordinate>10.000000</Coordinate>
+                <Coordinate>-14.000000</Coordinate>
+                <Coordinate>14.000000</Coordinate>
+              </CartesianPoint>
+              <CartesianPoint>
+                <Coordinate>10.000000</Coordinate>
+                <Coordinate>14.000000</Coordinate>
+                <Coordinate>14.000000</Coordinate>
+              </CartesianPoint>
+              <CartesianPoint>
+                <Coordinate>-10.000000</Coordinate>
+                <Coordinate>14.000000</Coordinate>
+                <Coordinate>14.000000</Coordinate>
+              </CartesianPoint>
+            </PolyLoop>
+          </PlanarGeometry>
+        </SpaceBoundary>
+        <SpaceBoundary surfaceIdRef="su-0_0_6">
+          <PlanarGeometry>
+            <PolyLoop>
+              <CartesianPoint>
+                <Coordinate>10.000000</Coordinate>
+                <Coordinate>-14.000000</Coordinate>
+                <Coordinate>0.000000</Coordinate>
+              </CartesianPoint>
+              <CartesianPoint>
+                <Coordinate>10.000000</Coordinate>
+                <Coordinate>-5.000000</Coordinate>
+                <Coordinate>0.000000</Coordinate>
+              </CartesianPoint>
+              <CartesianPoint>
+                <Coordinate>10.000000</Coordinate>
+                <Coordinate>-5.000000</Coordinate>
+                <Coordinate>14.000000</Coordinate>
+              </CartesianPoint>
+              <CartesianPoint>
+                <Coordinate>10.000000</Coordinate>
+                <Coordinate>-14.000000</Coordinate>
+                <Coordinate>14.000000</Coordinate>
+              </CartesianPoint>
+            </PolyLoop>
+          </PlanarGeometry>
+        </SpaceBoundary>
+        <SpaceBoundary surfaceIdRef="su-0_0_7">
+          <PlanarGeometry>
+            <PolyLoop>
+              <CartesianPoint>
+                <Coordinate>10.000000</Coordinate>
+                <Coordinate>-5.000000</Coordinate>
+                <Coordinate>0.000000</Coordinate>
+              </CartesianPoint>
+              <CartesianPoint>
+                <Coordinate>10.000000</Coordinate>
+                <Coordinate>5.000000</Coordinate>
+                <Coordinate>0.000000</Coordinate>
+              </CartesianPoint>
+              <CartesianPoint>
+                <Coordinate>10.000000</Coordinate>
+                <Coordinate>5.000000</Coordinate>
+                <Coordinate>14.000000</Coordinate>
+              </CartesianPoint>
+              <CartesianPoint>
+                <Coordinate>10.000000</Coordinate>
+                <Coordinate>-5.000000</Coordinate>
+                <Coordinate>14.000000</Coordinate>
+              </CartesianPoint>
+            </PolyLoop>
+          </PlanarGeometry>
+        </SpaceBoundary>
+      </Space>
+      <Space id="Space_1_0" lightScheduleIdRef="SmallHotel_GuestRoom_Light" equipmentScheduleIdRef="SmallHotel_GuestRoom_Equip" peopleScheduleIdRef="SmallHotel_GuestRoom_Occ">
+        <Name>Space_1_0</Name>
+        <PeopleNumber unit="SquareMPerPerson"> 0.0460</PeopleNumber>
+        <PeopleHeatGain unit="WattPerPerson" heatGainType="Total">131.8</PeopleHeatGain>
+        <PeopleHeatGain unit="WattPerPerson" heatGainType="Sensible">73.2</PeopleHeatGain>
+        <PeopleHeatGain unit="WattPerPerson" heatGainType="Latent">58.6</PeopleHeatGain>
+        <LightPowerPerArea unit="WattPerSquareMeter"> 11.8404</LightPowerPerArea>
+        <EquipPowerPerArea unit="WattPerSquareMeter"> 7.3195</EquipPowerPerArea>
+        <Area>200.0</Area>
+        <Volume>2800.0</Volume>
+        <ShellGeometry id="sgSpace_1_0" unit="Meters">
+          <ClosedShell>
+            <PolyLoop>
+              <CartesianPoint>
+                <Coordinate>10.000000</Coordinate>
+                <Coordinate>-5.000000</Coordinate>
+                <Coordinate>0.000000</Coordinate>
+              </CartesianPoint>
+              <CartesianPoint>
+                <Coordinate>30.000000</Coordinate>
+                <Coordinate>-5.000000</Coordinate>
+                <Coordinate>0.000000</Coordinate>
+              </CartesianPoint>
+              <CartesianPoint>
+                <Coordinate>30.000000</Coordinate>
+                <Coordinate>-5.000000</Coordinate>
+                <Coordinate>14.000000</Coordinate>
+              </CartesianPoint>
+              <CartesianPoint>
+                <Coordinate>10.000000</Coordinate>
+                <Coordinate>-5.000000</Coordinate>
+                <Coordinate>14.000000</Coordinate>
+              </CartesianPoint>
+            </PolyLoop>
+            <PolyLoop>
+              <CartesianPoint>
+                <Coordinate>30.000000</Coordinate>
+                <Coordinate>-5.000000</Coordinate>
+                <Coordinate>0.000000</Coordinate>
+              </CartesianPoint>
+              <CartesianPoint>
+                <Coordinate>30.000000</Coordinate>
+                <Coordinate>5.000000</Coordinate>
+                <Coordinate>0.000000</Coordinate>
+              </CartesianPoint>
+              <CartesianPoint>
+                <Coordinate>30.000000</Coordinate>
+                <Coordinate>5.000000</Coordinate>
+                <Coordinate>14.000000</Coordinate>
+              </CartesianPoint>
+              <CartesianPoint>
+                <Coordinate>30.000000</Coordinate>
+                <Coordinate>-5.000000</Coordinate>
+                <Coordinate>14.000000</Coordinate>
+              </CartesianPoint>
+            </PolyLoop>
+            <PolyLoop>
+              <CartesianPoint>
+                <Coordinate>30.000000</Coordinate>
+                <Coordinate>5.000000</Coordinate>
+                <Coordinate>0.000000</Coordinate>
+              </CartesianPoint>
+              <CartesianPoint>
+                <Coordinate>10.000000</Coordinate>
+                <Coordinate>5.000000</Coordinate>
+                <Coordinate>0.000000</Coordinate>
+              </CartesianPoint>
+              <CartesianPoint>
+                <Coordinate>10.000000</Coordinate>
+                <Coordinate>5.000000</Coordinate>
+                <Coordinate>14.000000</Coordinate>
+              </CartesianPoint>
+              <CartesianPoint>
+                <Coordinate>30.000000</Coordinate>
+                <Coordinate>5.000000</Coordinate>
+                <Coordinate>14.000000</Coordinate>
+              </CartesianPoint>
+            </PolyLoop>
+            <PolyLoop>
+              <CartesianPoint>
+                <Coordinate>10.000000</Coordinate>
+                <Coordinate>5.000000</Coordinate>
+                <Coordinate>0.000000</Coordinate>
+              </CartesianPoint>
+              <CartesianPoint>
+                <Coordinate>10.000000</Coordinate>
+                <Coordinate>-5.000000</Coordinate>
+                <Coordinate>0.000000</Coordinate>
+              </CartesianPoint>
+              <CartesianPoint>
+                <Coordinate>10.000000</Coordinate>
+                <Coordinate>-5.000000</Coordinate>
+                <Coordinate>14.000000</Coordinate>
+              </CartesianPoint>
+              <CartesianPoint>
+                <Coordinate>10.000000</Coordinate>
+                <Coordinate>5.000000</Coordinate>
+                <Coordinate>14.000000</Coordinate>
+              </CartesianPoint>
+            </PolyLoop>
+            <PolyLoop>
+              <CartesianPoint>
+                <Coordinate>10.000000</Coordinate>
+                <Coordinate>-5.000000</Coordinate>
+                <Coordinate>0.000000</Coordinate>
+              </CartesianPoint>
+              <CartesianPoint>
+                <Coordinate>10.000000</Coordinate>
+                <Coordinate>5.000000</Coordinate>
+                <Coordinate>0.000000</Coordinate>
+              </CartesianPoint>
+              <CartesianPoint>
+                <Coordinate>30.000000</Coordinate>
+                <Coordinate>5.000000</Coordinate>
+                <Coordinate>0.000000</Coordinate>
+              </CartesianPoint>
+              <CartesianPoint>
+                <Coordinate>30.000000</Coordinate>
+                <Coordinate>-5.000000</Coordinate>
+                <Coordinate>0.000000</Coordinate>
+              </CartesianPoint>
+            </PolyLoop>
+            <PolyLoop>
+              <CartesianPoint>
+                <Coordinate>10.000000</Coordinate>
+                <Coordinate>-5.000000</Coordinate>
+                <Coordinate>14.000000</Coordinate>
+              </CartesianPoint>
+              <CartesianPoint>
+                <Coordinate>30.000000</Coordinate>
+                <Coordinate>-5.000000</Coordinate>
+                <Coordinate>14.000000</Coordinate>
+              </CartesianPoint>
+              <CartesianPoint>
+                <Coordinate>30.000000</Coordinate>
+                <Coordinate>5.000000</Coordinate>
+                <Coordinate>14.000000</Coordinate>
+              </CartesianPoint>
+              <CartesianPoint>
+                <Coordinate>10.000000</Coordinate>
+                <Coordinate>5.000000</Coordinate>
+                <Coordinate>14.000000</Coordinate>
+              </CartesianPoint>
+            </PolyLoop>
+          </ClosedShell>
+        </ShellGeometry>
+        <CADObjectId>b50c66eb-091b-451f-b01b-07d6396bee10</CADObjectId>
+        <SpaceBoundary surfaceIdRef="su-1_0_0">
+          <PlanarGeometry>
+            <PolyLoop>
+              <CartesianPoint>
+                <Coordinate>10.000000</Coordinate>
+                <Coordinate>-5.000000</Coordinate>
+                <Coordinate>0.000000</Coordinate>
+              </CartesianPoint>
+              <CartesianPoint>
+                <Coordinate>30.000000</Coordinate>
+                <Coordinate>-5.000000</Coordinate>
+                <Coordinate>0.000000</Coordinate>
+              </CartesianPoint>
+              <CartesianPoint>
+                <Coordinate>30.000000</Coordinate>
+                <Coordinate>-5.000000</Coordinate>
+                <Coordinate>14.000000</Coordinate>
+              </CartesianPoint>
+              <CartesianPoint>
+                <Coordinate>10.000000</Coordinate>
+                <Coordinate>-5.000000</Coordinate>
+                <Coordinate>14.000000</Coordinate>
+              </CartesianPoint>
+            </PolyLoop>
+          </PlanarGeometry>
+        </SpaceBoundary>
+        <SpaceBoundary surfaceIdRef="su-1_0_1">
+          <PlanarGeometry>
+            <PolyLoop>
+              <CartesianPoint>
+                <Coordinate>30.000000</Coordinate>
+                <Coordinate>-5.000000</Coordinate>
+                <Coordinate>0.000000</Coordinate>
+              </CartesianPoint>
+              <CartesianPoint>
+                <Coordinate>30.000000</Coordinate>
+                <Coordinate>5.000000</Coordinate>
+                <Coordinate>0.000000</Coordinate>
+              </CartesianPoint>
+              <CartesianPoint>
+                <Coordinate>30.000000</Coordinate>
+                <Coordinate>5.000000</Coordinate>
+                <Coordinate>14.000000</Coordinate>
+              </CartesianPoint>
+              <CartesianPoint>
+                <Coordinate>30.000000</Coordinate>
+                <Coordinate>-5.000000</Coordinate>
+                <Coordinate>14.000000</Coordinate>
+              </CartesianPoint>
+            </PolyLoop>
+          </PlanarGeometry>
+        </SpaceBoundary>
+        <SpaceBoundary surfaceIdRef="su-1_0_2">
+          <PlanarGeometry>
+            <PolyLoop>
+              <CartesianPoint>
+                <Coordinate>30.000000</Coordinate>
+                <Coordinate>5.000000</Coordinate>
+                <Coordinate>0.000000</Coordinate>
+              </CartesianPoint>
+              <CartesianPoint>
+                <Coordinate>10.000000</Coordinate>
+                <Coordinate>5.000000</Coordinate>
+                <Coordinate>0.000000</Coordinate>
+              </CartesianPoint>
+              <CartesianPoint>
+                <Coordinate>10.000000</Coordinate>
+                <Coordinate>5.000000</Coordinate>
+                <Coordinate>14.000000</Coordinate>
+              </CartesianPoint>
+              <CartesianPoint>
+                <Coordinate>30.000000</Coordinate>
+                <Coordinate>5.000000</Coordinate>
+                <Coordinate>14.000000</Coordinate>
+              </CartesianPoint>
+            </PolyLoop>
+          </PlanarGeometry>
+        </SpaceBoundary>
+        <SpaceBoundary surfaceIdRef="su-1_0_4">
+          <PlanarGeometry>
+            <PolyLoop>
+              <CartesianPoint>
+                <Coordinate>10.000000</Coordinate>
+                <Coordinate>-5.000000</Coordinate>
+                <Coordinate>0.000000</Coordinate>
+              </CartesianPoint>
+              <CartesianPoint>
+                <Coordinate>10.000000</Coordinate>
+                <Coordinate>5.000000</Coordinate>
+                <Coordinate>0.000000</Coordinate>
+              </CartesianPoint>
+              <CartesianPoint>
+                <Coordinate>30.000000</Coordinate>
+                <Coordinate>5.000000</Coordinate>
+                <Coordinate>0.000000</Coordinate>
+              </CartesianPoint>
+              <CartesianPoint>
+                <Coordinate>30.000000</Coordinate>
+                <Coordinate>-5.000000</Coordinate>
+                <Coordinate>0.000000</Coordinate>
+              </CartesianPoint>
+            </PolyLoop>
+          </PlanarGeometry>
+        </SpaceBoundary>
+        <SpaceBoundary surfaceIdRef="su-1_0_5">
+          <PlanarGeometry>
+            <PolyLoop>
+              <CartesianPoint>
+                <Coordinate>10.000000</Coordinate>
+                <Coordinate>-5.000000</Coordinate>
+                <Coordinate>14.000000</Coordinate>
+              </CartesianPoint>
+              <CartesianPoint>
+                <Coordinate>30.000000</Coordinate>
+                <Coordinate>-5.000000</Coordinate>
+                <Coordinate>14.000000</Coordinate>
+              </CartesianPoint>
+              <CartesianPoint>
+                <Coordinate>30.000000</Coordinate>
+                <Coordinate>5.000000</Coordinate>
+                <Coordinate>14.000000</Coordinate>
+              </CartesianPoint>
+              <CartesianPoint>
+                <Coordinate>10.000000</Coordinate>
+                <Coordinate>5.000000</Coordinate>
+                <Coordinate>14.000000</Coordinate>
+              </CartesianPoint>
+            </PolyLoop>
+          </PlanarGeometry>
+        </SpaceBoundary>
+      </Space>
+      <Space id="Space_2_0" lightScheduleIdRef="SmallHotel_GuestRoom_Light" equipmentScheduleIdRef="SmallHotel_GuestRoom_Equip" peopleScheduleIdRef="SmallHotel_GuestRoom_Occ">
+        <Name>Space_2_0</Name>
+        <PeopleNumber unit="SquareMPerPerson"> 0.0460</PeopleNumber>
+        <PeopleHeatGain unit="WattPerPerson" heatGainType="Total">131.8</PeopleHeatGain>
+        <PeopleHeatGain unit="WattPerPerson" heatGainType="Sensible">73.2</PeopleHeatGain>
+        <PeopleHeatGain unit="WattPerPerson" heatGainType="Latent">58.6</PeopleHeatGain>
+        <LightPowerPerArea unit="WattPerSquareMeter"> 11.8404</LightPowerPerArea>
+        <EquipPowerPerArea unit="WattPerSquareMeter"> 7.3195</EquipPowerPerArea>
+        <Area>200.0</Area>
+        <Volume>2800.0</Volume>
+        <ShellGeometry id="sgSpace_2_0" unit="Meters">
+          <ClosedShell>
+            <PolyLoop>
+              <CartesianPoint>
+                <Coordinate>10.000000</Coordinate>
+                <Coordinate>5.000000</Coordinate>
+                <Coordinate>0.000000</Coordinate>
+              </CartesianPoint>
+              <CartesianPoint>
+                <Coordinate>30.000000</Coordinate>
+                <Coordinate>5.000000</Coordinate>
+                <Coordinate>0.000000</Coordinate>
+              </CartesianPoint>
+              <CartesianPoint>
+                <Coordinate>30.000000</Coordinate>
+                <Coordinate>5.000000</Coordinate>
+                <Coordinate>14.000000</Coordinate>
+              </CartesianPoint>
+              <CartesianPoint>
+                <Coordinate>10.000000</Coordinate>
+                <Coordinate>5.000000</Coordinate>
+                <Coordinate>14.000000</Coordinate>
+              </CartesianPoint>
+            </PolyLoop>
+            <PolyLoop>
+              <CartesianPoint>
+                <Coordinate>30.000000</Coordinate>
+                <Coordinate>5.000000</Coordinate>
+                <Coordinate>0.000000</Coordinate>
+              </CartesianPoint>
+              <CartesianPoint>
+                <Coordinate>30.000000</Coordinate>
+                <Coordinate>15.000000</Coordinate>
+                <Coordinate>0.000000</Coordinate>
+              </CartesianPoint>
+              <CartesianPoint>
+                <Coordinate>30.000000</Coordinate>
+                <Coordinate>15.000000</Coordinate>
+                <Coordinate>14.000000</Coordinate>
+              </CartesianPoint>
+              <CartesianPoint>
+                <Coordinate>30.000000</Coordinate>
+                <Coordinate>5.000000</Coordinate>
+                <Coordinate>14.000000</Coordinate>
+              </CartesianPoint>
+            </PolyLoop>
+            <PolyLoop>
+              <CartesianPoint>
+                <Coordinate>30.000000</Coordinate>
+                <Coordinate>15.000000</Coordinate>
+                <Coordinate>0.000000</Coordinate>
+              </CartesianPoint>
+              <CartesianPoint>
+                <Coordinate>10.000000</Coordinate>
+                <Coordinate>15.000000</Coordinate>
+                <Coordinate>0.000000</Coordinate>
+              </CartesianPoint>
+              <CartesianPoint>
+                <Coordinate>10.000000</Coordinate>
+                <Coordinate>15.000000</Coordinate>
+                <Coordinate>14.000000</Coordinate>
+              </CartesianPoint>
+              <CartesianPoint>
+                <Coordinate>30.000000</Coordinate>
+                <Coordinate>15.000000</Coordinate>
+                <Coordinate>14.000000</Coordinate>
+              </CartesianPoint>
+            </PolyLoop>
+            <PolyLoop>
+              <CartesianPoint>
+                <Coordinate>10.000000</Coordinate>
+                <Coordinate>15.000000</Coordinate>
+                <Coordinate>0.000000</Coordinate>
+              </CartesianPoint>
+              <CartesianPoint>
+                <Coordinate>10.000000</Coordinate>
+                <Coordinate>14.000000</Coordinate>
+                <Coordinate>0.000000</Coordinate>
+              </CartesianPoint>
+              <CartesianPoint>
+                <Coordinate>10.000000</Coordinate>
+                <Coordinate>14.000000</Coordinate>
+                <Coordinate>14.000000</Coordinate>
+              </CartesianPoint>
+              <CartesianPoint>
+                <Coordinate>10.000000</Coordinate>
+                <Coordinate>15.000000</Coordinate>
+                <Coordinate>14.000000</Coordinate>
+              </CartesianPoint>
+            </PolyLoop>
+            <PolyLoop>
+              <CartesianPoint>
+                <Coordinate>10.000000</Coordinate>
+                <Coordinate>5.000000</Coordinate>
+                <Coordinate>0.000000</Coordinate>
+              </CartesianPoint>
+              <CartesianPoint>
+                <Coordinate>10.000000</Coordinate>
+                <Coordinate>15.000000</Coordinate>
+                <Coordinate>0.000000</Coordinate>
+              </CartesianPoint>
+              <CartesianPoint>
+                <Coordinate>30.000000</Coordinate>
+                <Coordinate>15.000000</Coordinate>
+                <Coordinate>0.000000</Coordinate>
+              </CartesianPoint>
+              <CartesianPoint>
+                <Coordinate>30.000000</Coordinate>
+                <Coordinate>5.000000</Coordinate>
+                <Coordinate>0.000000</Coordinate>
+              </CartesianPoint>
+            </PolyLoop>
+            <PolyLoop>
+              <CartesianPoint>
+                <Coordinate>10.000000</Coordinate>
+                <Coordinate>5.000000</Coordinate>
+                <Coordinate>14.000000</Coordinate>
+              </CartesianPoint>
+              <CartesianPoint>
+                <Coordinate>30.000000</Coordinate>
+                <Coordinate>5.000000</Coordinate>
+                <Coordinate>14.000000</Coordinate>
+              </CartesianPoint>
+              <CartesianPoint>
+                <Coordinate>30.000000</Coordinate>
+                <Coordinate>15.000000</Coordinate>
+                <Coordinate>14.000000</Coordinate>
+              </CartesianPoint>
+              <CartesianPoint>
+                <Coordinate>10.000000</Coordinate>
+                <Coordinate>15.000000</Coordinate>
+                <Coordinate>14.000000</Coordinate>
+              </CartesianPoint>
+            </PolyLoop>
+            <PolyLoop>
+              <CartesianPoint>
+                <Coordinate>10.000000</Coordinate>
+                <Coordinate>14.000000</Coordinate>
+                <Coordinate>0.000000</Coordinate>
+              </CartesianPoint>
+              <CartesianPoint>
+                <Coordinate>10.000000</Coordinate>
+                <Coordinate>5.000000</Coordinate>
+                <Coordinate>0.000000</Coordinate>
+              </CartesianPoint>
+              <CartesianPoint>
+                <Coordinate>10.000000</Coordinate>
+                <Coordinate>5.000000</Coordinate>
+                <Coordinate>14.000000</Coordinate>
+              </CartesianPoint>
+              <CartesianPoint>
+                <Coordinate>10.000000</Coordinate>
+                <Coordinate>14.000000</Coordinate>
+                <Coordinate>14.000000</Coordinate>
+              </CartesianPoint>
+            </PolyLoop>
+          </ClosedShell>
+        </ShellGeometry>
+        <CADObjectId>d6e63f76-39fb-4c39-916c-b9f72ba889ca</CADObjectId>
+        <SpaceBoundary surfaceIdRef="su-2_0_1">
+          <PlanarGeometry>
+            <PolyLoop>
+              <CartesianPoint>
+                <Coordinate>30.000000</Coordinate>
+                <Coordinate>5.000000</Coordinate>
+                <Coordinate>0.000000</Coordinate>
+              </CartesianPoint>
+              <CartesianPoint>
+                <Coordinate>30.000000</Coordinate>
+                <Coordinate>15.000000</Coordinate>
+                <Coordinate>0.000000</Coordinate>
+              </CartesianPoint>
+              <CartesianPoint>
+                <Coordinate>30.000000</Coordinate>
+                <Coordinate>15.000000</Coordinate>
+                <Coordinate>14.000000</Coordinate>
+              </CartesianPoint>
+              <CartesianPoint>
+                <Coordinate>30.000000</Coordinate>
+                <Coordinate>5.000000</Coordinate>
+                <Coordinate>14.000000</Coordinate>
+              </CartesianPoint>
+            </PolyLoop>
+          </PlanarGeometry>
+        </SpaceBoundary>
+        <SpaceBoundary surfaceIdRef="su-2_0_2">
+          <PlanarGeometry>
+            <PolyLoop>
+              <CartesianPoint>
+                <Coordinate>30.000000</Coordinate>
+                <Coordinate>15.000000</Coordinate>
+                <Coordinate>0.000000</Coordinate>
+              </CartesianPoint>
+              <CartesianPoint>
+                <Coordinate>10.000000</Coordinate>
+                <Coordinate>15.000000</Coordinate>
+                <Coordinate>0.000000</Coordinate>
+              </CartesianPoint>
+              <CartesianPoint>
+                <Coordinate>10.000000</Coordinate>
+                <Coordinate>15.000000</Coordinate>
+                <Coordinate>14.000000</Coordinate>
+              </CartesianPoint>
+              <CartesianPoint>
+                <Coordinate>30.000000</Coordinate>
+                <Coordinate>15.000000</Coordinate>
+                <Coordinate>14.000000</Coordinate>
+              </CartesianPoint>
+            </PolyLoop>
+          </PlanarGeometry>
+        </SpaceBoundary>
+        <SpaceBoundary surfaceIdRef="su-2_0_3">
+          <PlanarGeometry>
+            <PolyLoop>
+              <CartesianPoint>
+                <Coordinate>10.000000</Coordinate>
+                <Coordinate>15.000000</Coordinate>
+                <Coordinate>0.000000</Coordinate>
+              </CartesianPoint>
+              <CartesianPoint>
+                <Coordinate>10.000000</Coordinate>
+                <Coordinate>14.000000</Coordinate>
+                <Coordinate>0.000000</Coordinate>
+              </CartesianPoint>
+              <CartesianPoint>
+                <Coordinate>10.000000</Coordinate>
+                <Coordinate>14.000000</Coordinate>
+                <Coordinate>14.000000</Coordinate>
+              </CartesianPoint>
+              <CartesianPoint>
+                <Coordinate>10.000000</Coordinate>
+                <Coordinate>15.000000</Coordinate>
+                <Coordinate>14.000000</Coordinate>
+              </CartesianPoint>
+            </PolyLoop>
+          </PlanarGeometry>
+        </SpaceBoundary>
+        <SpaceBoundary surfaceIdRef="su-2_0_4">
+          <PlanarGeometry>
+            <PolyLoop>
+              <CartesianPoint>
+                <Coordinate>10.000000</Coordinate>
+                <Coordinate>5.000000</Coordinate>
+                <Coordinate>0.000000</Coordinate>
+              </CartesianPoint>
+              <CartesianPoint>
+                <Coordinate>10.000000</Coordinate>
+                <Coordinate>15.000000</Coordinate>
+                <Coordinate>0.000000</Coordinate>
+              </CartesianPoint>
+              <CartesianPoint>
+                <Coordinate>30.000000</Coordinate>
+                <Coordinate>15.000000</Coordinate>
+                <Coordinate>0.000000</Coordinate>
+              </CartesianPoint>
+              <CartesianPoint>
+                <Coordinate>30.000000</Coordinate>
+                <Coordinate>5.000000</Coordinate>
+                <Coordinate>0.000000</Coordinate>
+              </CartesianPoint>
+            </PolyLoop>
+          </PlanarGeometry>
+        </SpaceBoundary>
+        <SpaceBoundary surfaceIdRef="su-2_0_5">
+          <PlanarGeometry>
+            <PolyLoop>
+              <CartesianPoint>
+                <Coordinate>10.000000</Coordinate>
+                <Coordinate>5.000000</Coordinate>
+                <Coordinate>14.000000</Coordinate>
+              </CartesianPoint>
+              <CartesianPoint>
+                <Coordinate>30.000000</Coordinate>
+                <Coordinate>5.000000</Coordinate>
+                <Coordinate>14.000000</Coordinate>
+              </CartesianPoint>
+              <CartesianPoint>
+                <Coordinate>30.000000</Coordinate>
+                <Coordinate>15.000000</Coordinate>
+                <Coordinate>14.000000</Coordinate>
+              </CartesianPoint>
+              <CartesianPoint>
+                <Coordinate>10.000000</Coordinate>
+                <Coordinate>15.000000</Coordinate>
+                <Coordinate>14.000000</Coordinate>
+              </CartesianPoint>
+            </PolyLoop>
+          </PlanarGeometry>
+        </SpaceBoundary>
+      </Space>
+      <Space id="Space_3_0" lightScheduleIdRef="SmallHotel_GuestRoom_Light" equipmentScheduleIdRef="SmallHotel_GuestRoom_Equip" peopleScheduleIdRef="SmallHotel_GuestRoom_Occ">
+        <Name>Space_3_0</Name>
+        <PeopleNumber unit="SquareMPerPerson"> 0.0460</PeopleNumber>
+        <PeopleHeatGain unit="WattPerPerson" heatGainType="Total">131.8</PeopleHeatGain>
+        <PeopleHeatGain unit="WattPerPerson" heatGainType="Sensible">73.2</PeopleHeatGain>
+        <PeopleHeatGain unit="WattPerPerson" heatGainType="Latent">58.6</PeopleHeatGain>
+        <LightPowerPerArea unit="WattPerSquareMeter"> 11.8404</LightPowerPerArea>
+        <EquipPowerPerArea unit="WattPerSquareMeter"> 7.3195</EquipPowerPerArea>
+        <Area>200.0</Area>
+        <Volume>2800.0</Volume>
+        <ShellGeometry id="sgSpace_3_0" unit="Meters">
+          <ClosedShell>
+            <PolyLoop>
+              <CartesianPoint>
+                <Coordinate>10.000000</Coordinate>
+                <Coordinate>-15.000000</Coordinate>
+                <Coordinate>0.000000</Coordinate>
+              </CartesianPoint>
+              <CartesianPoint>
+                <Coordinate>30.000000</Coordinate>
+                <Coordinate>-15.000000</Coordinate>
+                <Coordinate>0.000000</Coordinate>
+              </CartesianPoint>
+              <CartesianPoint>
+                <Coordinate>30.000000</Coordinate>
+                <Coordinate>-15.000000</Coordinate>
+                <Coordinate>14.000000</Coordinate>
+              </CartesianPoint>
+              <CartesianPoint>
+                <Coordinate>10.000000</Coordinate>
+                <Coordinate>-15.000000</Coordinate>
+                <Coordinate>14.000000</Coordinate>
+              </CartesianPoint>
+            </PolyLoop>
+            <PolyLoop>
+              <CartesianPoint>
+                <Coordinate>30.000000</Coordinate>
+                <Coordinate>-15.000000</Coordinate>
+                <Coordinate>0.000000</Coordinate>
+              </CartesianPoint>
+              <CartesianPoint>
+                <Coordinate>30.000000</Coordinate>
+                <Coordinate>-5.000000</Coordinate>
+                <Coordinate>0.000000</Coordinate>
+              </CartesianPoint>
+              <CartesianPoint>
+                <Coordinate>30.000000</Coordinate>
+                <Coordinate>-5.000000</Coordinate>
+                <Coordinate>14.000000</Coordinate>
+              </CartesianPoint>
+              <CartesianPoint>
+                <Coordinate>30.000000</Coordinate>
+                <Coordinate>-15.000000</Coordinate>
+                <Coordinate>14.000000</Coordinate>
+              </CartesianPoint>
+            </PolyLoop>
+            <PolyLoop>
+              <CartesianPoint>
+                <Coordinate>30.000000</Coordinate>
+                <Coordinate>-5.000000</Coordinate>
+                <Coordinate>0.000000</Coordinate>
+              </CartesianPoint>
+              <CartesianPoint>
+                <Coordinate>10.000000</Coordinate>
+                <Coordinate>-5.000000</Coordinate>
+                <Coordinate>0.000000</Coordinate>
+              </CartesianPoint>
+              <CartesianPoint>
+                <Coordinate>10.000000</Coordinate>
+                <Coordinate>-5.000000</Coordinate>
+                <Coordinate>14.000000</Coordinate>
+              </CartesianPoint>
+              <CartesianPoint>
+                <Coordinate>30.000000</Coordinate>
+                <Coordinate>-5.000000</Coordinate>
+                <Coordinate>14.000000</Coordinate>
+              </CartesianPoint>
+            </PolyLoop>
+            <PolyLoop>
+              <CartesianPoint>
+                <Coordinate>10.000000</Coordinate>
+                <Coordinate>-14.000000</Coordinate>
+                <Coordinate>0.000000</Coordinate>
+              </CartesianPoint>
+              <CartesianPoint>
+                <Coordinate>10.000000</Coordinate>
+                <Coordinate>-15.000000</Coordinate>
+                <Coordinate>0.000000</Coordinate>
+              </CartesianPoint>
+              <CartesianPoint>
+                <Coordinate>10.000000</Coordinate>
+                <Coordinate>-15.000000</Coordinate>
+                <Coordinate>14.000000</Coordinate>
+              </CartesianPoint>
+              <CartesianPoint>
+                <Coordinate>10.000000</Coordinate>
+                <Coordinate>-14.000000</Coordinate>
+                <Coordinate>14.000000</Coordinate>
+              </CartesianPoint>
+            </PolyLoop>
+            <PolyLoop>
+              <CartesianPoint>
+                <Coordinate>10.000000</Coordinate>
+                <Coordinate>-15.000000</Coordinate>
+                <Coordinate>0.000000</Coordinate>
+              </CartesianPoint>
+              <CartesianPoint>
+                <Coordinate>10.000000</Coordinate>
+                <Coordinate>-5.000000</Coordinate>
+                <Coordinate>0.000000</Coordinate>
+              </CartesianPoint>
+              <CartesianPoint>
+                <Coordinate>30.000000</Coordinate>
+                <Coordinate>-5.000000</Coordinate>
+                <Coordinate>0.000000</Coordinate>
+              </CartesianPoint>
+              <CartesianPoint>
+                <Coordinate>30.000000</Coordinate>
+                <Coordinate>-15.000000</Coordinate>
+                <Coordinate>0.000000</Coordinate>
+              </CartesianPoint>
+            </PolyLoop>
+            <PolyLoop>
+              <CartesianPoint>
+                <Coordinate>10.000000</Coordinate>
+                <Coordinate>-15.000000</Coordinate>
+                <Coordinate>14.000000</Coordinate>
+              </CartesianPoint>
+              <CartesianPoint>
+                <Coordinate>30.000000</Coordinate>
+                <Coordinate>-15.000000</Coordinate>
+                <Coordinate>14.000000</Coordinate>
+              </CartesianPoint>
+              <CartesianPoint>
+                <Coordinate>30.000000</Coordinate>
+                <Coordinate>-5.000000</Coordinate>
+                <Coordinate>14.000000</Coordinate>
+              </CartesianPoint>
+              <CartesianPoint>
+                <Coordinate>10.000000</Coordinate>
+                <Coordinate>-5.000000</Coordinate>
+                <Coordinate>14.000000</Coordinate>
+              </CartesianPoint>
+            </PolyLoop>
+            <PolyLoop>
+              <CartesianPoint>
+                <Coordinate>10.000000</Coordinate>
+                <Coordinate>-5.000000</Coordinate>
+                <Coordinate>0.000000</Coordinate>
+              </CartesianPoint>
+              <CartesianPoint>
+                <Coordinate>10.000000</Coordinate>
+                <Coordinate>-14.000000</Coordinate>
+                <Coordinate>0.000000</Coordinate>
+              </CartesianPoint>
+              <CartesianPoint>
+                <Coordinate>10.000000</Coordinate>
+                <Coordinate>-14.000000</Coordinate>
+                <Coordinate>14.000000</Coordinate>
+              </CartesianPoint>
+              <CartesianPoint>
+                <Coordinate>10.000000</Coordinate>
+                <Coordinate>-5.000000</Coordinate>
+                <Coordinate>14.000000</Coordinate>
+              </CartesianPoint>
+            </PolyLoop>
+          </ClosedShell>
+        </ShellGeometry>
+        <CADObjectId>a1cc1c31-3e8c-48fb-8d51-1854e17db684</CADObjectId>
+        <SpaceBoundary surfaceIdRef="su-3_0_0">
+          <PlanarGeometry>
+            <PolyLoop>
+              <CartesianPoint>
+                <Coordinate>10.000000</Coordinate>
+                <Coordinate>-15.000000</Coordinate>
+                <Coordinate>0.000000</Coordinate>
+              </CartesianPoint>
+              <CartesianPoint>
+                <Coordinate>30.000000</Coordinate>
+                <Coordinate>-15.000000</Coordinate>
+                <Coordinate>0.000000</Coordinate>
+              </CartesianPoint>
+              <CartesianPoint>
+                <Coordinate>30.000000</Coordinate>
+                <Coordinate>-15.000000</Coordinate>
+                <Coordinate>14.000000</Coordinate>
+              </CartesianPoint>
+              <CartesianPoint>
+                <Coordinate>10.000000</Coordinate>
+                <Coordinate>-15.000000</Coordinate>
+                <Coordinate>14.000000</Coordinate>
+              </CartesianPoint>
+            </PolyLoop>
+          </PlanarGeometry>
+        </SpaceBoundary>
+        <SpaceBoundary surfaceIdRef="su-3_0_1">
+          <PlanarGeometry>
+            <PolyLoop>
+              <CartesianPoint>
+                <Coordinate>30.000000</Coordinate>
+                <Coordinate>-15.000000</Coordinate>
+                <Coordinate>0.000000</Coordinate>
+              </CartesianPoint>
+              <CartesianPoint>
+                <Coordinate>30.000000</Coordinate>
+                <Coordinate>-5.000000</Coordinate>
+                <Coordinate>0.000000</Coordinate>
+              </CartesianPoint>
+              <CartesianPoint>
+                <Coordinate>30.000000</Coordinate>
+                <Coordinate>-5.000000</Coordinate>
+                <Coordinate>14.000000</Coordinate>
+              </CartesianPoint>
+              <CartesianPoint>
+                <Coordinate>30.000000</Coordinate>
+                <Coordinate>-15.000000</Coordinate>
+                <Coordinate>14.000000</Coordinate>
+              </CartesianPoint>
+            </PolyLoop>
+          </PlanarGeometry>
+        </SpaceBoundary>
+        <SpaceBoundary surfaceIdRef="su-3_0_3">
+          <PlanarGeometry>
+            <PolyLoop>
+              <CartesianPoint>
+                <Coordinate>10.000000</Coordinate>
+                <Coordinate>-14.000000</Coordinate>
+                <Coordinate>0.000000</Coordinate>
+              </CartesianPoint>
+              <CartesianPoint>
+                <Coordinate>10.000000</Coordinate>
+                <Coordinate>-15.000000</Coordinate>
+                <Coordinate>0.000000</Coordinate>
+              </CartesianPoint>
+              <CartesianPoint>
+                <Coordinate>10.000000</Coordinate>
+                <Coordinate>-15.000000</Coordinate>
+                <Coordinate>14.000000</Coordinate>
+              </CartesianPoint>
+              <CartesianPoint>
+                <Coordinate>10.000000</Coordinate>
+                <Coordinate>-14.000000</Coordinate>
+                <Coordinate>14.000000</Coordinate>
+              </CartesianPoint>
+            </PolyLoop>
+          </PlanarGeometry>
+        </SpaceBoundary>
+        <SpaceBoundary surfaceIdRef="su-3_0_4">
+          <PlanarGeometry>
+            <PolyLoop>
+              <CartesianPoint>
+                <Coordinate>10.000000</Coordinate>
+                <Coordinate>-15.000000</Coordinate>
+                <Coordinate>0.000000</Coordinate>
+              </CartesianPoint>
+              <CartesianPoint>
+                <Coordinate>10.000000</Coordinate>
+                <Coordinate>-5.000000</Coordinate>
+                <Coordinate>0.000000</Coordinate>
+              </CartesianPoint>
+              <CartesianPoint>
+                <Coordinate>30.000000</Coordinate>
+                <Coordinate>-5.000000</Coordinate>
+                <Coordinate>0.000000</Coordinate>
+              </CartesianPoint>
+              <CartesianPoint>
+                <Coordinate>30.000000</Coordinate>
+                <Coordinate>-15.000000</Coordinate>
+                <Coordinate>0.000000</Coordinate>
+              </CartesianPoint>
+            </PolyLoop>
+          </PlanarGeometry>
+        </SpaceBoundary>
+        <SpaceBoundary surfaceIdRef="su-3_0_5">
+          <PlanarGeometry>
+            <PolyLoop>
+              <CartesianPoint>
+                <Coordinate>10.000000</Coordinate>
+                <Coordinate>-15.000000</Coordinate>
+                <Coordinate>14.000000</Coordinate>
+              </CartesianPoint>
+              <CartesianPoint>
+                <Coordinate>30.000000</Coordinate>
+                <Coordinate>-15.000000</Coordinate>
+                <Coordinate>14.000000</Coordinate>
+              </CartesianPoint>
+              <CartesianPoint>
+                <Coordinate>30.000000</Coordinate>
+                <Coordinate>-5.000000</Coordinate>
+                <Coordinate>14.000000</Coordinate>
+              </CartesianPoint>
+              <CartesianPoint>
+                <Coordinate>10.000000</Coordinate>
+                <Coordinate>-5.000000</Coordinate>
+                <Coordinate>14.000000</Coordinate>
+              </CartesianPoint>
+            </PolyLoop>
+          </PlanarGeometry>
+        </SpaceBoundary>
+      </Space>
+    </Building>
+    <Surface id="su-0_0_0" surfaceType="ExteriorWall" constructionIdRef="OpenStudio_000_Exterior_Wall">
+      <Name>0_0_0</Name>
+      <AdjacentSpaceId spaceIdRef="Space_0_0" />
+      <RectangularGeometry>
+        <Azimuth>180.000000</Azimuth>
+        <CartesianPoint>
+          <Coordinate>-10.000000</Coordinate>
+          <Coordinate>-14.000000</Coordinate>
+          <Coordinate>0.000000</Coordinate>
+        </CartesianPoint>
+        <Tilt>90.000000</Tilt>
+        <Height>0.000000</Height>
+        <Width>0.000000</Width>
+      </RectangularGeometry>
+      <PlanarGeometry>
+        <PolyLoop>
+          <CartesianPoint>
+            <Coordinate>-10.000000</Coordinate>
+            <Coordinate>-14.000000</Coordinate>
+            <Coordinate>0.000000</Coordinate>
+          </CartesianPoint>
+          <CartesianPoint>
+            <Coordinate>10.000000</Coordinate>
+            <Coordinate>-14.000000</Coordinate>
+            <Coordinate>0.000000</Coordinate>
+          </CartesianPoint>
+          <CartesianPoint>
+            <Coordinate>10.000000</Coordinate>
+            <Coordinate>-14.000000</Coordinate>
+            <Coordinate>14.000000</Coordinate>
+          </CartesianPoint>
+          <CartesianPoint>
+            <Coordinate>-10.000000</Coordinate>
+            <Coordinate>-14.000000</Coordinate>
+            <Coordinate>14.000000</Coordinate>
+          </CartesianPoint>
+        </PolyLoop>
+      </PlanarGeometry>
+      <Opening id="OpenStudio_0_0_0_glz_00" openingType="FixedWindow">
+        <Name>0_0_0 Window-0</Name>
+        <RectangularGeometry>
+          <Azimuth>0.000000</Azimuth>
+          <CartesianPoint>
+            <Coordinate>0.200000</Coordinate>
+            <Coordinate>0.800000</Coordinate>
+            <Coordinate>0.000000</Coordinate>
+          </CartesianPoint>
+          <Tilt>0.000000</Tilt>
+          <Height>10.000000</Height>
+          <Width>25.200000</Width>
+        </RectangularGeometry>
+        <PlanarGeometry>
+          <PolyLoop>
+            <CartesianPoint>
+              <Coordinate>-9.800000</Coordinate>
+              <Coordinate>-14.000000</Coordinate>
+              <Coordinate>0.800000</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>9.800000</Coordinate>
+              <Coordinate>-14.000000</Coordinate>
+              <Coordinate>0.800000</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>9.800000</Coordinate>
+              <Coordinate>-14.000000</Coordinate>
+              <Coordinate>13.657143</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>-9.800000</Coordinate>
+              <Coordinate>-14.000000</Coordinate>
+              <Coordinate>13.657143</Coordinate>
+            </CartesianPoint>
+          </PolyLoop>
+        </PlanarGeometry>
+      </Opening>
+      <CADObjectId>9972b8dc-1509-48b4-85d1-01b8ff116c47</CADObjectId>
+    </Surface>
+    <Surface id="su-0_0_1" surfaceType="InteriorWall" constructionIdRef="OpenStudio_000_Exterior_Wall">
+      <Name>0_0_1</Name>
+      <AdjacentSpaceId spaceIdRef="Space_0_0" />
+      <AdjacentSpaceId spaceIdRef="Space_2_0" />
+      <RectangularGeometry>
+        <Azimuth>90.000000</Azimuth>
+        <CartesianPoint>
+          <Coordinate>10.000000</Coordinate>
+          <Coordinate>5.000000</Coordinate>
+          <Coordinate>0.000000</Coordinate>
+        </CartesianPoint>
+        <Tilt>90.000000</Tilt>
+        <Height>0.000000</Height>
+        <Width>0.000000</Width>
+      </RectangularGeometry>
+      <PlanarGeometry>
+        <PolyLoop>
+          <CartesianPoint>
+            <Coordinate>10.000000</Coordinate>
+            <Coordinate>5.000000</Coordinate>
+            <Coordinate>0.000000</Coordinate>
+          </CartesianPoint>
+          <CartesianPoint>
+            <Coordinate>10.000000</Coordinate>
+            <Coordinate>14.000000</Coordinate>
+            <Coordinate>0.000000</Coordinate>
+          </CartesianPoint>
+          <CartesianPoint>
+            <Coordinate>10.000000</Coordinate>
+            <Coordinate>14.000000</Coordinate>
+            <Coordinate>14.000000</Coordinate>
+          </CartesianPoint>
+          <CartesianPoint>
+            <Coordinate>10.000000</Coordinate>
+            <Coordinate>5.000000</Coordinate>
+            <Coordinate>14.000000</Coordinate>
+          </CartesianPoint>
+        </PolyLoop>
+      </PlanarGeometry>
+      <CADObjectId>9bf2bcb3-eb15-461f-a4b1-a9af1f72a559</CADObjectId>
+    </Surface>
+    <Surface id="su-0_0_2" surfaceType="ExteriorWall" constructionIdRef="OpenStudio_000_Exterior_Wall">
+      <Name>0_0_2</Name>
+      <AdjacentSpaceId spaceIdRef="Space_0_0" />
+      <RectangularGeometry>
+        <Azimuth>0.000000</Azimuth>
+        <CartesianPoint>
+          <Coordinate>10.000000</Coordinate>
+          <Coordinate>14.000000</Coordinate>
+          <Coordinate>0.000000</Coordinate>
+        </CartesianPoint>
+        <Tilt>90.000000</Tilt>
+        <Height>0.000000</Height>
+        <Width>0.000000</Width>
+      </RectangularGeometry>
+      <PlanarGeometry>
+        <PolyLoop>
+          <CartesianPoint>
+            <Coordinate>10.000000</Coordinate>
+            <Coordinate>14.000000</Coordinate>
+            <Coordinate>0.000000</Coordinate>
+          </CartesianPoint>
+          <CartesianPoint>
+            <Coordinate>-10.000000</Coordinate>
+            <Coordinate>14.000000</Coordinate>
+            <Coordinate>0.000000</Coordinate>
+          </CartesianPoint>
+          <CartesianPoint>
+            <Coordinate>-10.000000</Coordinate>
+            <Coordinate>14.000000</Coordinate>
+            <Coordinate>14.000000</Coordinate>
+          </CartesianPoint>
+          <CartesianPoint>
+            <Coordinate>10.000000</Coordinate>
+            <Coordinate>14.000000</Coordinate>
+            <Coordinate>14.000000</Coordinate>
+          </CartesianPoint>
+        </PolyLoop>
+      </PlanarGeometry>
+      <Opening id="OpenStudio_0_0_2_glz_00" openingType="FixedWindow">
+        <Name>0_0_2 Window-0</Name>
+        <RectangularGeometry>
+          <Azimuth>0.000000</Azimuth>
+          <CartesianPoint>
+            <Coordinate>0.200000</Coordinate>
+            <Coordinate>0.800000</Coordinate>
+            <Coordinate>0.000000</Coordinate>
+          </CartesianPoint>
+          <Tilt>0.000000</Tilt>
+          <Height>10.000000</Height>
+          <Width>25.200000</Width>
+        </RectangularGeometry>
+        <PlanarGeometry>
+          <PolyLoop>
+            <CartesianPoint>
+              <Coordinate>9.800000</Coordinate>
+              <Coordinate>14.000000</Coordinate>
+              <Coordinate>0.800000</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>-9.800000</Coordinate>
+              <Coordinate>14.000000</Coordinate>
+              <Coordinate>0.800000</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>-9.800000</Coordinate>
+              <Coordinate>14.000000</Coordinate>
+              <Coordinate>13.657143</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>9.800000</Coordinate>
+              <Coordinate>14.000000</Coordinate>
+              <Coordinate>13.657143</Coordinate>
+            </CartesianPoint>
+          </PolyLoop>
+        </PlanarGeometry>
+      </Opening>
+      <CADObjectId>978c433d-8ef2-4730-a148-09a4d9d51d3f</CADObjectId>
+    </Surface>
+    <Surface id="su-0_0_3" surfaceType="ExteriorWall" constructionIdRef="OpenStudio_000_Exterior_Wall">
+      <Name>0_0_3</Name>
+      <AdjacentSpaceId spaceIdRef="Space_0_0" />
+      <RectangularGeometry>
+        <Azimuth>270.000000</Azimuth>
+        <CartesianPoint>
+          <Coordinate>-10.000000</Coordinate>
+          <Coordinate>14.000000</Coordinate>
+          <Coordinate>0.000000</Coordinate>
+        </CartesianPoint>
+        <Tilt>90.000000</Tilt>
+        <Height>0.000000</Height>
+        <Width>0.000000</Width>
+      </RectangularGeometry>
+      <PlanarGeometry>
+        <PolyLoop>
+          <CartesianPoint>
+            <Coordinate>-10.000000</Coordinate>
+            <Coordinate>14.000000</Coordinate>
+            <Coordinate>0.000000</Coordinate>
+          </CartesianPoint>
+          <CartesianPoint>
+            <Coordinate>-10.000000</Coordinate>
+            <Coordinate>-14.000000</Coordinate>
+            <Coordinate>0.000000</Coordinate>
+          </CartesianPoint>
+          <CartesianPoint>
+            <Coordinate>-10.000000</Coordinate>
+            <Coordinate>-14.000000</Coordinate>
+            <Coordinate>14.000000</Coordinate>
+          </CartesianPoint>
+          <CartesianPoint>
+            <Coordinate>-10.000000</Coordinate>
+            <Coordinate>14.000000</Coordinate>
+            <Coordinate>14.000000</Coordinate>
+          </CartesianPoint>
+        </PolyLoop>
+      </PlanarGeometry>
+      <Opening id="OpenStudio_0_0_3_glz_00" openingType="FixedWindow">
+        <Name>0_0_3 Window-0</Name>
+        <RectangularGeometry>
+          <Azimuth>0.000000</Azimuth>
+          <CartesianPoint>
+            <Coordinate>0.280000</Coordinate>
+            <Coordinate>0.800000</Coordinate>
+            <Coordinate>0.000000</Coordinate>
+          </CartesianPoint>
+          <Tilt>0.000000</Tilt>
+          <Height>10.000000</Height>
+          <Width>35.280000</Width>
+        </RectangularGeometry>
+        <PlanarGeometry>
+          <PolyLoop>
+            <CartesianPoint>
+              <Coordinate>-10.000000</Coordinate>
+              <Coordinate>13.720000</Coordinate>
+              <Coordinate>0.800000</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>-10.000000</Coordinate>
+              <Coordinate>-13.720000</Coordinate>
+              <Coordinate>0.800000</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>-10.000000</Coordinate>
+              <Coordinate>-13.720000</Coordinate>
+              <Coordinate>13.657143</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>-10.000000</Coordinate>
+              <Coordinate>13.720000</Coordinate>
+              <Coordinate>13.657143</Coordinate>
+            </CartesianPoint>
+          </PolyLoop>
+        </PlanarGeometry>
+      </Opening>
+      <CADObjectId>c8247ea3-855b-4369-b567-9c6e3a0dd28f</CADObjectId>
+    </Surface>
+    <Surface id="su-0_0_4" surfaceType="SlabOnGrade" constructionIdRef="OpenStudio_000_Interior_Floor">
+      <Name>0_0_4</Name>
+      <AdjacentSpaceId spaceIdRef="Space_0_0" />
+      <RectangularGeometry>
+        <Azimuth>0.000000</Azimuth>
+        <CartesianPoint>
+          <Coordinate>10.000000</Coordinate>
+          <Coordinate>-14.000000</Coordinate>
+          <Coordinate>0.000000</Coordinate>
+        </CartesianPoint>
+        <Tilt>180.000000</Tilt>
+        <Height>0.000000</Height>
+        <Width>0.000000</Width>
+      </RectangularGeometry>
+      <PlanarGeometry>
+        <PolyLoop>
+          <CartesianPoint>
+            <Coordinate>-10.000000</Coordinate>
+            <Coordinate>-14.000000</Coordinate>
+            <Coordinate>0.000000</Coordinate>
+          </CartesianPoint>
+          <CartesianPoint>
+            <Coordinate>-10.000000</Coordinate>
+            <Coordinate>14.000000</Coordinate>
+            <Coordinate>0.000000</Coordinate>
+          </CartesianPoint>
+          <CartesianPoint>
+            <Coordinate>10.000000</Coordinate>
+            <Coordinate>14.000000</Coordinate>
+            <Coordinate>0.000000</Coordinate>
+          </CartesianPoint>
+          <CartesianPoint>
+            <Coordinate>10.000000</Coordinate>
+            <Coordinate>-14.000000</Coordinate>
+            <Coordinate>0.000000</Coordinate>
+          </CartesianPoint>
+        </PolyLoop>
+      </PlanarGeometry>
+      <CADObjectId>065ee9e9-cb98-4540-9519-e60dd8566d0e</CADObjectId>
+    </Surface>
+    <Surface id="su-0_0_5" surfaceType="Roof" constructionIdRef="OpenStudio_000_Interior_Ceiling">
+      <Name>0_0_5</Name>
+      <AdjacentSpaceId spaceIdRef="Space_0_0" />
+      <RectangularGeometry>
+        <Azimuth>0.000000</Azimuth>
+        <CartesianPoint>
+          <Coordinate>-10.000000</Coordinate>
+          <Coordinate>-14.000000</Coordinate>
+          <Coordinate>14.000000</Coordinate>
+        </CartesianPoint>
+        <Tilt>0.000000</Tilt>
+        <Height>0.000000</Height>
+        <Width>0.000000</Width>
+      </RectangularGeometry>
+      <PlanarGeometry>
+        <PolyLoop>
+          <CartesianPoint>
+            <Coordinate>-10.000000</Coordinate>
+            <Coordinate>-14.000000</Coordinate>
+            <Coordinate>14.000000</Coordinate>
+          </CartesianPoint>
+          <CartesianPoint>
+            <Coordinate>10.000000</Coordinate>
+            <Coordinate>-14.000000</Coordinate>
+            <Coordinate>14.000000</Coordinate>
+          </CartesianPoint>
+          <CartesianPoint>
+            <Coordinate>10.000000</Coordinate>
+            <Coordinate>14.000000</Coordinate>
+            <Coordinate>14.000000</Coordinate>
+          </CartesianPoint>
+          <CartesianPoint>
+            <Coordinate>-10.000000</Coordinate>
+            <Coordinate>14.000000</Coordinate>
+            <Coordinate>14.000000</Coordinate>
+          </CartesianPoint>
+        </PolyLoop>
+      </PlanarGeometry>
+      <CADObjectId>7d41abad-b141-4f9a-a530-d40a4c810c65</CADObjectId>
+    </Surface>
+    <Surface id="su-0_0_6" surfaceType="InteriorWall" constructionIdRef="OpenStudio_000_Exterior_Wall">
+      <Name>0_0_6</Name>
+      <AdjacentSpaceId spaceIdRef="Space_0_0" />
+      <AdjacentSpaceId spaceIdRef="Space_3_0" />
+      <RectangularGeometry>
+        <Azimuth>90.000000</Azimuth>
+        <CartesianPoint>
+          <Coordinate>10.000000</Coordinate>
+          <Coordinate>-14.000000</Coordinate>
+          <Coordinate>0.000000</Coordinate>
+        </CartesianPoint>
+        <Tilt>90.000000</Tilt>
+        <Height>0.000000</Height>
+        <Width>0.000000</Width>
+      </RectangularGeometry>
+      <PlanarGeometry>
+        <PolyLoop>
+          <CartesianPoint>
+            <Coordinate>10.000000</Coordinate>
+            <Coordinate>-14.000000</Coordinate>
+            <Coordinate>0.000000</Coordinate>
+          </CartesianPoint>
+          <CartesianPoint>
+            <Coordinate>10.000000</Coordinate>
+            <Coordinate>-5.000000</Coordinate>
+            <Coordinate>0.000000</Coordinate>
+          </CartesianPoint>
+          <CartesianPoint>
+            <Coordinate>10.000000</Coordinate>
+            <Coordinate>-5.000000</Coordinate>
+            <Coordinate>14.000000</Coordinate>
+          </CartesianPoint>
+          <CartesianPoint>
+            <Coordinate>10.000000</Coordinate>
+            <Coordinate>-14.000000</Coordinate>
+            <Coordinate>14.000000</Coordinate>
+          </CartesianPoint>
+        </PolyLoop>
+      </PlanarGeometry>
+      <CADObjectId>8d1787d9-368f-4583-a51c-6e487358b18b</CADObjectId>
+    </Surface>
+    <Surface id="su-0_0_7" surfaceType="InteriorWall" constructionIdRef="OpenStudio_000_Exterior_Wall">
+      <Name>0_0_7</Name>
+      <AdjacentSpaceId spaceIdRef="Space_0_0" />
+      <AdjacentSpaceId spaceIdRef="Space_1_0" />
+      <RectangularGeometry>
+        <Azimuth>90.000000</Azimuth>
+        <CartesianPoint>
+          <Coordinate>10.000000</Coordinate>
+          <Coordinate>-5.000000</Coordinate>
+          <Coordinate>0.000000</Coordinate>
+        </CartesianPoint>
+        <Tilt>90.000000</Tilt>
+        <Height>0.000000</Height>
+        <Width>0.000000</Width>
+      </RectangularGeometry>
+      <PlanarGeometry>
+        <PolyLoop>
+          <CartesianPoint>
+            <Coordinate>10.000000</Coordinate>
+            <Coordinate>-5.000000</Coordinate>
+            <Coordinate>0.000000</Coordinate>
+          </CartesianPoint>
+          <CartesianPoint>
+            <Coordinate>10.000000</Coordinate>
+            <Coordinate>5.000000</Coordinate>
+            <Coordinate>0.000000</Coordinate>
+          </CartesianPoint>
+          <CartesianPoint>
+            <Coordinate>10.000000</Coordinate>
+            <Coordinate>5.000000</Coordinate>
+            <Coordinate>14.000000</Coordinate>
+          </CartesianPoint>
+          <CartesianPoint>
+            <Coordinate>10.000000</Coordinate>
+            <Coordinate>-5.000000</Coordinate>
+            <Coordinate>14.000000</Coordinate>
+          </CartesianPoint>
+        </PolyLoop>
+      </PlanarGeometry>
+      <CADObjectId>e6eb6a98-dccb-4970-a403-886b9c491f83</CADObjectId>
+    </Surface>
+    <Surface id="su-1_0_0" surfaceType="InteriorWall" constructionIdRef="OpenStudio_000_Exterior_Wall">
+      <Name>1_0_0</Name>
+      <AdjacentSpaceId spaceIdRef="Space_1_0" />
+      <AdjacentSpaceId spaceIdRef="Space_3_0" />
+      <RectangularGeometry>
+        <Azimuth>180.000000</Azimuth>
+        <CartesianPoint>
+          <Coordinate>10.000000</Coordinate>
+          <Coordinate>-5.000000</Coordinate>
+          <Coordinate>0.000000</Coordinate>
+        </CartesianPoint>
+        <Tilt>90.000000</Tilt>
+        <Height>0.000000</Height>
+        <Width>0.000000</Width>
+      </RectangularGeometry>
+      <PlanarGeometry>
+        <PolyLoop>
+          <CartesianPoint>
+            <Coordinate>10.000000</Coordinate>
+            <Coordinate>-5.000000</Coordinate>
+            <Coordinate>0.000000</Coordinate>
+          </CartesianPoint>
+          <CartesianPoint>
+            <Coordinate>30.000000</Coordinate>
+            <Coordinate>-5.000000</Coordinate>
+            <Coordinate>0.000000</Coordinate>
+          </CartesianPoint>
+          <CartesianPoint>
+            <Coordinate>30.000000</Coordinate>
+            <Coordinate>-5.000000</Coordinate>
+            <Coordinate>14.000000</Coordinate>
+          </CartesianPoint>
+          <CartesianPoint>
+            <Coordinate>10.000000</Coordinate>
+            <Coordinate>-5.000000</Coordinate>
+            <Coordinate>14.000000</Coordinate>
+          </CartesianPoint>
+        </PolyLoop>
+      </PlanarGeometry>
+      <CADObjectId>df5e215e-9bd0-40c0-960d-2f44ee4d188a</CADObjectId>
+    </Surface>
+    <Surface id="su-1_0_1" surfaceType="ExteriorWall" constructionIdRef="OpenStudio_000_Exterior_Wall">
+      <Name>1_0_1</Name>
+      <AdjacentSpaceId spaceIdRef="Space_1_0" />
+      <RectangularGeometry>
+        <Azimuth>90.000000</Azimuth>
+        <CartesianPoint>
+          <Coordinate>30.000000</Coordinate>
+          <Coordinate>-5.000000</Coordinate>
+          <Coordinate>0.000000</Coordinate>
+        </CartesianPoint>
+        <Tilt>90.000000</Tilt>
+        <Height>0.000000</Height>
+        <Width>0.000000</Width>
+      </RectangularGeometry>
+      <PlanarGeometry>
+        <PolyLoop>
+          <CartesianPoint>
+            <Coordinate>30.000000</Coordinate>
+            <Coordinate>-5.000000</Coordinate>
+            <Coordinate>0.000000</Coordinate>
+          </CartesianPoint>
+          <CartesianPoint>
+            <Coordinate>30.000000</Coordinate>
+            <Coordinate>5.000000</Coordinate>
+            <Coordinate>0.000000</Coordinate>
+          </CartesianPoint>
+          <CartesianPoint>
+            <Coordinate>30.000000</Coordinate>
+            <Coordinate>5.000000</Coordinate>
+            <Coordinate>14.000000</Coordinate>
+          </CartesianPoint>
+          <CartesianPoint>
+            <Coordinate>30.000000</Coordinate>
+            <Coordinate>-5.000000</Coordinate>
+            <Coordinate>14.000000</Coordinate>
+          </CartesianPoint>
+        </PolyLoop>
+      </PlanarGeometry>
+      <Opening id="OpenStudio_1_0_1_glz_00" openingType="FixedWindow">
+        <Name>1_0_1 Window-0</Name>
+        <RectangularGeometry>
+          <Azimuth>0.000000</Azimuth>
+          <CartesianPoint>
+            <Coordinate>0.100000</Coordinate>
+            <Coordinate>0.800000</Coordinate>
+            <Coordinate>0.000000</Coordinate>
+          </CartesianPoint>
+          <Tilt>0.000000</Tilt>
+          <Height>10.000000</Height>
+          <Width>12.600000</Width>
+        </RectangularGeometry>
+        <PlanarGeometry>
+          <PolyLoop>
+            <CartesianPoint>
+              <Coordinate>30.000000</Coordinate>
+              <Coordinate>-4.900000</Coordinate>
+              <Coordinate>0.800000</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>30.000000</Coordinate>
+              <Coordinate>4.900000</Coordinate>
+              <Coordinate>0.800000</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>30.000000</Coordinate>
+              <Coordinate>4.900000</Coordinate>
+              <Coordinate>13.657143</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>30.000000</Coordinate>
+              <Coordinate>-4.900000</Coordinate>
+              <Coordinate>13.657143</Coordinate>
+            </CartesianPoint>
+          </PolyLoop>
+        </PlanarGeometry>
+      </Opening>
+      <CADObjectId>350a39e5-9ec9-477a-8387-18952f3d488d</CADObjectId>
+    </Surface>
+    <Surface id="su-1_0_2" surfaceType="InteriorWall" constructionIdRef="OpenStudio_000_Exterior_Wall">
+      <Name>1_0_2</Name>
+      <AdjacentSpaceId spaceIdRef="Space_1_0" />
+      <AdjacentSpaceId spaceIdRef="Space_2_0" />
+      <RectangularGeometry>
+        <Azimuth>0.000000</Azimuth>
+        <CartesianPoint>
+          <Coordinate>30.000000</Coordinate>
+          <Coordinate>5.000000</Coordinate>
+          <Coordinate>0.000000</Coordinate>
+        </CartesianPoint>
+        <Tilt>90.000000</Tilt>
+        <Height>0.000000</Height>
+        <Width>0.000000</Width>
+      </RectangularGeometry>
+      <PlanarGeometry>
+        <PolyLoop>
+          <CartesianPoint>
+            <Coordinate>30.000000</Coordinate>
+            <Coordinate>5.000000</Coordinate>
+            <Coordinate>0.000000</Coordinate>
+          </CartesianPoint>
+          <CartesianPoint>
+            <Coordinate>10.000000</Coordinate>
+            <Coordinate>5.000000</Coordinate>
+            <Coordinate>0.000000</Coordinate>
+          </CartesianPoint>
+          <CartesianPoint>
+            <Coordinate>10.000000</Coordinate>
+            <Coordinate>5.000000</Coordinate>
+            <Coordinate>14.000000</Coordinate>
+          </CartesianPoint>
+          <CartesianPoint>
+            <Coordinate>30.000000</Coordinate>
+            <Coordinate>5.000000</Coordinate>
+            <Coordinate>14.000000</Coordinate>
+          </CartesianPoint>
+        </PolyLoop>
+      </PlanarGeometry>
+      <CADObjectId>2a82598c-ad87-49c4-add2-4358ce757efa</CADObjectId>
+    </Surface>
+    <Surface id="su-1_0_4" surfaceType="SlabOnGrade" constructionIdRef="OpenStudio_000_Interior_Floor">
+      <Name>1_0_4</Name>
+      <AdjacentSpaceId spaceIdRef="Space_1_0" />
+      <RectangularGeometry>
+        <Azimuth>0.000000</Azimuth>
+        <CartesianPoint>
+          <Coordinate>30.000000</Coordinate>
+          <Coordinate>-5.000000</Coordinate>
+          <Coordinate>0.000000</Coordinate>
+        </CartesianPoint>
+        <Tilt>180.000000</Tilt>
+        <Height>0.000000</Height>
+        <Width>0.000000</Width>
+      </RectangularGeometry>
+      <PlanarGeometry>
+        <PolyLoop>
+          <CartesianPoint>
+            <Coordinate>10.000000</Coordinate>
+            <Coordinate>-5.000000</Coordinate>
+            <Coordinate>0.000000</Coordinate>
+          </CartesianPoint>
+          <CartesianPoint>
+            <Coordinate>10.000000</Coordinate>
+            <Coordinate>5.000000</Coordinate>
+            <Coordinate>0.000000</Coordinate>
+          </CartesianPoint>
+          <CartesianPoint>
+            <Coordinate>30.000000</Coordinate>
+            <Coordinate>5.000000</Coordinate>
+            <Coordinate>0.000000</Coordinate>
+          </CartesianPoint>
+          <CartesianPoint>
+            <Coordinate>30.000000</Coordinate>
+            <Coordinate>-5.000000</Coordinate>
+            <Coordinate>0.000000</Coordinate>
+          </CartesianPoint>
+        </PolyLoop>
+      </PlanarGeometry>
+      <CADObjectId>58ccad0a-f454-48ff-99a4-86c7cfecb169</CADObjectId>
+    </Surface>
+    <Surface id="su-1_0_5" surfaceType="Roof" constructionIdRef="OpenStudio_000_Interior_Ceiling">
+      <Name>1_0_5</Name>
+      <AdjacentSpaceId spaceIdRef="Space_1_0" />
+      <RectangularGeometry>
+        <Azimuth>0.000000</Azimuth>
+        <CartesianPoint>
+          <Coordinate>10.000000</Coordinate>
+          <Coordinate>-5.000000</Coordinate>
+          <Coordinate>14.000000</Coordinate>
+        </CartesianPoint>
+        <Tilt>0.000000</Tilt>
+        <Height>0.000000</Height>
+        <Width>0.000000</Width>
+      </RectangularGeometry>
+      <PlanarGeometry>
+        <PolyLoop>
+          <CartesianPoint>
+            <Coordinate>10.000000</Coordinate>
+            <Coordinate>-5.000000</Coordinate>
+            <Coordinate>14.000000</Coordinate>
+          </CartesianPoint>
+          <CartesianPoint>
+            <Coordinate>30.000000</Coordinate>
+            <Coordinate>-5.000000</Coordinate>
+            <Coordinate>14.000000</Coordinate>
+          </CartesianPoint>
+          <CartesianPoint>
+            <Coordinate>30.000000</Coordinate>
+            <Coordinate>5.000000</Coordinate>
+            <Coordinate>14.000000</Coordinate>
+          </CartesianPoint>
+          <CartesianPoint>
+            <Coordinate>10.000000</Coordinate>
+            <Coordinate>5.000000</Coordinate>
+            <Coordinate>14.000000</Coordinate>
+          </CartesianPoint>
+        </PolyLoop>
+      </PlanarGeometry>
+      <CADObjectId>97939cdd-e431-4de3-bc4f-cd8a55368a5f</CADObjectId>
+    </Surface>
+    <Surface id="su-2_0_1" surfaceType="ExteriorWall" constructionIdRef="OpenStudio_000_Exterior_Wall">
+      <Name>2_0_1</Name>
+      <AdjacentSpaceId spaceIdRef="Space_2_0" />
+      <RectangularGeometry>
+        <Azimuth>90.000000</Azimuth>
+        <CartesianPoint>
+          <Coordinate>30.000000</Coordinate>
+          <Coordinate>5.000000</Coordinate>
+          <Coordinate>0.000000</Coordinate>
+        </CartesianPoint>
+        <Tilt>90.000000</Tilt>
+        <Height>0.000000</Height>
+        <Width>0.000000</Width>
+      </RectangularGeometry>
+      <PlanarGeometry>
+        <PolyLoop>
+          <CartesianPoint>
+            <Coordinate>30.000000</Coordinate>
+            <Coordinate>5.000000</Coordinate>
+            <Coordinate>0.000000</Coordinate>
+          </CartesianPoint>
+          <CartesianPoint>
+            <Coordinate>30.000000</Coordinate>
+            <Coordinate>15.000000</Coordinate>
+            <Coordinate>0.000000</Coordinate>
+          </CartesianPoint>
+          <CartesianPoint>
+            <Coordinate>30.000000</Coordinate>
+            <Coordinate>15.000000</Coordinate>
+            <Coordinate>14.000000</Coordinate>
+          </CartesianPoint>
+          <CartesianPoint>
+            <Coordinate>30.000000</Coordinate>
+            <Coordinate>5.000000</Coordinate>
+            <Coordinate>14.000000</Coordinate>
+          </CartesianPoint>
+        </PolyLoop>
+      </PlanarGeometry>
+      <Opening id="OpenStudio_2_0_1_glz_00" openingType="FixedWindow">
+        <Name>2_0_1 Window-0</Name>
+        <RectangularGeometry>
+          <Azimuth>0.000000</Azimuth>
+          <CartesianPoint>
+            <Coordinate>0.100000</Coordinate>
+            <Coordinate>0.800000</Coordinate>
+            <Coordinate>0.000000</Coordinate>
+          </CartesianPoint>
+          <Tilt>0.000000</Tilt>
+          <Height>10.000000</Height>
+          <Width>12.600000</Width>
+        </RectangularGeometry>
+        <PlanarGeometry>
+          <PolyLoop>
+            <CartesianPoint>
+              <Coordinate>30.000000</Coordinate>
+              <Coordinate>5.100000</Coordinate>
+              <Coordinate>0.800000</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>30.000000</Coordinate>
+              <Coordinate>14.900000</Coordinate>
+              <Coordinate>0.800000</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>30.000000</Coordinate>
+              <Coordinate>14.900000</Coordinate>
+              <Coordinate>13.657143</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>30.000000</Coordinate>
+              <Coordinate>5.100000</Coordinate>
+              <Coordinate>13.657143</Coordinate>
+            </CartesianPoint>
+          </PolyLoop>
+        </PlanarGeometry>
+      </Opening>
+      <CADObjectId>4c1bbcd7-1a26-42e7-862a-7bc71f70ba96</CADObjectId>
+    </Surface>
+    <Surface id="su-2_0_2" surfaceType="ExteriorWall" constructionIdRef="OpenStudio_000_Exterior_Wall">
+      <Name>2_0_2</Name>
+      <AdjacentSpaceId spaceIdRef="Space_2_0" />
+      <RectangularGeometry>
+        <Azimuth>0.000000</Azimuth>
+        <CartesianPoint>
+          <Coordinate>30.000000</Coordinate>
+          <Coordinate>15.000000</Coordinate>
+          <Coordinate>0.000000</Coordinate>
+        </CartesianPoint>
+        <Tilt>90.000000</Tilt>
+        <Height>0.000000</Height>
+        <Width>0.000000</Width>
+      </RectangularGeometry>
+      <PlanarGeometry>
+        <PolyLoop>
+          <CartesianPoint>
+            <Coordinate>30.000000</Coordinate>
+            <Coordinate>15.000000</Coordinate>
+            <Coordinate>0.000000</Coordinate>
+          </CartesianPoint>
+          <CartesianPoint>
+            <Coordinate>10.000000</Coordinate>
+            <Coordinate>15.000000</Coordinate>
+            <Coordinate>0.000000</Coordinate>
+          </CartesianPoint>
+          <CartesianPoint>
+            <Coordinate>10.000000</Coordinate>
+            <Coordinate>15.000000</Coordinate>
+            <Coordinate>14.000000</Coordinate>
+          </CartesianPoint>
+          <CartesianPoint>
+            <Coordinate>30.000000</Coordinate>
+            <Coordinate>15.000000</Coordinate>
+            <Coordinate>14.000000</Coordinate>
+          </CartesianPoint>
+        </PolyLoop>
+      </PlanarGeometry>
+      <Opening id="OpenStudio_2_0_2_glz_00" openingType="FixedWindow">
+        <Name>2_0_2 Window-0</Name>
+        <RectangularGeometry>
+          <Azimuth>0.000000</Azimuth>
+          <CartesianPoint>
+            <Coordinate>0.200001</Coordinate>
+            <Coordinate>0.800000</Coordinate>
+            <Coordinate>0.000000</Coordinate>
+          </CartesianPoint>
+          <Tilt>0.000000</Tilt>
+          <Height>10.000000</Height>
+          <Width>25.200000</Width>
+        </RectangularGeometry>
+        <PlanarGeometry>
+          <PolyLoop>
+            <CartesianPoint>
+              <Coordinate>29.799999</Coordinate>
+              <Coordinate>15.000000</Coordinate>
+              <Coordinate>0.800000</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>10.200000</Coordinate>
+              <Coordinate>15.000000</Coordinate>
+              <Coordinate>0.800000</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>10.200000</Coordinate>
+              <Coordinate>15.000000</Coordinate>
+              <Coordinate>13.657143</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>29.799999</Coordinate>
+              <Coordinate>15.000000</Coordinate>
+              <Coordinate>13.657143</Coordinate>
+            </CartesianPoint>
+          </PolyLoop>
+        </PlanarGeometry>
+      </Opening>
+      <CADObjectId>5a3dac7e-a699-4133-9375-3689c1ec17bf</CADObjectId>
+    </Surface>
+    <Surface id="su-2_0_3" surfaceType="ExteriorWall" constructionIdRef="OpenStudio_000_Exterior_Wall">
+      <Name>2_0_3</Name>
+      <AdjacentSpaceId spaceIdRef="Space_2_0" />
+      <RectangularGeometry>
+        <Azimuth>270.000000</Azimuth>
+        <CartesianPoint>
+          <Coordinate>10.000000</Coordinate>
+          <Coordinate>15.000000</Coordinate>
+          <Coordinate>0.000000</Coordinate>
+        </CartesianPoint>
+        <Tilt>90.000000</Tilt>
+        <Height>0.000000</Height>
+        <Width>0.000000</Width>
+      </RectangularGeometry>
+      <PlanarGeometry>
+        <PolyLoop>
+          <CartesianPoint>
+            <Coordinate>10.000000</Coordinate>
+            <Coordinate>15.000000</Coordinate>
+            <Coordinate>0.000000</Coordinate>
+          </CartesianPoint>
+          <CartesianPoint>
+            <Coordinate>10.000000</Coordinate>
+            <Coordinate>14.000000</Coordinate>
+            <Coordinate>0.000000</Coordinate>
+          </CartesianPoint>
+          <CartesianPoint>
+            <Coordinate>10.000000</Coordinate>
+            <Coordinate>14.000000</Coordinate>
+            <Coordinate>14.000000</Coordinate>
+          </CartesianPoint>
+          <CartesianPoint>
+            <Coordinate>10.000000</Coordinate>
+            <Coordinate>15.000000</Coordinate>
+            <Coordinate>14.000000</Coordinate>
+          </CartesianPoint>
+        </PolyLoop>
+      </PlanarGeometry>
+      <Opening id="OpenStudio_2_0_3_glz_00" openingType="FixedWindow">
+        <Name>2_0_3 Window-0</Name>
+        <RectangularGeometry>
+          <Azimuth>0.000000</Azimuth>
+          <CartesianPoint>
+            <Coordinate>0.010000</Coordinate>
+            <Coordinate>0.800000</Coordinate>
+            <Coordinate>0.000000</Coordinate>
+          </CartesianPoint>
+          <Tilt>0.000000</Tilt>
+          <Height>10.000000</Height>
+          <Width>1.260000</Width>
+        </RectangularGeometry>
+        <PlanarGeometry>
+          <PolyLoop>
+            <CartesianPoint>
+              <Coordinate>10.000000</Coordinate>
+              <Coordinate>14.990000</Coordinate>
+              <Coordinate>0.800000</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>10.000000</Coordinate>
+              <Coordinate>14.010000</Coordinate>
+              <Coordinate>0.800000</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>10.000000</Coordinate>
+              <Coordinate>14.010000</Coordinate>
+              <Coordinate>13.657143</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>10.000000</Coordinate>
+              <Coordinate>14.990000</Coordinate>
+              <Coordinate>13.657143</Coordinate>
+            </CartesianPoint>
+          </PolyLoop>
+        </PlanarGeometry>
+      </Opening>
+      <CADObjectId>bc1ae80f-6371-4043-997c-4bfcc0054687</CADObjectId>
+    </Surface>
+    <Surface id="su-2_0_4" surfaceType="SlabOnGrade" constructionIdRef="OpenStudio_000_Interior_Floor">
+      <Name>2_0_4</Name>
+      <AdjacentSpaceId spaceIdRef="Space_2_0" />
+      <RectangularGeometry>
+        <Azimuth>0.000000</Azimuth>
+        <CartesianPoint>
+          <Coordinate>30.000000</Coordinate>
+          <Coordinate>5.000000</Coordinate>
+          <Coordinate>0.000000</Coordinate>
+        </CartesianPoint>
+        <Tilt>180.000000</Tilt>
+        <Height>0.000000</Height>
+        <Width>0.000000</Width>
+      </RectangularGeometry>
+      <PlanarGeometry>
+        <PolyLoop>
+          <CartesianPoint>
+            <Coordinate>10.000000</Coordinate>
+            <Coordinate>5.000000</Coordinate>
+            <Coordinate>0.000000</Coordinate>
+          </CartesianPoint>
+          <CartesianPoint>
+            <Coordinate>10.000000</Coordinate>
+            <Coordinate>15.000000</Coordinate>
+            <Coordinate>0.000000</Coordinate>
+          </CartesianPoint>
+          <CartesianPoint>
+            <Coordinate>30.000000</Coordinate>
+            <Coordinate>15.000000</Coordinate>
+            <Coordinate>0.000000</Coordinate>
+          </CartesianPoint>
+          <CartesianPoint>
+            <Coordinate>30.000000</Coordinate>
+            <Coordinate>5.000000</Coordinate>
+            <Coordinate>0.000000</Coordinate>
+          </CartesianPoint>
+        </PolyLoop>
+      </PlanarGeometry>
+      <CADObjectId>12f39258-17bf-4c78-8ff4-a7978fc03ec5</CADObjectId>
+    </Surface>
+    <Surface id="su-2_0_5" surfaceType="Roof" constructionIdRef="OpenStudio_000_Interior_Ceiling">
+      <Name>2_0_5</Name>
+      <AdjacentSpaceId spaceIdRef="Space_2_0" />
+      <RectangularGeometry>
+        <Azimuth>0.000000</Azimuth>
+        <CartesianPoint>
+          <Coordinate>10.000000</Coordinate>
+          <Coordinate>5.000000</Coordinate>
+          <Coordinate>14.000000</Coordinate>
+        </CartesianPoint>
+        <Tilt>0.000000</Tilt>
+        <Height>0.000000</Height>
+        <Width>0.000000</Width>
+      </RectangularGeometry>
+      <PlanarGeometry>
+        <PolyLoop>
+          <CartesianPoint>
+            <Coordinate>10.000000</Coordinate>
+            <Coordinate>5.000000</Coordinate>
+            <Coordinate>14.000000</Coordinate>
+          </CartesianPoint>
+          <CartesianPoint>
+            <Coordinate>30.000000</Coordinate>
+            <Coordinate>5.000000</Coordinate>
+            <Coordinate>14.000000</Coordinate>
+          </CartesianPoint>
+          <CartesianPoint>
+            <Coordinate>30.000000</Coordinate>
+            <Coordinate>15.000000</Coordinate>
+            <Coordinate>14.000000</Coordinate>
+          </CartesianPoint>
+          <CartesianPoint>
+            <Coordinate>10.000000</Coordinate>
+            <Coordinate>15.000000</Coordinate>
+            <Coordinate>14.000000</Coordinate>
+          </CartesianPoint>
+        </PolyLoop>
+      </PlanarGeometry>
+      <CADObjectId>fa023fd3-42dd-4bcc-b70e-7f4dd9ff9c3b</CADObjectId>
+    </Surface>
+    <Surface id="su-3_0_0" surfaceType="ExteriorWall" constructionIdRef="OpenStudio_000_Exterior_Wall">
+      <Name>3_0_0</Name>
+      <AdjacentSpaceId spaceIdRef="Space_3_0" />
+      <RectangularGeometry>
+        <Azimuth>180.000000</Azimuth>
+        <CartesianPoint>
+          <Coordinate>10.000000</Coordinate>
+          <Coordinate>-15.000000</Coordinate>
+          <Coordinate>0.000000</Coordinate>
+        </CartesianPoint>
+        <Tilt>90.000000</Tilt>
+        <Height>0.000000</Height>
+        <Width>0.000000</Width>
+      </RectangularGeometry>
+      <PlanarGeometry>
+        <PolyLoop>
+          <CartesianPoint>
+            <Coordinate>10.000000</Coordinate>
+            <Coordinate>-15.000000</Coordinate>
+            <Coordinate>0.000000</Coordinate>
+          </CartesianPoint>
+          <CartesianPoint>
+            <Coordinate>30.000000</Coordinate>
+            <Coordinate>-15.000000</Coordinate>
+            <Coordinate>0.000000</Coordinate>
+          </CartesianPoint>
+          <CartesianPoint>
+            <Coordinate>30.000000</Coordinate>
+            <Coordinate>-15.000000</Coordinate>
+            <Coordinate>14.000000</Coordinate>
+          </CartesianPoint>
+          <CartesianPoint>
+            <Coordinate>10.000000</Coordinate>
+            <Coordinate>-15.000000</Coordinate>
+            <Coordinate>14.000000</Coordinate>
+          </CartesianPoint>
+        </PolyLoop>
+      </PlanarGeometry>
+      <Opening id="OpenStudio_3_0_0_glz_00" openingType="FixedWindow">
+        <Name>3_0_0 Window-0</Name>
+        <RectangularGeometry>
+          <Azimuth>0.000000</Azimuth>
+          <CartesianPoint>
+            <Coordinate>0.200000</Coordinate>
+            <Coordinate>0.800000</Coordinate>
+            <Coordinate>0.000000</Coordinate>
+          </CartesianPoint>
+          <Tilt>0.000000</Tilt>
+          <Height>10.000000</Height>
+          <Width>25.200000</Width>
+        </RectangularGeometry>
+        <PlanarGeometry>
+          <PolyLoop>
+            <CartesianPoint>
+              <Coordinate>10.200000</Coordinate>
+              <Coordinate>-15.000000</Coordinate>
+              <Coordinate>0.800000</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>29.799999</Coordinate>
+              <Coordinate>-15.000000</Coordinate>
+              <Coordinate>0.800000</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>29.799999</Coordinate>
+              <Coordinate>-15.000000</Coordinate>
+              <Coordinate>13.657143</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>10.200000</Coordinate>
+              <Coordinate>-15.000000</Coordinate>
+              <Coordinate>13.657143</Coordinate>
+            </CartesianPoint>
+          </PolyLoop>
+        </PlanarGeometry>
+      </Opening>
+      <CADObjectId>b76c0157-c9e0-4b02-879e-85ed2a9a2224</CADObjectId>
+    </Surface>
+    <Surface id="su-3_0_1" surfaceType="ExteriorWall" constructionIdRef="OpenStudio_000_Exterior_Wall">
+      <Name>3_0_1</Name>
+      <AdjacentSpaceId spaceIdRef="Space_3_0" />
+      <RectangularGeometry>
+        <Azimuth>90.000000</Azimuth>
+        <CartesianPoint>
+          <Coordinate>30.000000</Coordinate>
+          <Coordinate>-15.000000</Coordinate>
+          <Coordinate>0.000000</Coordinate>
+        </CartesianPoint>
+        <Tilt>90.000000</Tilt>
+        <Height>0.000000</Height>
+        <Width>0.000000</Width>
+      </RectangularGeometry>
+      <PlanarGeometry>
+        <PolyLoop>
+          <CartesianPoint>
+            <Coordinate>30.000000</Coordinate>
+            <Coordinate>-15.000000</Coordinate>
+            <Coordinate>0.000000</Coordinate>
+          </CartesianPoint>
+          <CartesianPoint>
+            <Coordinate>30.000000</Coordinate>
+            <Coordinate>-5.000000</Coordinate>
+            <Coordinate>0.000000</Coordinate>
+          </CartesianPoint>
+          <CartesianPoint>
+            <Coordinate>30.000000</Coordinate>
+            <Coordinate>-5.000000</Coordinate>
+            <Coordinate>14.000000</Coordinate>
+          </CartesianPoint>
+          <CartesianPoint>
+            <Coordinate>30.000000</Coordinate>
+            <Coordinate>-15.000000</Coordinate>
+            <Coordinate>14.000000</Coordinate>
+          </CartesianPoint>
+        </PolyLoop>
+      </PlanarGeometry>
+      <Opening id="OpenStudio_3_0_1_glz_00" openingType="FixedWindow">
+        <Name>3_0_1 Window-0</Name>
+        <RectangularGeometry>
+          <Azimuth>0.000000</Azimuth>
+          <CartesianPoint>
+            <Coordinate>0.100000</Coordinate>
+            <Coordinate>0.800000</Coordinate>
+            <Coordinate>0.000000</Coordinate>
+          </CartesianPoint>
+          <Tilt>0.000000</Tilt>
+          <Height>10.000000</Height>
+          <Width>12.600000</Width>
+        </RectangularGeometry>
+        <PlanarGeometry>
+          <PolyLoop>
+            <CartesianPoint>
+              <Coordinate>30.000000</Coordinate>
+              <Coordinate>-14.900000</Coordinate>
+              <Coordinate>0.800000</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>30.000000</Coordinate>
+              <Coordinate>-5.100000</Coordinate>
+              <Coordinate>0.800000</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>30.000000</Coordinate>
+              <Coordinate>-5.100000</Coordinate>
+              <Coordinate>13.657143</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>30.000000</Coordinate>
+              <Coordinate>-14.900000</Coordinate>
+              <Coordinate>13.657143</Coordinate>
+            </CartesianPoint>
+          </PolyLoop>
+        </PlanarGeometry>
+      </Opening>
+      <CADObjectId>2aab7b43-e53c-4f0f-adfb-362e4cd6a0d6</CADObjectId>
+    </Surface>
+    <Surface id="su-3_0_3" surfaceType="ExteriorWall" constructionIdRef="OpenStudio_000_Exterior_Wall">
+      <Name>3_0_3</Name>
+      <AdjacentSpaceId spaceIdRef="Space_3_0" />
+      <RectangularGeometry>
+        <Azimuth>270.000000</Azimuth>
+        <CartesianPoint>
+          <Coordinate>10.000000</Coordinate>
+          <Coordinate>-14.000000</Coordinate>
+          <Coordinate>0.000000</Coordinate>
+        </CartesianPoint>
+        <Tilt>90.000000</Tilt>
+        <Height>0.000000</Height>
+        <Width>0.000000</Width>
+      </RectangularGeometry>
+      <PlanarGeometry>
+        <PolyLoop>
+          <CartesianPoint>
+            <Coordinate>10.000000</Coordinate>
+            <Coordinate>-14.000000</Coordinate>
+            <Coordinate>0.000000</Coordinate>
+          </CartesianPoint>
+          <CartesianPoint>
+            <Coordinate>10.000000</Coordinate>
+            <Coordinate>-15.000000</Coordinate>
+            <Coordinate>0.000000</Coordinate>
+          </CartesianPoint>
+          <CartesianPoint>
+            <Coordinate>10.000000</Coordinate>
+            <Coordinate>-15.000000</Coordinate>
+            <Coordinate>14.000000</Coordinate>
+          </CartesianPoint>
+          <CartesianPoint>
+            <Coordinate>10.000000</Coordinate>
+            <Coordinate>-14.000000</Coordinate>
+            <Coordinate>14.000000</Coordinate>
+          </CartesianPoint>
+        </PolyLoop>
+      </PlanarGeometry>
+      <Opening id="OpenStudio_3_0_3_glz_00" openingType="FixedWindow">
+        <Name>3_0_3 Window-0</Name>
+        <RectangularGeometry>
+          <Azimuth>0.000000</Azimuth>
+          <CartesianPoint>
+            <Coordinate>0.010000</Coordinate>
+            <Coordinate>0.800000</Coordinate>
+            <Coordinate>0.000000</Coordinate>
+          </CartesianPoint>
+          <Tilt>0.000000</Tilt>
+          <Height>10.000000</Height>
+          <Width>1.260000</Width>
+        </RectangularGeometry>
+        <PlanarGeometry>
+          <PolyLoop>
+            <CartesianPoint>
+              <Coordinate>10.000000</Coordinate>
+              <Coordinate>-14.010000</Coordinate>
+              <Coordinate>0.800000</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>10.000000</Coordinate>
+              <Coordinate>-14.990000</Coordinate>
+              <Coordinate>0.800000</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>10.000000</Coordinate>
+              <Coordinate>-14.990000</Coordinate>
+              <Coordinate>13.657143</Coordinate>
+            </CartesianPoint>
+            <CartesianPoint>
+              <Coordinate>10.000000</Coordinate>
+              <Coordinate>-14.010000</Coordinate>
+              <Coordinate>13.657143</Coordinate>
+            </CartesianPoint>
+          </PolyLoop>
+        </PlanarGeometry>
+      </Opening>
+      <CADObjectId>5d6328e5-da05-4e5f-a039-2462e53e7034</CADObjectId>
+    </Surface>
+    <Surface id="su-3_0_4" surfaceType="SlabOnGrade" constructionIdRef="OpenStudio_000_Interior_Floor">
+      <Name>3_0_4</Name>
+      <AdjacentSpaceId spaceIdRef="Space_3_0" />
+      <RectangularGeometry>
+        <Azimuth>0.000000</Azimuth>
+        <CartesianPoint>
+          <Coordinate>30.000000</Coordinate>
+          <Coordinate>-15.000000</Coordinate>
+          <Coordinate>0.000000</Coordinate>
+        </CartesianPoint>
+        <Tilt>180.000000</Tilt>
+        <Height>0.000000</Height>
+        <Width>0.000000</Width>
+      </RectangularGeometry>
+      <PlanarGeometry>
+        <PolyLoop>
+          <CartesianPoint>
+            <Coordinate>10.000000</Coordinate>
+            <Coordinate>-15.000000</Coordinate>
+            <Coordinate>0.000000</Coordinate>
+          </CartesianPoint>
+          <CartesianPoint>
+            <Coordinate>10.000000</Coordinate>
+            <Coordinate>-5.000000</Coordinate>
+            <Coordinate>0.000000</Coordinate>
+          </CartesianPoint>
+          <CartesianPoint>
+            <Coordinate>30.000000</Coordinate>
+            <Coordinate>-5.000000</Coordinate>
+            <Coordinate>0.000000</Coordinate>
+          </CartesianPoint>
+          <CartesianPoint>
+            <Coordinate>30.000000</Coordinate>
+            <Coordinate>-15.000000</Coordinate>
+            <Coordinate>0.000000</Coordinate>
+          </CartesianPoint>
+        </PolyLoop>
+      </PlanarGeometry>
+      <CADObjectId>58da2be9-b800-4c4a-8776-a3718430005b</CADObjectId>
+    </Surface>
+    <Surface id="su-3_0_5" surfaceType="Roof" constructionIdRef="OpenStudio_000_Interior_Ceiling">
+      <Name>3_0_5</Name>
+      <AdjacentSpaceId spaceIdRef="Space_3_0" />
+      <RectangularGeometry>
+        <Azimuth>0.000000</Azimuth>
+        <CartesianPoint>
+          <Coordinate>10.000000</Coordinate>
+          <Coordinate>-15.000000</Coordinate>
+          <Coordinate>14.000000</Coordinate>
+        </CartesianPoint>
+        <Tilt>0.000000</Tilt>
+        <Height>0.000000</Height>
+        <Width>0.000000</Width>
+      </RectangularGeometry>
+      <PlanarGeometry>
+        <PolyLoop>
+          <CartesianPoint>
+            <Coordinate>10.000000</Coordinate>
+            <Coordinate>-15.000000</Coordinate>
+            <Coordinate>14.000000</Coordinate>
+          </CartesianPoint>
+          <CartesianPoint>
+            <Coordinate>30.000000</Coordinate>
+            <Coordinate>-15.000000</Coordinate>
+            <Coordinate>14.000000</Coordinate>
+          </CartesianPoint>
+          <CartesianPoint>
+            <Coordinate>30.000000</Coordinate>
+            <Coordinate>-5.000000</Coordinate>
+            <Coordinate>14.000000</Coordinate>
+          </CartesianPoint>
+          <CartesianPoint>
+            <Coordinate>10.000000</Coordinate>
+            <Coordinate>-5.000000</Coordinate>
+            <Coordinate>14.000000</Coordinate>
+          </CartesianPoint>
+        </PolyLoop>
+      </PlanarGeometry>
+      <CADObjectId>6dfbd214-7346-4242-b1ed-e3520ec2915c</CADObjectId>
+    </Surface>
+  </Campus>
+  <Construction id="OpenStudio_000_Exterior_Wall">
+    <Description>From Rhino/Honeybee.</Description>
+    <Name>gbXMLConstruction_0</Name>
+    <LayerId layerIdRef="HBlayer_0_-_Layer_1" />
+    <LayerId layerIdRef="HBlayer_0_-_Layer_2" />
+    <LayerId layerIdRef="HBlayer_0_-_Layer_3" />
+    <LayerId layerIdRef="HBlayer_0_-_Layer_4" />
+    <LayerId layerIdRef="HBlayer_0_-_Layer_5" />
+  </Construction>
+  <Construction id="OpenStudio_000_Interior_Floor">
+    <Description>From Rhino/Honeybee.</Description>
+    <Name>gbXMLConstruction_1</Name>
+    <LayerId layerIdRef="HBlayer_1_-_Layer_1" />
+    <LayerId layerIdRef="HBlayer_1_-_Layer_2" />
+    <LayerId layerIdRef="HBlayer_1_-_Layer_3" />
+  </Construction>
+  <Construction id="OpenStudio_000_Interior_Ceiling">
+    <Description>From Rhino/Honeybee.</Description>
+    <Name>gbXMLConstruction_2</Name>
+    <LayerId layerIdRef="HBlayer_1_-_Layer_3" />
+    <LayerId layerIdRef="HBlayer_1_-_Layer_2" />
+    <LayerId layerIdRef="HBlayer_1_-_Layer_1" />
+  </Construction>
+  <Layer id="HBlayer_0_-_Layer_5">
+    <MaterialId materialIdRef="HBmat_HBlayer_0_-_Layer_5" percentOfLayer="100" />
+  </Layer>
+  <Layer id="HBlayer_1_-_Layer_2">
+    <MaterialId materialIdRef="HBmat_HBlayer_1_-_Layer_2" percentOfLayer="100" />
+  </Layer>
+  <Layer id="HBlayer_1_-_Layer_3">
+    <MaterialId materialIdRef="HBmat_HBlayer_1_-_Layer_3" percentOfLayer="100" />
+  </Layer>
+  <Layer id="HBlayer_0_-_Layer_1">
+    <MaterialId materialIdRef="HBmat_HBlayer_0_-_Layer_1" percentOfLayer="100" />
+  </Layer>
+  <Layer id="HBlayer_0_-_Layer_2">
+    <MaterialId materialIdRef="HBmat_HBlayer_0_-_Layer_2" percentOfLayer="100" />
+  </Layer>
+  <Layer id="HBlayer_1_-_Layer_1">
+    <MaterialId materialIdRef="HBmat_HBlayer_1_-_Layer_1" percentOfLayer="100" />
+  </Layer>
+  <Layer id="HBlayer_0_-_Layer_3">
+    <MaterialId materialIdRef="HBmat_HBlayer_0_-_Layer_3" percentOfLayer="100" />
+  </Layer>
+  <Layer id="HBlayer_0_-_Layer_4">
+    <MaterialId materialIdRef="HBmat_HBlayer_0_-_Layer_4" percentOfLayer="100" />
+  </Layer>
+  <Material id="HBmat_HBlayer_0_-_Layer_4">
+    <Name>000 F04 Wall air space resistance</Name>
+    <Description>A Honeybee material.</Description>
+    <R-value unit="SquareMeterKPerW">0.15</R-value>
+  </Material>
+  <Material id="HBmat_HBlayer_0_-_Layer_5">
+    <Name>000 G01a 19mm gypsum board</Name>
+    <Description>A Honeybee material.</Description>
+    <Thickness unit="Meters">0.019</Thickness>
+    <Conductivity unit="WPerMeterK">0.16</Conductivity>
+    <Density unit="KgPerCubicM">800</Density>
+    <SpecificHeat unit="JPerKgK">1090</SpecificHeat>
+  </Material>
+  <Material id="HBmat_HBlayer_0_-_Layer_1">
+    <Name>000 M01 100mm brick</Name>
+    <Description>A Honeybee material.</Description>
+    <Thickness unit="Meters">0.1016</Thickness>
+    <Conductivity unit="WPerMeterK">0.89</Conductivity>
+    <Density unit="KgPerCubicM">1920</Density>
+    <SpecificHeat unit="JPerKgK">790</SpecificHeat>
+  </Material>
+  <Material id="HBmat_HBlayer_0_-_Layer_2">
+    <Name>000 M15 200mm heavyweight concrete</Name>
+    <Description>A Honeybee material.</Description>
+    <Thickness unit="Meters">0.2032</Thickness>
+    <Conductivity unit="WPerMeterK">1.95</Conductivity>
+    <Density unit="KgPerCubicM">2240</Density>
+    <SpecificHeat unit="JPerKgK">900</SpecificHeat>
+  </Material>
+  <Material id="HBmat_HBlayer_1_-_Layer_2">
+    <Name>000 F05 Ceiling air space resistance</Name>
+    <Description>A Honeybee material.</Description>
+    <R-value unit="SquareMeterKPerW">0.18</R-value>
+  </Material>
+  <Material id="HBmat_HBlayer_1_-_Layer_3">
+    <Name>000 M11 100mm lightweight concrete</Name>
+    <Description>A Honeybee material.</Description>
+    <Thickness unit="Meters">0.1016</Thickness>
+    <Conductivity unit="WPerMeterK">0.53</Conductivity>
+    <Density unit="KgPerCubicM">1280</Density>
+    <SpecificHeat unit="JPerKgK">840</SpecificHeat>
+  </Material>
+  <Material id="HBmat_HBlayer_1_-_Layer_1">
+    <Name>000 F16 Acoustic tile</Name>
+    <Description>A Honeybee material.</Description>
+    <Thickness unit="Meters">0.0191</Thickness>
+    <Conductivity unit="WPerMeterK">0.06</Conductivity>
+    <Density unit="KgPerCubicM">368</Density>
+    <SpecificHeat unit="JPerKgK">590</SpecificHeat>
+  </Material>
+  <Material id="HBmat_HBlayer_0_-_Layer_3">
+    <Name>000 I02 50mm insulation board</Name>
+    <Description>A Honeybee material.</Description>
+    <Thickness unit="Meters">0.0508</Thickness>
+    <Conductivity unit="WPerMeterK">0.03</Conductivity>
+    <Density unit="KgPerCubicM">43</Density>
+    <SpecificHeat unit="JPerKgK">1210</SpecificHeat>
+  </Material>
+  <WindowType id="OpenStudio_000_Exterior_Window">
+    <Name>000 Exterior Window</Name>
+    <Description>A honeybee opening.</Description>
+    <Gap id="honeybeegap_0" gas="Air">
+      <Thickness unit="Meters">0.0127</Thickness>
+    </Gap>
+    <Glaze id="honeybeeglaze_0">
+      <Transmittance unit="Fraction" type="Visible">0.898</Transmittance>
+      <Transmittance unit="Fraction" type="Solar">0.837</Transmittance>
+      <Transmittance unit="Fraction" type="IR">0</Transmittance>
+      <Reflectance unit="Fraction" type="ExtVisible">0.081</Reflectance>
+      <Reflectance unit="Fraction" type="IntVisible">0.081</Reflectance>
+      <Reflectance unit="Fraction" type="ExtSolar">0.075</Reflectance>
+      <Reflectance unit="Fraction" type="IntSolar">0.898</Reflectance>
+      <Thickness unit="Meters">0.003</Thickness>
+      <Conductivity unit="WPerMeterK">0.9</Conductivity>
+    </Glaze>
+    <Glaze id="honeybeeglaze_1">
+      <Transmittance unit="Fraction" type="Visible">0.898</Transmittance>
+      <Transmittance unit="Fraction" type="Solar">0.837</Transmittance>
+      <Transmittance unit="Fraction" type="IR">0</Transmittance>
+      <Reflectance unit="Fraction" type="ExtVisible">0.081</Reflectance>
+      <Reflectance unit="Fraction" type="IntVisible">0.081</Reflectance>
+      <Reflectance unit="Fraction" type="ExtSolar">0.075</Reflectance>
+      <Reflectance unit="Fraction" type="IntSolar">0.898</Reflectance>
+      <Thickness unit="Meters">0.003</Thickness>
+      <Conductivity unit="WPerMeterK">0.9</Conductivity>
+    </Glaze>
+  </WindowType>
+  <Schedule id="SmallHotel_GuestRoom_Equip" type="Fraction">
+    <YearSchedule id="SmallHotel_GuestRoom_Equip0">
+      <BeginDate>2014-01-01</BeginDate>
+      <EndDate>2014-01-03</EndDate>
+      <WeekScheduleId weekScheduleIdRef="Week-0" />
+    </YearSchedule>
+    <YearSchedule id="SmallHotel_GuestRoom_Equip1">
+      <BeginDate>2014-01-04</BeginDate>
+      <EndDate>2014-12-31</EndDate>
+      <WeekScheduleId weekScheduleIdRef="Week-1" />
+    </YearSchedule>
+  </Schedule>
+  <Schedule id="SmallHotel_GuestRoom_Light" type="Fraction">
+    <YearSchedule id="SmallHotel_GuestRoom_Light0">
+      <BeginDate>2014-01-01</BeginDate>
+      <EndDate>2014-01-03</EndDate>
+      <WeekScheduleId weekScheduleIdRef="Week-2" />
+    </YearSchedule>
+    <YearSchedule id="SmallHotel_GuestRoom_Light1">
+      <BeginDate>2014-01-04</BeginDate>
+      <EndDate>2014-12-31</EndDate>
+      <WeekScheduleId weekScheduleIdRef="Week-3" />
+    </YearSchedule>
+  </Schedule>
+  <Schedule id="SmallHotel_Activity" type="Fraction">
+    <YearSchedule id="SmallHotel_Activity0">
+      <BeginDate>2014-01-01</BeginDate>
+      <EndDate>2014-12-31</EndDate>
+      <WeekScheduleId weekScheduleIdRef="Week-4" />
+    </YearSchedule>
+  </Schedule>
+  <Schedule id="SmallHotel_HtgSetp" type="Temp">
+    <YearSchedule id="SmallHotel_HtgSetp0">
+      <BeginDate>2014-01-01</BeginDate>
+      <EndDate>2014-12-31</EndDate>
+      <WeekScheduleId weekScheduleIdRef="Week-5" />
+    </YearSchedule>
+  </Schedule>
+  <Schedule id="SmallHotel_ClgSetp" type="Temp">
+    <YearSchedule id="SmallHotel_ClgSetp0">
+      <BeginDate>2014-01-01</BeginDate>
+      <EndDate>2014-12-31</EndDate>
+      <WeekScheduleId weekScheduleIdRef="Week-6" />
+    </YearSchedule>
+  </Schedule>
+  <Schedule id="SmallHotel_GuestRoom_Occ" type="Fraction">
+    <YearSchedule id="SmallHotel_GuestRoom_Occ0">
+      <BeginDate>2014-01-01</BeginDate>
+      <EndDate>2014-01-03</EndDate>
+      <WeekScheduleId weekScheduleIdRef="Week-7" />
+    </YearSchedule>
+    <YearSchedule id="SmallHotel_GuestRoom_Occ1">
+      <BeginDate>2014-01-04</BeginDate>
+      <EndDate>2014-12-31</EndDate>
+      <WeekScheduleId weekScheduleIdRef="Week-8" />
+    </YearSchedule>
+  </Schedule>
+  <WeekSchedule id="Week-0" type="Temp">
+    <Name>4ca5373b-96c2-4891-8453-a9a03c03b53e</Name>
+    <Day dayType="Sun" dayScheduleIdRef="SmallHotel_GuestRoom_Equip_Default_Schedule" />
+    <Day dayType="Mon" dayScheduleIdRef="SmallHotel_GuestRoom_Equip_Default_Schedule" />
+    <Day dayType="Tue" dayScheduleIdRef="SmallHotel_GuestRoom_Equip_Default_Schedule" />
+    <Day dayType="Wed" dayScheduleIdRef="SmallHotel_GuestRoom_Equip_Default_Schedule" />
+    <Day dayType="Thu" dayScheduleIdRef="SmallHotel_GuestRoom_Equip_Default_Schedule" />
+    <Day dayType="Fri" dayScheduleIdRef="SmallHotel_GuestRoom_Equip_Default_Schedule" />
+    <Day dayType="Sat" dayScheduleIdRef="SmallHotel_GuestRoom_Equip_Rule_1_Day_Schedule" />
+    <Day dayType="Holiday" dayScheduleIdRef="SmallHotel_GuestRoom_Equip_Default_Schedule" />
+    <Day dayType="CoolingDesignDay" dayScheduleIdRef="SmallHotel_GuestRoom_Equip_Summer_Design_Day" />
+    <Day dayType="HeatingDesignDay" dayScheduleIdRef="SmallHotel_GuestRoom_Equip_Winter_Design_Day" />
+    <Day dayType="WeekendOrHoliday" dayScheduleIdRef="SmallHotel_GuestRoom_Equip_Default_Schedule" />
+    <Day dayType="WeekendOrHoliday" dayScheduleIdRef="SmallHotel_GuestRoom_Equip_Default_Schedule" />
+  </WeekSchedule>
+  <WeekSchedule id="Week-1" type="Temp">
+    <Name>2c26511c-0b43-495b-9dbc-dbabe1582320</Name>
+    <Day dayType="Sun" dayScheduleIdRef="SmallHotel_GuestRoom_Equip_Rule_1_Day_Schedule" />
+    <Day dayType="Mon" dayScheduleIdRef="SmallHotel_GuestRoom_Equip_Default_Schedule" />
+    <Day dayType="Tue" dayScheduleIdRef="SmallHotel_GuestRoom_Equip_Default_Schedule" />
+    <Day dayType="Wed" dayScheduleIdRef="SmallHotel_GuestRoom_Equip_Default_Schedule" />
+    <Day dayType="Thu" dayScheduleIdRef="SmallHotel_GuestRoom_Equip_Default_Schedule" />
+    <Day dayType="Fri" dayScheduleIdRef="SmallHotel_GuestRoom_Equip_Default_Schedule" />
+    <Day dayType="Sat" dayScheduleIdRef="SmallHotel_GuestRoom_Equip_Rule_1_Day_Schedule" />
+    <Day dayType="Holiday" dayScheduleIdRef="SmallHotel_GuestRoom_Equip_Default_Schedule" />
+    <Day dayType="CoolingDesignDay" dayScheduleIdRef="SmallHotel_GuestRoom_Equip_Summer_Design_Day" />
+    <Day dayType="HeatingDesignDay" dayScheduleIdRef="SmallHotel_GuestRoom_Equip_Winter_Design_Day" />
+    <Day dayType="WeekendOrHoliday" dayScheduleIdRef="SmallHotel_GuestRoom_Equip_Default_Schedule" />
+    <Day dayType="WeekendOrHoliday" dayScheduleIdRef="SmallHotel_GuestRoom_Equip_Default_Schedule" />
+  </WeekSchedule>
+  <WeekSchedule id="Week-2" type="Temp">
+    <Name>11196307-5485-4b24-80c6-af7e58b2d89c</Name>
+    <Day dayType="Sun" dayScheduleIdRef="SmallHotel_GuestRoom_Light_Default_Schedule" />
+    <Day dayType="Mon" dayScheduleIdRef="SmallHotel_GuestRoom_Light_Default_Schedule" />
+    <Day dayType="Tue" dayScheduleIdRef="SmallHotel_GuestRoom_Light_Default_Schedule" />
+    <Day dayType="Wed" dayScheduleIdRef="SmallHotel_GuestRoom_Light_Default_Schedule" />
+    <Day dayType="Thu" dayScheduleIdRef="SmallHotel_GuestRoom_Light_Default_Schedule" />
+    <Day dayType="Fri" dayScheduleIdRef="SmallHotel_GuestRoom_Light_Default_Schedule" />
+    <Day dayType="Sat" dayScheduleIdRef="SmallHotel_GuestRoom_Light_Rule_1_Day_Schedule" />
+    <Day dayType="Holiday" dayScheduleIdRef="SmallHotel_GuestRoom_Light_Default_Schedule" />
+    <Day dayType="CoolingDesignDay" dayScheduleIdRef="SmallHotel_GuestRoom_Light_Summer_Design_Day" />
+    <Day dayType="HeatingDesignDay" dayScheduleIdRef="SmallHotel_GuestRoom_Light_Winter_Design_Day" />
+    <Day dayType="WeekendOrHoliday" dayScheduleIdRef="SmallHotel_GuestRoom_Light_Default_Schedule" />
+    <Day dayType="WeekendOrHoliday" dayScheduleIdRef="SmallHotel_GuestRoom_Light_Default_Schedule" />
+  </WeekSchedule>
+  <WeekSchedule id="Week-3" type="Temp">
+    <Name>323ae99b-a7a7-458d-adf1-2f6920cc8789</Name>
+    <Day dayType="Sun" dayScheduleIdRef="SmallHotel_GuestRoom_Light_Rule_1_Day_Schedule" />
+    <Day dayType="Mon" dayScheduleIdRef="SmallHotel_GuestRoom_Light_Default_Schedule" />
+    <Day dayType="Tue" dayScheduleIdRef="SmallHotel_GuestRoom_Light_Default_Schedule" />
+    <Day dayType="Wed" dayScheduleIdRef="SmallHotel_GuestRoom_Light_Default_Schedule" />
+    <Day dayType="Thu" dayScheduleIdRef="SmallHotel_GuestRoom_Light_Default_Schedule" />
+    <Day dayType="Fri" dayScheduleIdRef="SmallHotel_GuestRoom_Light_Default_Schedule" />
+    <Day dayType="Sat" dayScheduleIdRef="SmallHotel_GuestRoom_Light_Rule_1_Day_Schedule" />
+    <Day dayType="Holiday" dayScheduleIdRef="SmallHotel_GuestRoom_Light_Default_Schedule" />
+    <Day dayType="CoolingDesignDay" dayScheduleIdRef="SmallHotel_GuestRoom_Light_Summer_Design_Day" />
+    <Day dayType="HeatingDesignDay" dayScheduleIdRef="SmallHotel_GuestRoom_Light_Winter_Design_Day" />
+    <Day dayType="WeekendOrHoliday" dayScheduleIdRef="SmallHotel_GuestRoom_Light_Default_Schedule" />
+    <Day dayType="WeekendOrHoliday" dayScheduleIdRef="SmallHotel_GuestRoom_Light_Default_Schedule" />
+  </WeekSchedule>
+  <WeekSchedule id="Week-4" type="Temp">
+    <Name>9fb6b873-a132-4b74-b1f8-fbdfaf7871ff</Name>
+    <Day dayType="Sun" dayScheduleIdRef="SmallHotel_Activity_Default_Schedule" />
+    <Day dayType="Mon" dayScheduleIdRef="SmallHotel_Activity_Default_Schedule" />
+    <Day dayType="Tue" dayScheduleIdRef="SmallHotel_Activity_Default_Schedule" />
+    <Day dayType="Wed" dayScheduleIdRef="SmallHotel_Activity_Default_Schedule" />
+    <Day dayType="Thu" dayScheduleIdRef="SmallHotel_Activity_Default_Schedule" />
+    <Day dayType="Fri" dayScheduleIdRef="SmallHotel_Activity_Default_Schedule" />
+    <Day dayType="Sat" dayScheduleIdRef="SmallHotel_Activity_Default_Schedule" />
+    <Day dayType="Holiday" dayScheduleIdRef="SmallHotel_Activity_Default_Schedule" />
+    <Day dayType="CoolingDesignDay" dayScheduleIdRef="SmallHotel_Activity_Summer_Design_Day" />
+    <Day dayType="HeatingDesignDay" dayScheduleIdRef="SmallHotel_Activity_Winter_Design_Day" />
+    <Day dayType="WeekendOrHoliday" dayScheduleIdRef="SmallHotel_Activity_Default_Schedule" />
+    <Day dayType="WeekendOrHoliday" dayScheduleIdRef="SmallHotel_Activity_Default_Schedule" />
+  </WeekSchedule>
+  <WeekSchedule id="Week-5" type="Temp">
+    <Name>2b51f046-2b82-4b22-b45e-326e6ad9a706</Name>
+    <Day dayType="Sun" dayScheduleIdRef="SmallHotel_HtgSetp_Default_Schedule" />
+    <Day dayType="Mon" dayScheduleIdRef="SmallHotel_HtgSetp_Default_Schedule" />
+    <Day dayType="Tue" dayScheduleIdRef="SmallHotel_HtgSetp_Default_Schedule" />
+    <Day dayType="Wed" dayScheduleIdRef="SmallHotel_HtgSetp_Default_Schedule" />
+    <Day dayType="Thu" dayScheduleIdRef="SmallHotel_HtgSetp_Default_Schedule" />
+    <Day dayType="Fri" dayScheduleIdRef="SmallHotel_HtgSetp_Default_Schedule" />
+    <Day dayType="Sat" dayScheduleIdRef="SmallHotel_HtgSetp_Default_Schedule" />
+    <Day dayType="Holiday" dayScheduleIdRef="SmallHotel_HtgSetp_Default_Schedule" />
+    <Day dayType="CoolingDesignDay" dayScheduleIdRef="SmallHotel_HtgSetp_Summer_Design_Day" />
+    <Day dayType="HeatingDesignDay" dayScheduleIdRef="SmallHotel_HtgSetp_Winter_Design_Day" />
+    <Day dayType="WeekendOrHoliday" dayScheduleIdRef="SmallHotel_HtgSetp_Default_Schedule" />
+    <Day dayType="WeekendOrHoliday" dayScheduleIdRef="SmallHotel_HtgSetp_Default_Schedule" />
+  </WeekSchedule>
+  <WeekSchedule id="Week-6" type="Temp">
+    <Name>065ef4d8-5f4a-4600-98c9-77ba2c51a8a1</Name>
+    <Day dayType="Sun" dayScheduleIdRef="SmallHotel_ClgSetp_Default_Schedule" />
+    <Day dayType="Mon" dayScheduleIdRef="SmallHotel_ClgSetp_Default_Schedule" />
+    <Day dayType="Tue" dayScheduleIdRef="SmallHotel_ClgSetp_Default_Schedule" />
+    <Day dayType="Wed" dayScheduleIdRef="SmallHotel_ClgSetp_Default_Schedule" />
+    <Day dayType="Thu" dayScheduleIdRef="SmallHotel_ClgSetp_Default_Schedule" />
+    <Day dayType="Fri" dayScheduleIdRef="SmallHotel_ClgSetp_Default_Schedule" />
+    <Day dayType="Sat" dayScheduleIdRef="SmallHotel_ClgSetp_Default_Schedule" />
+    <Day dayType="Holiday" dayScheduleIdRef="SmallHotel_ClgSetp_Default_Schedule" />
+    <Day dayType="CoolingDesignDay" dayScheduleIdRef="SmallHotel_ClgSetp_Summer_Design_Day" />
+    <Day dayType="HeatingDesignDay" dayScheduleIdRef="SmallHotel_ClgSetp_Winter_Design_Day" />
+    <Day dayType="WeekendOrHoliday" dayScheduleIdRef="SmallHotel_ClgSetp_Default_Schedule" />
+    <Day dayType="WeekendOrHoliday" dayScheduleIdRef="SmallHotel_ClgSetp_Default_Schedule" />
+  </WeekSchedule>
+  <WeekSchedule id="Week-7" type="Temp">
+    <Name>e97e0d7a-1491-4609-b919-853cd30677ee</Name>
+    <Day dayType="Sun" dayScheduleIdRef="SmallHotel_GuestRoom_Occ_Default_Schedule" />
+    <Day dayType="Mon" dayScheduleIdRef="SmallHotel_GuestRoom_Occ_Default_Schedule" />
+    <Day dayType="Tue" dayScheduleIdRef="SmallHotel_GuestRoom_Occ_Default_Schedule" />
+    <Day dayType="Wed" dayScheduleIdRef="SmallHotel_GuestRoom_Occ_Default_Schedule" />
+    <Day dayType="Thu" dayScheduleIdRef="SmallHotel_GuestRoom_Occ_Default_Schedule" />
+    <Day dayType="Fri" dayScheduleIdRef="SmallHotel_GuestRoom_Occ_Default_Schedule" />
+    <Day dayType="Sat" dayScheduleIdRef="SmallHotel_GuestRoom_Occ_Rule_1_Day_Schedule" />
+    <Day dayType="Holiday" dayScheduleIdRef="SmallHotel_GuestRoom_Occ_Default_Schedule" />
+    <Day dayType="CoolingDesignDay" dayScheduleIdRef="SmallHotel_GuestRoom_Occ_Summer_Design_Day" />
+    <Day dayType="HeatingDesignDay" dayScheduleIdRef="SmallHotel_GuestRoom_Occ_Winter_Design_Day" />
+    <Day dayType="WeekendOrHoliday" dayScheduleIdRef="SmallHotel_GuestRoom_Occ_Default_Schedule" />
+    <Day dayType="WeekendOrHoliday" dayScheduleIdRef="SmallHotel_GuestRoom_Occ_Default_Schedule" />
+  </WeekSchedule>
+  <WeekSchedule id="Week-8" type="Temp">
+    <Name>0a538f0d-12bb-4cd4-8aeb-e26d1a7f8e30</Name>
+    <Day dayType="Sun" dayScheduleIdRef="SmallHotel_GuestRoom_Occ_Rule_1_Day_Schedule" />
+    <Day dayType="Mon" dayScheduleIdRef="SmallHotel_GuestRoom_Occ_Default_Schedule" />
+    <Day dayType="Tue" dayScheduleIdRef="SmallHotel_GuestRoom_Occ_Default_Schedule" />
+    <Day dayType="Wed" dayScheduleIdRef="SmallHotel_GuestRoom_Occ_Default_Schedule" />
+    <Day dayType="Thu" dayScheduleIdRef="SmallHotel_GuestRoom_Occ_Default_Schedule" />
+    <Day dayType="Fri" dayScheduleIdRef="SmallHotel_GuestRoom_Occ_Default_Schedule" />
+    <Day dayType="Sat" dayScheduleIdRef="SmallHotel_GuestRoom_Occ_Rule_1_Day_Schedule" />
+    <Day dayType="Holiday" dayScheduleIdRef="SmallHotel_GuestRoom_Occ_Default_Schedule" />
+    <Day dayType="CoolingDesignDay" dayScheduleIdRef="SmallHotel_GuestRoom_Occ_Summer_Design_Day" />
+    <Day dayType="HeatingDesignDay" dayScheduleIdRef="SmallHotel_GuestRoom_Occ_Winter_Design_Day" />
+    <Day dayType="WeekendOrHoliday" dayScheduleIdRef="SmallHotel_GuestRoom_Occ_Default_Schedule" />
+    <Day dayType="WeekendOrHoliday" dayScheduleIdRef="SmallHotel_GuestRoom_Occ_Default_Schedule" />
+  </WeekSchedule>
+  <WeekSchedule id="Week-unknown" type="Temp">
+    <Name>fab17faa-87da-4881-9c73-ff23cde34fa0</Name>
+    <Day dayType="Sun" dayScheduleIdRef="SmallHotel_Infil_Half_On_Default_Schedule" />
+    <Day dayType="Mon" dayScheduleIdRef="SmallHotel_Infil_Half_On_Default_Schedule" />
+    <Day dayType="Tue" dayScheduleIdRef="SmallHotel_Infil_Half_On_Default_Schedule" />
+    <Day dayType="Wed" dayScheduleIdRef="SmallHotel_Infil_Half_On_Default_Schedule" />
+    <Day dayType="Thu" dayScheduleIdRef="SmallHotel_Infil_Half_On_Default_Schedule" />
+    <Day dayType="Fri" dayScheduleIdRef="SmallHotel_Infil_Half_On_Default_Schedule" />
+    <Day dayType="Sat" dayScheduleIdRef="SmallHotel_Infil_Half_On_Default_Schedule" />
+    <Day dayType="Holiday" dayScheduleIdRef="SmallHotel_Infil_Half_On_Default_Schedule" />
+    <Day dayType="CoolingDesignDay" dayScheduleIdRef="SmallHotel_Infil_Half_On_Summer_Design_Day" />
+    <Day dayType="HeatingDesignDay" dayScheduleIdRef="SmallHotel_Infil_Half_On_Winter_Design_Day" />
+    <Day dayType="WeekendOrHoliday" dayScheduleIdRef="SmallHotel_Infil_Half_On_Default_Schedule" />
+    <Day dayType="WeekendOrHoliday" dayScheduleIdRef="SmallHotel_Infil_Half_On_Default_Schedule" />
+  </WeekSchedule>
+  <DaySchedule id="SmallHotel_GuestRoom_Equip_Default_Schedule" type="Temp" />
+  <DaySchedule id="SmallHotel_GuestRoom_Equip_Rule_1_Day_Schedule" type="Temp" />
+  <DaySchedule id="SmallHotel_GuestRoom_Equip_Summer_Design_Day" type="Temp" />
+  <DaySchedule id="SmallHotel_GuestRoom_Equip_Winter_Design_Day" type="Temp" />
+  <DaySchedule id="SmallHotel_GuestRoom_Light_Default_Schedule" type="Temp" />
+  <DaySchedule id="SmallHotel_GuestRoom_Light_Rule_1_Day_Schedule" type="Temp" />
+  <DaySchedule id="SmallHotel_GuestRoom_Light_Summer_Design_Day" type="Temp" />
+  <DaySchedule id="SmallHotel_GuestRoom_Light_Winter_Design_Day" type="Temp" />
+  <DaySchedule id="SmallHotel_Activity_Default_Schedule" type="Temp" />
+  <DaySchedule id="SmallHotel_Activity_Summer_Design_Day" type="Temp" />
+  <DaySchedule id="SmallHotel_Activity_Winter_Design_Day" type="Temp" />
+  <DaySchedule id="SmallHotel_HtgSetp_Default_Schedule" type="Temp" />
+  <DaySchedule id="SmallHotel_HtgSetp_Summer_Design_Day" type="Temp" />
+  <DaySchedule id="SmallHotel_HtgSetp_Winter_Design_Day" type="Temp" />
+  <DaySchedule id="SmallHotel_ClgSetp_Default_Schedule" type="Temp" />
+  <DaySchedule id="SmallHotel_ClgSetp_Summer_Design_Day" type="Temp" />
+  <DaySchedule id="SmallHotel_ClgSetp_Winter_Design_Day" type="Temp" />
+  <DaySchedule id="SmallHotel_GuestRoom_Occ_Default_Schedule" type="Temp" />
+  <DaySchedule id="SmallHotel_GuestRoom_Occ_Rule_1_Day_Schedule" type="Temp" />
+  <DaySchedule id="SmallHotel_GuestRoom_Occ_Summer_Design_Day" type="Temp" />
+  <DaySchedule id="SmallHotel_GuestRoom_Occ_Winter_Design_Day" type="Temp" />
+  <DaySchedule id="SmallHotel_Infil_Half_On_Default_Schedule" type="Temp" />
+  <DaySchedule id="SmallHotel_Infil_Half_On_Summer_Design_Day" type="Temp" />
+  <DaySchedule id="SmallHotel_Infil_Half_On_Winter_Design_Day" type="Temp" />
+</gbXML>

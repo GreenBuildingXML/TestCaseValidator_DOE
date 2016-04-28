@@ -31,28 +31,38 @@ namespace DOEgbXML
             DOEgbXMLTestDetail test3detail = new DOEgbXMLTestDetail();
             DOEgbXMLTestDetail test4detail = new DOEgbXMLTestDetail();
             DOEgbXMLTestDetail test5detail = new DOEgbXMLTestDetail();
+            DOEgbXMLTestDetail test6detail = new DOEgbXMLTestDetail();
+
             DOEgbXMLTestDetail test7detail = new DOEgbXMLTestDetail();
             DOEgbXMLTestDetail test8detail = new DOEgbXMLTestDetail();
+            DOEgbXMLTestDetail test12detail = new DOEgbXMLTestDetail();
+
             DOEgbXMLTestDetail test25detail = new DOEgbXMLTestDetail();
             DOEgbXMLTestDetail test28detail = new DOEgbXMLTestDetail();
-            //create the strings
-            //Test1
-            test1detail.testName = "Test1";
-            test1detail.shortTitle = "2 Walls of Different Thicknesses with Parallel Aligned Faces";
-            test1detail.testSummary = "This test is designed to make sure that when walls of different thicknesses are joined with their faces aligned, that the centerline offset does not create extra walls during the gbXML creation process.  If these extra sliver walls are found in the gbXML file, this test will fail.";
-            test1detail.passString = "This test has passed.";
-            test1detail.failString = "This test has failed.";
-            //ADD list to local testStrings List of Lists
-            TestDetailList.Add(test1detail);
 
-            //test 2
-            test2detail.testName = "Test2";
-            test2detail.shortTitle = "Single window with overhang that bisects the window's height.";
-            test2detail.testSummary = "A 1-zone, one story, simple model with exterior shading devices that act as overhangs and exterior light shelves for windows on the south façade.  Light shelves are 1” thick and split a single window instance in the BIM along its centerline.  This test is designed to ensure that this window should be represented as two windows in gbXML, the one window that is above the overhang, and the other that is below.";
-            test2detail.passString = "This test has passed.";
-            test2detail.failString = "This test has failed.";
+            DOEgbXMLTestDetail testwholeBuild1detail = new DOEgbXMLTestDetail();
+            DOEgbXMLTestDetail testwholeBuild2detail = new DOEgbXMLTestDetail();
+
+            //create the strings
+            //reach test.  TBD
+            //Test1
+            //test1detail.testName = "Test1";
+            //test1detail.shortTitle = "2 Walls of Different Thicknesses with Parallel Aligned Faces";
+            //test1detail.testSummary = "This test is designed to make sure that when walls of different thicknesses are joined with their faces aligned, that the centerline offset does not create extra walls during the gbXML creation process.  If these extra sliver walls are found in the gbXML file, this test will fail.";
+            //test1detail.passString = "This test has passed.";
+            //test1detail.failString = "This test has failed.";
             //ADD list to local testStrings List of Lists
-            TestDetailList.Add(test2detail);
+            //TestDetailList.Add(test1detail);
+
+            //reach test.  TBD
+            //test 2
+            //test2detail.testName = "Test2";
+            //test2detail.shortTitle = "Single window with overhang that bisects the window's height.";
+            //test2detail.testSummary = "A 1-zone, one story, simple model with exterior shading devices that act as overhangs and exterior light shelves for windows on the south façade.  Light shelves are 1” thick and split a single window instance in the BIM along its centerline.  This test is designed to ensure that this window should be represented as two windows in gbXML, the one window that is above the overhang, and the other that is below.";
+            //test2detail.passString = "This test has passed.";
+            //test2detail.failString = "This test has failed.";
+            //ADD list to local testStrings List of Lists
+            //TestDetailList.Add(test2detail);
 
             //test 3
             test3detail.testName = "Test3";
@@ -63,23 +73,35 @@ namespace DOEgbXML
             //ADD list to local testStrings List of Lists
             TestDetailList.Add(test3detail);
 
+            //reach test.  TBD
             //test 4 
-            test4detail.testName = "Test4";
-            test4detail.shortTitle = "Double height space with hole cut in floor and a skylight";
-            test4detail.testSummary = "This test is a large open atrium with a hole cut in the floor to allow light to penetrate through to the floor below.";
-            test4detail.passString = "This test has passed.";
-            test4detail.failString = "This test has failed.";
+            //test4detail.testName = "Test4";
+            //test4detail.shortTitle = "Double height space with hole cut in floor and a skylight";
+            //test4detail.testSummary = "This test is a large open atrium with a hole cut in the floor to allow light to penetrate through to the floor below.";
+            //test4detail.passString = "This test has passed.";
+            //test4detail.failString = "This test has failed.";
             //ADD list to local testStrings List of Lists
-            TestDetailList.Add(test4detail);
+            //TestDetailList.Add(test4detail);
 
+            //reach test.  TBD
             //test 5 
-            test5detail.testName = "Test5";
-            test5detail.shortTitle = "Basement walls that extend above grade and bound two different spaces";
-            test5detail.testSummary = "A two zone model that ensures exterior walls can properly be defined as underground and above grade.  A single wall has been drawn by the user that begins below grade, and terminates above grade.  Above grade, the walls bound a space that is above grade.  Below grade, the walls bound a space that is entirely below grade.";
-            test5detail.passString = "This test has passed.";
-            test5detail.failString = "This test has failed.";
+            //test5detail.testName = "Test5";
+            //test5detail.shortTitle = "Basement walls that extend above grade and bound two different spaces";
+            //test5detail.testSummary = "A two zone model that ensures exterior walls can properly be defined as underground and above grade.  A single wall has been drawn by the user that begins below grade, and terminates above grade.  Above grade, the walls bound a space that is above grade.  Below grade, the walls bound a space that is entirely below grade.";
+            //test5detail.passString = "This test has passed.";
+            //test5detail.failString = "This test has failed.";
             //ADD list to local testStrings List of Lists
-            TestDetailList.Add(test5detail);
+            //TestDetailList.Add(test5detail);
+
+
+            //Test 6
+            test6detail.testName = "Test6";
+            test6detail.shortTitle = "Simple box adjacency test.";
+            test6detail.testSummary = "All above-grade zones, being tested to see if adjacency relationships are preserved.  Zones with surfaces touching one another should have these surfaces defined as \"Interior\" types and the correct adjacency conditions.";
+            test6detail.passString = "This test has passed.";
+            test6detail.failString = "This test has failed.";
+            //ADD list to local testStrings List of Lists
+            TestDetailList.Add(test6detail);
 
             //test 7 
             test7detail.testName = "Test7";
@@ -99,23 +121,50 @@ namespace DOEgbXML
             //ADD list to local testStrings List of Lists
             TestDetailList.Add(test8detail);
 
-            //test 25
-            test25detail.testName = "Test25";
-            test25detail.shortTitle = "Stacked interior walls with openings";
-            test25detail.testSummary = "A simplified 4-zone model of a building that has interior walls stacked on top of one another.  The interior walls each have openings cut into them, to simulate something that may be drawn as a hallway by a designer.";
-            test25detail.passString = "This test has passed.";
-            test25detail.failString = "This test has failed.";
+            //test 12
+            test12detail.testName = "Test12";
+            test12detail.shortTitle = "Simple box stacking test.";
+            test12detail.testSummary = "All above-grade zones, being tested to see if adjacency relationships are preserved.  Zones with surfaces touching one another should have these surfaces defined as \"Interior\" types and the correct adjacency conditions.";
+            test12detail.passString = "This test has passed.";
+            test12detail.failString = "This test has failed.";
             //ADD list to local testStrings List of Lists
-            TestDetailList.Add(test25detail);
+            TestDetailList.Add(test12detail);
 
-            //test 28
-            test28detail.testName = "Test28";
-            test28detail.shortTitle = "Roof eaves are turned into shading devices automatically";
-            test28detail.testSummary = "A simplified 3-zone model of a building shaped like a residential home has been created.  The home is a simple two story example that has a small attic formed by a roof with a 30 degree pitch which slopes along one of the site’s Cartesian axes.  This test is a simple test that ensures the authoring tool is able to automatically break the roof into a space bounding object and shade object appropriately without any user intervention.";
-            test28detail.passString = "This test has passed.";
-            test28detail.failString = "This test has failed.";
+            //test whole building 1
+            testwholeBuild1detail.testName = "Whole Building Test 1";
+            testwholeBuild1detail.shortTitle = "Test for multi-floor building with ceiling return plenum.";
+            testwholeBuild1detail.testSummary = "Ensures that the plenum horizontal surfaces are properly translated into interior surfaces, and have the proper adjacency conditions.";
+            testwholeBuild1detail.passString = "This test has passed.";
+            testwholeBuild1detail.failString = "This test has failed.";
             //ADD list to local testStrings List of Lists
-            TestDetailList.Add(test28detail);
+            TestDetailList.Add(testwholeBuild1detail);
+
+            //test whole building 2 
+            testwholeBuild2detail.testName = "Whole Building Test 2";
+            testwholeBuild2detail.shortTitle = "Test for plenums and multi-zone objects over basement.";
+            testwholeBuild2detail.testSummary = "Tests a simple building that is multiple stories and with plenums.  This is a very standard building, typical of DOE prototype buildings, e.g.  In addition to the features of Whole Building Test Case 1, this building also has underground surfaces.  Ensures that the plenum horizontal surfaces are properly translated into interior surfaces, and have the proper adjacency conditions.";
+            testwholeBuild2detail.passString = "This test has passed.";
+            testwholeBuild2detail.failString = "This test has failed.";
+            //ADD list to local testStrings List of Lists
+            TestDetailList.Add(testwholeBuild2detail);
+
+            ////test 25
+            //test25detail.testName = "Test25";
+            //test25detail.shortTitle = "Stacked interior walls with openings";
+            //test25detail.testSummary = "A simplified 4-zone model of a building that has interior walls stacked on top of one another.  The interior walls each have openings cut into them, to simulate something that may be drawn as a hallway by a designer.";
+            //test25detail.passString = "This test has passed.";
+            //test25detail.failString = "This test has failed.";
+            ////ADD list to local testStrings List of Lists
+            //TestDetailList.Add(test25detail);
+
+            ////test 28
+            //test28detail.testName = "Test28";
+            //test28detail.shortTitle = "Roof eaves are turned into shading devices automatically";
+            //test28detail.testSummary = "A simplified 3-zone model of a building shaped like a residential home has been created.  The home is a simple two story example that has a small attic formed by a roof with a 30 degree pitch which slopes along one of the site’s Cartesian axes.  This test is a simple test that ensures the authoring tool is able to automatically break the roof into a space bounding object and shade object appropriately without any user intervention.";
+            //test28detail.passString = "This test has passed.";
+            //test28detail.failString = "This test has failed.";
+            ////ADD list to local testStrings List of Lists
+            //TestDetailList.Add(test28detail);
 
 
         }

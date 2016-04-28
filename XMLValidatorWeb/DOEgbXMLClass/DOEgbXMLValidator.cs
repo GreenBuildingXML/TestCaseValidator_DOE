@@ -23,6 +23,7 @@ namespace DOEgbXML
                 try
                 {
                     // Declare local objects
+                    // Improve to allow any schema version to be selected.
                     string xsdSchemaLocalLocation = Path.Combine(HttpRuntime.AppDomainAppPath, "SupportFiles/XSD/GreenBuildingXML_Ver5.10.xsd");
                     XmlReaderSettings rs = new XmlReaderSettings();
                     rs.ValidationType = ValidationType.Schema;
