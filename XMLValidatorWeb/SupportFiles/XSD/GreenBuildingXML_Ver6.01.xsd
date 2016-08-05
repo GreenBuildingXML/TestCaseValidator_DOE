@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="/css/xs3p.xsl"?>
 <!-- edited with XMLSpy v2013 (x64) (http://www.altova.com) by Stephen Roth (private) -->
-<xsd:schema xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.gbxml.org/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" targetNamespace="http://www.gbxml.org/schema" elementFormDefault="unqualified" attributeFormDefault="unqualified" version="6.01" xsi:schemaLocation="http://www.gbxml.org/schema file:///F:/Temp/GreenBuildingXML_Ver6.01.xsd">
+<xsd:schema xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.gbxml.org/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" targetNamespace="http://www.gbxml.org/schema" elementFormDefault="unqualified" attributeFormDefault="unqualified" version="6.01" xsi:schemaLocation="http://gbxml.org/schema/6-01 http://gbxml.org/schema/6-01/GreenBuildingXML_Ver6.01.xsd">
 	<xsd:annotation>
 		<xsd:documentation>gbXML version 6.01 - maintained by gbXML.org.</xsd:documentation>
 	</xsd:annotation>

@@ -1,0 +1,305 @@
+2016-07-22 22:31:52,147 [9] INFO  DOEgbXML.XMLParser - START: BUILDING AREA TEST
+2016-07-22 22:31:52,156 [9] INFO  DOEgbXML.XMLParser - PROGRAMMER'S NOTE: Converted the test file building area units.
+2016-07-22 22:31:52,156 [9] INFO  DOEgbXML.XMLParser - TEST FILE FAILURE:  The test file's Building Area  is not within the allowable tolerance of 0.05.
+2016-07-22 22:31:52,156 [9] INFO  DOEgbXML.XMLParser - END: BUILDING AREA TEST
+2016-07-22 22:31:52,197 [9] INFO  DOEgbXML.XMLParser - START: Building Story Right Hand Rule Test.
+2016-07-22 22:31:52,213 [9] DEBUG DOEgbXML.XMLParser - System.ArgumentException: An item with the same key has already been added.
+   at System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   at System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   at System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   at DOEgbXML.XMLParser.TestBuildingStoryRHR(List`1 gbXMLDocs, List`1 gbXMLnsm, CampusReport& cr) in c:\Users\chien.harriman.ACORPDOMAIN\Documents\GitHub\ValidatorPhase1\XMLValidatorWeb\DOEgbXMLClass\DOEgbXMLParser.cs:line 3320
+2016-07-22 22:31:52,213 [9] FATAL DOEgbXML.XMLParser -  Failed to complete RHR Test for the Building Storey Nodes.  Exception noted.
+2016-07-22 22:31:52,213 [9] INFO  DOEgbXML.XMLParser - END: Building Story Right Hand Rule Test.
+2016-07-22 22:33:23,497 [9] INFO  DOEgbXML.XMLParser - START: DETAILED SURFACE TEST
+2016-07-22 22:33:36,370 [9] DEBUG DOEgbXML.XMLParser - STARTING SUBROUTINE: GetSurfaceArea.
+2016-07-22 22:33:36,370 [9] DEBUG DOEgbXML.XMLParser - PROGAMMER'S NOTE: PolyLoop coordinates will be used to calculate the area.
+2016-07-22 22:33:36,370 [9] DEBUG DOEgbXML.XMLParser - ENDING SUBROUTINE: GetSurfaceArea
+2016-07-22 22:33:36,370 [9] DEBUG DOEgbXML.XMLParser - Area:207.3388223868
+2016-07-22 22:33:36,370 [9] INFO  DOEgbXML.XMLParser - SURFACE ID: su-zone_0_Srf_0
+2016-07-22 22:33:36,370 [9] INFO  DOEgbXML.XMLParser - START SUBTEST: AdjacencyId check.
+2016-07-22 22:33:36,370 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_5_Srf_1 AdjacencyID MATCH FAILED
+2016-07-22 22:33:36,370 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_5_Srf_2 AdjacencyID MATCH FAILED
+2016-07-22 22:33:36,371 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_5_Srf_3 AdjacencyID MATCH FAILED
+2016-07-22 22:33:36,371 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_5_Srf_4 AdjacencyID MATCH FAILED
+2016-07-22 22:33:36,371 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_5_Srf_5 AdjacencyID MATCH FAILED
+2016-07-22 22:33:36,371 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_5_Srf_7 AdjacencyID MATCH FAILED
+2016-07-22 22:33:36,371 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_5_Srf_10 AdjacencyID MATCH FAILED
+2016-07-22 22:33:36,371 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_5_Srf_11 AdjacencyID MATCH FAILED
+2016-07-22 22:33:36,371 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_5_Srf_12 AdjacencyID MATCH FAILED
+2016-07-22 22:33:36,371 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_5_Srf_13 AdjacencyID MATCH FAILED
+2016-07-22 22:33:36,371 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_11_Srf_0 AdjacencyID MATCH FAILED
+2016-07-22 22:33:36,371 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_11_Srf_1 AdjacencyID MATCH FAILED
+2016-07-22 22:33:36,371 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_11_Srf_2 AdjacencyID MATCH FAILED
+2016-07-22 22:33:36,371 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_11_Srf_3 AdjacencyID MATCH FAILED
+2016-07-22 22:33:36,371 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_11_Srf_4 AdjacencyID MATCH FAILED
+2016-07-22 22:33:36,371 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_11_Srf_5 AdjacencyID MATCH FAILED
+2016-07-22 22:33:36,371 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_11_Srf_6 AdjacencyID MATCH FAILED
+2016-07-22 22:33:36,371 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_11_Srf_7 AdjacencyID MATCH FAILED
+2016-07-22 22:33:36,371 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_11_Srf_8 AdjacencyID MATCH FAILED
+2016-07-22 22:33:36,371 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_11_Srf_9 AdjacencyID MATCH FAILED
+2016-07-22 22:33:36,371 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_17_Srf_0 AdjacencyID MATCH FAILED
+2016-07-22 22:33:36,371 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_17_Srf_1 AdjacencyID MATCH FAILED
+2016-07-22 22:33:36,371 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_17_Srf_2 AdjacencyID MATCH FAILED
+2016-07-22 22:33:36,371 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_17_Srf_3 AdjacencyID MATCH FAILED
+2016-07-22 22:33:36,371 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_17_Srf_4 AdjacencyID MATCH FAILED
+2016-07-22 22:33:36,371 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_17_Srf_5 AdjacencyID MATCH FAILED
+2016-07-22 22:33:36,371 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_17_Srf_6 AdjacencyID MATCH FAILED
+2016-07-22 22:33:36,371 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_17_Srf_7 AdjacencyID MATCH FAILED
+2016-07-22 22:33:36,371 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_17_Srf_8 AdjacencyID MATCH FAILED
+2016-07-22 22:33:36,372 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_17_Srf_9 AdjacencyID MATCH FAILED
+2016-07-22 22:33:36,372 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_0_Srf_0 AdjacencyID MATCH SUCCESS
+2016-07-22 22:33:36,372 [9] INFO  DOEgbXML.XMLParser - END SUBTEST: AdjacencyId check.
+2016-07-22 22:33:36,372 [9] INFO  DOEgbXML.XMLParser - START SUBTEST: surfaceType check.
+2016-07-22 22:33:36,372 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_0_Srf_0 surfaceType MATCH SUCCESS
+2016-07-22 22:33:36,421 [9] FATAL DOEgbXML.XMLParser - System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at DOEgbXML.XMLParser.GetSurfaceMatches(SurfaceDefinitions surface, List`1 TestSurfaces, DetailedSurfaceSummary& ssSummary, lengthUnitEnum standardLengthUnits, lengthUnitEnum testLengthUnits, Double testlengthConversion, Double standardlengthConversion, areaUnitEnum standardAreaUnits, areaUnitEnum testAreaUnits, Double testareaConversion, Double standardareaConversion) in c:\Users\chien.harriman.ACORPDOMAIN\Documents\GitHub\ValidatorPhase1\XMLValidatorWeb\DOEgbXMLClass\DOEgbXMLParser.cs:line 5905
+2016-07-22 22:33:36,421 [9] INFO  DOEgbXML.XMLParser - END: DETAILED SURFACE TEST
+2016-07-22 22:34:29,915 [9] INFO  DOEgbXML.XMLParser - START: DETAILED SURFACE TEST
+2016-07-22 22:34:29,915 [9] DEBUG DOEgbXML.XMLParser - STARTING SUBROUTINE: GetSurfaceArea.
+2016-07-22 22:34:29,915 [9] DEBUG DOEgbXML.XMLParser - PROGAMMER'S NOTE: PolyLoop coordinates will be used to calculate the area.
+2016-07-22 22:34:29,915 [9] DEBUG DOEgbXML.XMLParser - ENDING SUBROUTINE: GetSurfaceArea
+2016-07-22 22:34:29,915 [9] DEBUG DOEgbXML.XMLParser - Area:131.25358392
+2016-07-22 22:34:29,915 [9] INFO  DOEgbXML.XMLParser - SURFACE ID: su-zone_1_Srf_0
+2016-07-22 22:34:29,915 [9] INFO  DOEgbXML.XMLParser - START SUBTEST: AdjacencyId check.
+2016-07-22 22:34:29,915 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_5_Srf_1 AdjacencyID MATCH FAILED
+2016-07-22 22:34:29,915 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_5_Srf_2 AdjacencyID MATCH FAILED
+2016-07-22 22:34:29,915 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_5_Srf_3 AdjacencyID MATCH FAILED
+2016-07-22 22:34:29,915 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_5_Srf_4 AdjacencyID MATCH FAILED
+2016-07-22 22:34:29,915 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_5_Srf_5 AdjacencyID MATCH FAILED
+2016-07-22 22:34:29,915 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_5_Srf_7 AdjacencyID MATCH FAILED
+2016-07-22 22:34:29,915 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_5_Srf_10 AdjacencyID MATCH FAILED
+2016-07-22 22:34:29,915 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_5_Srf_11 AdjacencyID MATCH FAILED
+2016-07-22 22:34:29,915 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_5_Srf_12 AdjacencyID MATCH FAILED
+2016-07-22 22:34:29,915 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_5_Srf_13 AdjacencyID MATCH FAILED
+2016-07-22 22:34:29,915 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_11_Srf_0 AdjacencyID MATCH FAILED
+2016-07-22 22:34:29,915 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_11_Srf_1 AdjacencyID MATCH FAILED
+2016-07-22 22:34:29,915 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_11_Srf_2 AdjacencyID MATCH FAILED
+2016-07-22 22:34:29,915 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_11_Srf_3 AdjacencyID MATCH FAILED
+2016-07-22 22:34:29,915 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_11_Srf_4 AdjacencyID MATCH FAILED
+2016-07-22 22:34:29,915 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_11_Srf_5 AdjacencyID MATCH FAILED
+2016-07-22 22:34:29,915 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_11_Srf_6 AdjacencyID MATCH FAILED
+2016-07-22 22:34:29,915 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_11_Srf_7 AdjacencyID MATCH FAILED
+2016-07-22 22:34:29,915 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_11_Srf_8 AdjacencyID MATCH FAILED
+2016-07-22 22:34:29,915 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_11_Srf_9 AdjacencyID MATCH FAILED
+2016-07-22 22:34:29,915 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_17_Srf_0 AdjacencyID MATCH FAILED
+2016-07-22 22:34:29,915 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_17_Srf_1 AdjacencyID MATCH FAILED
+2016-07-22 22:34:29,915 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_17_Srf_2 AdjacencyID MATCH FAILED
+2016-07-22 22:34:29,915 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_17_Srf_3 AdjacencyID MATCH FAILED
+2016-07-22 22:34:29,915 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_17_Srf_4 AdjacencyID MATCH FAILED
+2016-07-22 22:34:29,915 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_17_Srf_5 AdjacencyID MATCH FAILED
+2016-07-22 22:34:29,915 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_17_Srf_6 AdjacencyID MATCH FAILED
+2016-07-22 22:34:29,915 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_17_Srf_7 AdjacencyID MATCH FAILED
+2016-07-22 22:34:29,915 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_17_Srf_8 AdjacencyID MATCH FAILED
+2016-07-22 22:34:29,915 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_17_Srf_9 AdjacencyID MATCH FAILED
+2016-07-22 22:34:29,915 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_0_Srf_0 AdjacencyID MATCH FAILED
+2016-07-22 22:34:29,915 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_0_Srf_1 AdjacencyID MATCH FAILED
+2016-07-22 22:34:29,915 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_0_Srf_2 AdjacencyID MATCH FAILED
+2016-07-22 22:34:29,916 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_0_Srf_3 AdjacencyID MATCH FAILED
+2016-07-22 22:34:29,916 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_0_Srf_4 AdjacencyID MATCH FAILED
+2016-07-22 22:34:29,916 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_0_Srf_5 AdjacencyID MATCH FAILED
+2016-07-22 22:34:29,916 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_1_Srf_0 AdjacencyID MATCH SUCCESS
+2016-07-22 22:34:29,916 [9] INFO  DOEgbXML.XMLParser - END SUBTEST: AdjacencyId check.
+2016-07-22 22:34:29,916 [9] INFO  DOEgbXML.XMLParser - START SUBTEST: surfaceType check.
+2016-07-22 22:34:29,916 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_1_Srf_0 surfaceType MATCH SUCCESS
+2016-07-22 22:34:29,927 [9] FATAL DOEgbXML.XMLParser - System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at DOEgbXML.XMLParser.GetSurfaceMatches(SurfaceDefinitions surface, List`1 TestSurfaces, DetailedSurfaceSummary& ssSummary, lengthUnitEnum standardLengthUnits, lengthUnitEnum testLengthUnits, Double testlengthConversion, Double standardlengthConversion, areaUnitEnum standardAreaUnits, areaUnitEnum testAreaUnits, Double testareaConversion, Double standardareaConversion) in c:\Users\chien.harriman.ACORPDOMAIN\Documents\GitHub\ValidatorPhase1\XMLValidatorWeb\DOEgbXMLClass\DOEgbXMLParser.cs:line 5905
+2016-07-22 22:34:29,927 [9] INFO  DOEgbXML.XMLParser - END: DETAILED SURFACE TEST
+2016-07-22 22:34:29,946 [9] INFO  DOEgbXML.XMLParser - START: DETAILED SURFACE TEST
+2016-07-22 22:34:29,946 [9] DEBUG DOEgbXML.XMLParser - STARTING SUBROUTINE: GetSurfaceArea.
+2016-07-22 22:34:29,946 [9] DEBUG DOEgbXML.XMLParser - PROGAMMER'S NOTE: PolyLoop coordinates will be used to calculate the area.
+2016-07-22 22:34:29,946 [9] DEBUG DOEgbXML.XMLParser - ENDING SUBROUTINE: GetSurfaceArea
+2016-07-22 22:34:29,946 [9] DEBUG DOEgbXML.XMLParser - Area:207.3388223868
+2016-07-22 22:34:29,946 [9] INFO  DOEgbXML.XMLParser - SURFACE ID: su-zone_2_Srf_0
+2016-07-22 22:34:29,946 [9] INFO  DOEgbXML.XMLParser - START SUBTEST: AdjacencyId check.
+2016-07-22 22:34:29,946 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_5_Srf_1 AdjacencyID MATCH FAILED
+2016-07-22 22:34:29,946 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_5_Srf_2 AdjacencyID MATCH FAILED
+2016-07-22 22:34:29,946 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_5_Srf_3 AdjacencyID MATCH FAILED
+2016-07-22 22:34:29,946 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_5_Srf_4 AdjacencyID MATCH FAILED
+2016-07-22 22:34:29,946 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_5_Srf_5 AdjacencyID MATCH FAILED
+2016-07-22 22:34:29,946 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_5_Srf_7 AdjacencyID MATCH FAILED
+2016-07-22 22:34:29,946 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_5_Srf_10 AdjacencyID MATCH FAILED
+2016-07-22 22:34:29,946 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_5_Srf_11 AdjacencyID MATCH FAILED
+2016-07-22 22:34:29,946 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_5_Srf_12 AdjacencyID MATCH FAILED
+2016-07-22 22:34:29,946 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_5_Srf_13 AdjacencyID MATCH FAILED
+2016-07-22 22:34:29,946 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_11_Srf_0 AdjacencyID MATCH FAILED
+2016-07-22 22:34:29,946 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_11_Srf_1 AdjacencyID MATCH FAILED
+2016-07-22 22:34:29,946 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_11_Srf_2 AdjacencyID MATCH FAILED
+2016-07-22 22:34:29,946 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_11_Srf_3 AdjacencyID MATCH FAILED
+2016-07-22 22:34:29,946 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_11_Srf_4 AdjacencyID MATCH FAILED
+2016-07-22 22:34:29,946 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_11_Srf_5 AdjacencyID MATCH FAILED
+2016-07-22 22:34:29,946 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_11_Srf_6 AdjacencyID MATCH FAILED
+2016-07-22 22:34:29,946 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_11_Srf_7 AdjacencyID MATCH FAILED
+2016-07-22 22:34:29,946 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_11_Srf_8 AdjacencyID MATCH FAILED
+2016-07-22 22:34:29,946 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_11_Srf_9 AdjacencyID MATCH FAILED
+2016-07-22 22:34:29,947 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_17_Srf_0 AdjacencyID MATCH FAILED
+2016-07-22 22:34:29,947 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_17_Srf_1 AdjacencyID MATCH FAILED
+2016-07-22 22:34:29,947 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_17_Srf_2 AdjacencyID MATCH FAILED
+2016-07-22 22:34:29,947 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_17_Srf_3 AdjacencyID MATCH FAILED
+2016-07-22 22:34:29,947 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_17_Srf_4 AdjacencyID MATCH FAILED
+2016-07-22 22:34:29,947 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_17_Srf_5 AdjacencyID MATCH FAILED
+2016-07-22 22:34:29,947 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_17_Srf_6 AdjacencyID MATCH FAILED
+2016-07-22 22:34:29,947 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_17_Srf_7 AdjacencyID MATCH FAILED
+2016-07-22 22:34:29,947 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_17_Srf_8 AdjacencyID MATCH FAILED
+2016-07-22 22:34:29,947 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_17_Srf_9 AdjacencyID MATCH FAILED
+2016-07-22 22:34:29,947 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_0_Srf_0 AdjacencyID MATCH FAILED
+2016-07-22 22:34:29,947 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_0_Srf_1 AdjacencyID MATCH FAILED
+2016-07-22 22:34:29,947 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_0_Srf_2 AdjacencyID MATCH FAILED
+2016-07-22 22:34:29,947 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_0_Srf_3 AdjacencyID MATCH FAILED
+2016-07-22 22:34:29,947 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_0_Srf_4 AdjacencyID MATCH FAILED
+2016-07-22 22:34:29,947 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_0_Srf_5 AdjacencyID MATCH FAILED
+2016-07-22 22:34:29,947 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_1_Srf_0 AdjacencyID MATCH FAILED
+2016-07-22 22:34:29,947 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_1_Srf_1 AdjacencyID MATCH FAILED
+2016-07-22 22:34:29,947 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_1_Srf_2 AdjacencyID MATCH FAILED
+2016-07-22 22:34:29,947 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_1_Srf_3 AdjacencyID MATCH FAILED
+2016-07-22 22:34:29,947 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_1_Srf_4 AdjacencyID MATCH FAILED
+2016-07-22 22:34:29,947 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_1_Srf_5 AdjacencyID MATCH FAILED
+2016-07-22 22:34:29,947 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_2_Srf_0 AdjacencyID MATCH SUCCESS
+2016-07-22 22:34:29,947 [9] INFO  DOEgbXML.XMLParser - END SUBTEST: AdjacencyId check.
+2016-07-22 22:34:29,947 [9] INFO  DOEgbXML.XMLParser - START SUBTEST: surfaceType check.
+2016-07-22 22:34:29,947 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_2_Srf_0 surfaceType MATCH SUCCESS
+2016-07-22 22:34:29,960 [9] FATAL DOEgbXML.XMLParser - System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at DOEgbXML.XMLParser.GetSurfaceMatches(SurfaceDefinitions surface, List`1 TestSurfaces, DetailedSurfaceSummary& ssSummary, lengthUnitEnum standardLengthUnits, lengthUnitEnum testLengthUnits, Double testlengthConversion, Double standardlengthConversion, areaUnitEnum standardAreaUnits, areaUnitEnum testAreaUnits, Double testareaConversion, Double standardareaConversion) in c:\Users\chien.harriman.ACORPDOMAIN\Documents\GitHub\ValidatorPhase1\XMLValidatorWeb\DOEgbXMLClass\DOEgbXMLParser.cs:line 5905
+2016-07-22 22:34:29,960 [9] INFO  DOEgbXML.XMLParser - END: DETAILED SURFACE TEST
+2016-07-22 22:34:29,980 [9] INFO  DOEgbXML.XMLParser - START: DETAILED SURFACE TEST
+2016-07-22 22:34:29,980 [9] DEBUG DOEgbXML.XMLParser - STARTING SUBROUTINE: GetSurfaceArea.
+2016-07-22 22:34:29,980 [9] DEBUG DOEgbXML.XMLParser - PROGAMMER'S NOTE: PolyLoop coordinates will be used to calculate the area.
+2016-07-22 22:34:29,980 [9] DEBUG DOEgbXML.XMLParser - ENDING SUBROUTINE: GetSurfaceArea
+2016-07-22 22:34:29,980 [9] DEBUG DOEgbXML.XMLParser - Area:131.25358392
+2016-07-22 22:34:29,980 [9] INFO  DOEgbXML.XMLParser - SURFACE ID: su-zone_3_Srf_0
+2016-07-22 22:34:29,980 [9] INFO  DOEgbXML.XMLParser - START SUBTEST: AdjacencyId check.
+2016-07-22 22:34:29,980 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_5_Srf_1 AdjacencyID MATCH FAILED
+2016-07-22 22:34:29,980 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_5_Srf_2 AdjacencyID MATCH FAILED
+2016-07-22 22:34:29,980 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_5_Srf_3 AdjacencyID MATCH FAILED
+2016-07-22 22:34:29,980 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_5_Srf_4 AdjacencyID MATCH FAILED
+2016-07-22 22:34:29,980 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_5_Srf_5 AdjacencyID MATCH FAILED
+2016-07-22 22:34:29,980 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_5_Srf_7 AdjacencyID MATCH FAILED
+2016-07-22 22:34:29,980 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_5_Srf_10 AdjacencyID MATCH FAILED
+2016-07-22 22:34:29,980 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_5_Srf_11 AdjacencyID MATCH FAILED
+2016-07-22 22:34:29,981 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_5_Srf_12 AdjacencyID MATCH FAILED
+2016-07-22 22:34:29,981 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_5_Srf_13 AdjacencyID MATCH FAILED
+2016-07-22 22:34:29,981 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_11_Srf_0 AdjacencyID MATCH FAILED
+2016-07-22 22:34:29,981 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_11_Srf_1 AdjacencyID MATCH FAILED
+2016-07-22 22:34:29,981 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_11_Srf_2 AdjacencyID MATCH FAILED
+2016-07-22 22:34:29,981 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_11_Srf_3 AdjacencyID MATCH FAILED
+2016-07-22 22:34:29,981 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_11_Srf_4 AdjacencyID MATCH FAILED
+2016-07-22 22:34:29,981 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_11_Srf_5 AdjacencyID MATCH FAILED
+2016-07-22 22:34:29,981 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_11_Srf_6 AdjacencyID MATCH FAILED
+2016-07-22 22:34:29,981 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_11_Srf_7 AdjacencyID MATCH FAILED
+2016-07-22 22:34:29,981 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_11_Srf_8 AdjacencyID MATCH FAILED
+2016-07-22 22:34:29,981 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_11_Srf_9 AdjacencyID MATCH FAILED
+2016-07-22 22:34:29,981 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_17_Srf_0 AdjacencyID MATCH FAILED
+2016-07-22 22:34:29,981 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_17_Srf_1 AdjacencyID MATCH FAILED
+2016-07-22 22:34:29,981 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_17_Srf_2 AdjacencyID MATCH FAILED
+2016-07-22 22:34:29,981 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_17_Srf_3 AdjacencyID MATCH FAILED
+2016-07-22 22:34:29,981 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_17_Srf_4 AdjacencyID MATCH FAILED
+2016-07-22 22:34:29,981 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_17_Srf_5 AdjacencyID MATCH FAILED
+2016-07-22 22:34:29,981 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_17_Srf_6 AdjacencyID MATCH FAILED
+2016-07-22 22:34:29,981 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_17_Srf_7 AdjacencyID MATCH FAILED
+2016-07-22 22:34:29,981 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_17_Srf_8 AdjacencyID MATCH FAILED
+2016-07-22 22:34:29,981 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_17_Srf_9 AdjacencyID MATCH FAILED
+2016-07-22 22:34:29,981 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_0_Srf_0 AdjacencyID MATCH FAILED
+2016-07-22 22:34:29,981 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_0_Srf_1 AdjacencyID MATCH FAILED
+2016-07-22 22:34:29,981 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_0_Srf_2 AdjacencyID MATCH FAILED
+2016-07-22 22:34:29,981 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_0_Srf_3 AdjacencyID MATCH FAILED
+2016-07-22 22:34:29,981 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_0_Srf_4 AdjacencyID MATCH FAILED
+2016-07-22 22:34:29,981 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_0_Srf_5 AdjacencyID MATCH FAILED
+2016-07-22 22:34:29,981 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_1_Srf_0 AdjacencyID MATCH FAILED
+2016-07-22 22:34:29,982 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_1_Srf_1 AdjacencyID MATCH FAILED
+2016-07-22 22:34:29,982 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_1_Srf_2 AdjacencyID MATCH FAILED
+2016-07-22 22:34:29,982 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_1_Srf_3 AdjacencyID MATCH FAILED
+2016-07-22 22:34:29,982 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_1_Srf_4 AdjacencyID MATCH FAILED
+2016-07-22 22:34:29,982 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_1_Srf_5 AdjacencyID MATCH FAILED
+2016-07-22 22:34:29,982 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_2_Srf_0 AdjacencyID MATCH FAILED
+2016-07-22 22:34:29,982 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_2_Srf_2 AdjacencyID MATCH FAILED
+2016-07-22 22:34:29,982 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_2_Srf_3 AdjacencyID MATCH FAILED
+2016-07-22 22:34:29,982 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_2_Srf_4 AdjacencyID MATCH FAILED
+2016-07-22 22:34:29,982 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_2_Srf_5 AdjacencyID MATCH FAILED
+2016-07-22 22:34:29,982 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_3_Srf_0 AdjacencyID MATCH SUCCESS
+2016-07-22 22:34:29,982 [9] INFO  DOEgbXML.XMLParser - END SUBTEST: AdjacencyId check.
+2016-07-22 22:34:29,982 [9] INFO  DOEgbXML.XMLParser - START SUBTEST: surfaceType check.
+2016-07-22 22:34:29,982 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_3_Srf_0 surfaceType MATCH SUCCESS
+2016-07-22 22:34:29,993 [9] FATAL DOEgbXML.XMLParser - System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at DOEgbXML.XMLParser.GetSurfaceMatches(SurfaceDefinitions surface, List`1 TestSurfaces, DetailedSurfaceSummary& ssSummary, lengthUnitEnum standardLengthUnits, lengthUnitEnum testLengthUnits, Double testlengthConversion, Double standardlengthConversion, areaUnitEnum standardAreaUnits, areaUnitEnum testAreaUnits, Double testareaConversion, Double standardareaConversion) in c:\Users\chien.harriman.ACORPDOMAIN\Documents\GitHub\ValidatorPhase1\XMLValidatorWeb\DOEgbXMLClass\DOEgbXMLParser.cs:line 5905
+2016-07-22 22:34:29,993 [9] INFO  DOEgbXML.XMLParser - END: DETAILED SURFACE TEST
+2016-07-22 22:34:30,012 [9] INFO  DOEgbXML.XMLParser - START: DETAILED SURFACE TEST
+2016-07-22 22:34:30,012 [9] DEBUG DOEgbXML.XMLParser - STARTING SUBROUTINE: GetSurfaceArea.
+2016-07-22 22:34:30,012 [9] DEBUG DOEgbXML.XMLParser - PROGAMMER'S NOTE: PolyLoop coordinates will be used to calculate the area.
+2016-07-22 22:34:30,012 [9] DEBUG DOEgbXML.XMLParser - ENDING SUBROUTINE: GetSurfaceArea
+2016-07-22 22:34:30,012 [9] DEBUG DOEgbXML.XMLParser - Area:983.5437859126
+2016-07-22 22:34:30,012 [9] INFO  DOEgbXML.XMLParser - SURFACE ID: su-zone_4_Srf_0
+2016-07-22 22:34:30,012 [9] INFO  DOEgbXML.XMLParser - START SUBTEST: AdjacencyId check.
+2016-07-22 22:34:30,012 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_5_Srf_1 AdjacencyID MATCH FAILED
+2016-07-22 22:34:30,013 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_5_Srf_2 AdjacencyID MATCH FAILED
+2016-07-22 22:34:30,013 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_5_Srf_3 AdjacencyID MATCH FAILED
+2016-07-22 22:34:30,013 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_5_Srf_4 AdjacencyID MATCH FAILED
+2016-07-22 22:34:30,013 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_5_Srf_5 AdjacencyID MATCH FAILED
+2016-07-22 22:34:30,013 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_5_Srf_7 AdjacencyID MATCH FAILED
+2016-07-22 22:34:30,013 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_5_Srf_10 AdjacencyID MATCH FAILED
+2016-07-22 22:34:30,013 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_5_Srf_11 AdjacencyID MATCH FAILED
+2016-07-22 22:34:30,013 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_5_Srf_12 AdjacencyID MATCH FAILED
+2016-07-22 22:34:30,013 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_5_Srf_13 AdjacencyID MATCH FAILED
+2016-07-22 22:34:30,013 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_11_Srf_0 AdjacencyID MATCH FAILED
+2016-07-22 22:34:30,013 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_11_Srf_1 AdjacencyID MATCH FAILED
+2016-07-22 22:34:30,013 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_11_Srf_2 AdjacencyID MATCH FAILED
+2016-07-22 22:34:30,013 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_11_Srf_3 AdjacencyID MATCH FAILED
+2016-07-22 22:34:30,013 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_11_Srf_4 AdjacencyID MATCH FAILED
+2016-07-22 22:34:30,013 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_11_Srf_5 AdjacencyID MATCH FAILED
+2016-07-22 22:34:30,013 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_11_Srf_6 AdjacencyID MATCH FAILED
+2016-07-22 22:34:30,013 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_11_Srf_7 AdjacencyID MATCH FAILED
+2016-07-22 22:34:30,013 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_11_Srf_8 AdjacencyID MATCH FAILED
+2016-07-22 22:34:30,013 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_11_Srf_9 AdjacencyID MATCH FAILED
+2016-07-22 22:34:30,013 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_17_Srf_0 AdjacencyID MATCH FAILED
+2016-07-22 22:34:30,013 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_17_Srf_1 AdjacencyID MATCH FAILED
+2016-07-22 22:34:30,013 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_17_Srf_2 AdjacencyID MATCH FAILED
+2016-07-22 22:34:30,013 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_17_Srf_3 AdjacencyID MATCH FAILED
+2016-07-22 22:34:30,013 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_17_Srf_4 AdjacencyID MATCH FAILED
+2016-07-22 22:34:30,013 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_17_Srf_5 AdjacencyID MATCH FAILED
+2016-07-22 22:34:30,013 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_17_Srf_6 AdjacencyID MATCH FAILED
+2016-07-22 22:34:30,013 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_17_Srf_7 AdjacencyID MATCH FAILED
+2016-07-22 22:34:30,013 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_17_Srf_8 AdjacencyID MATCH FAILED
+2016-07-22 22:34:30,013 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_17_Srf_9 AdjacencyID MATCH FAILED
+2016-07-22 22:34:30,013 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_0_Srf_0 AdjacencyID MATCH FAILED
+2016-07-22 22:34:30,013 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_0_Srf_1 AdjacencyID MATCH FAILED
+2016-07-22 22:34:30,013 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_0_Srf_2 AdjacencyID MATCH FAILED
+2016-07-22 22:34:30,013 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_0_Srf_3 AdjacencyID MATCH FAILED
+2016-07-22 22:34:30,013 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_0_Srf_4 AdjacencyID MATCH FAILED
+2016-07-22 22:34:30,013 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_0_Srf_5 AdjacencyID MATCH FAILED
+2016-07-22 22:34:30,013 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_1_Srf_0 AdjacencyID MATCH FAILED
+2016-07-22 22:34:30,013 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_1_Srf_1 AdjacencyID MATCH FAILED
+2016-07-22 22:34:30,013 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_1_Srf_2 AdjacencyID MATCH FAILED
+2016-07-22 22:34:30,013 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_1_Srf_3 AdjacencyID MATCH FAILED
+2016-07-22 22:34:30,013 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_1_Srf_4 AdjacencyID MATCH FAILED
+2016-07-22 22:34:30,013 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_1_Srf_5 AdjacencyID MATCH FAILED
+2016-07-22 22:34:30,013 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_2_Srf_0 AdjacencyID MATCH FAILED
+2016-07-22 22:34:30,013 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_2_Srf_2 AdjacencyID MATCH FAILED
+2016-07-22 22:34:30,013 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_2_Srf_3 AdjacencyID MATCH FAILED
+2016-07-22 22:34:30,013 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_2_Srf_4 AdjacencyID MATCH FAILED
+2016-07-22 22:34:30,013 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_2_Srf_5 AdjacencyID MATCH FAILED
+2016-07-22 22:34:30,013 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_3_Srf_0 AdjacencyID MATCH FAILED
+2016-07-22 22:34:30,014 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_3_Srf_1 AdjacencyID MATCH FAILED
+2016-07-22 22:34:30,014 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_3_Srf_2 AdjacencyID MATCH FAILED
+2016-07-22 22:34:30,014 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_3_Srf_3 AdjacencyID MATCH FAILED
+2016-07-22 22:34:30,014 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_3_Srf_4 AdjacencyID MATCH FAILED
+2016-07-22 22:34:30,014 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_3_Srf_5 AdjacencyID MATCH FAILED
+2016-07-22 22:34:30,014 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_4_Srf_0 AdjacencyID MATCH SUCCESS
+2016-07-22 22:34:30,014 [9] INFO  DOEgbXML.XMLParser - END SUBTEST: AdjacencyId check.
+2016-07-22 22:34:30,014 [9] INFO  DOEgbXML.XMLParser - START SUBTEST: surfaceType check.
+2016-07-22 22:34:30,014 [9] INFO  DOEgbXML.XMLParser - TEST SURFACE: su-zone_4_Srf_0 surfaceType MATCH SUCCESS
+2016-07-22 22:34:30,025 [9] FATAL DOEgbXML.XMLParser - System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at DOEgbXML.XMLParser.GetSurfaceMatches(SurfaceDefinitions surface, List`1 TestSurfaces, DetailedSurfaceSummary& ssSummary, lengthUnitEnum standardLengthUnits, lengthUnitEnum testLengthUnits, Double testlengthConversion, Double standardlengthConversion, areaUnitEnum standardAreaUnits, areaUnitEnum testAreaUnits, Double testareaConversion, Double standardareaConversion) in c:\Users\chien.harriman.ACORPDOMAIN\Documents\GitHub\ValidatorPhase1\XMLValidatorWeb\DOEgbXMLClass\DOEgbXMLParser.cs:line 5905
+2016-07-22 22:34:30,025 [9] INFO  DOEgbXML.XMLParser - END: DETAILED SURFACE TEST

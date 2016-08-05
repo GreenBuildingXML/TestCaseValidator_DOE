@@ -796,6 +796,11 @@
   .navbar-static-top {
     margin-right: -20px;
     margin-left: -20px;
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    border-radius: 0;
   }
   .container-fluid {
     padding: 0;

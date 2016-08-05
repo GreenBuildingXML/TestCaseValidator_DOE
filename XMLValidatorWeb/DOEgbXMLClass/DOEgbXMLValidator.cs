@@ -16,6 +16,17 @@ namespace DOEgbXML
             private string strErrorMsg = string.Empty;
             public string Errors { get { return strErrorMsg; } }
             public string BigError;
+            public string filePath { get; set; }
+
+            public DOEgbXMLValidator()
+            {
+                filePath = "SupportFiles/XSD/GreenBuildingXML_Ver5.10.xsd";
+            }
+
+            public DOEgbXMLValidator(string filename)
+            {
+                filePath = "SupportFiles/XSD/" + filename;
+            }
 
             public bool IsValidXmlEx(XmlReader xmlStream)
             {
@@ -24,7 +35,7 @@ namespace DOEgbXML
                 {
                     // Declare local objects
                     // Improve to allow any schema version to be selected.
-                    string xsdSchemaLocalLocation = Path.Combine(HttpRuntime.AppDomainAppPath, "SupportFiles/XSD/GreenBuildingXML_Ver5.10.xsd");
+                    string xsdSchemaLocalLocation = Path.Combine(HttpRuntime.AppDomainAppPath, this.filePath);
                     XmlReaderSettings rs = new XmlReaderSettings();
                     rs.ValidationType = ValidationType.Schema;
                     rs.ValidationFlags |= XmlSchemaValidationFlags.ProcessSchemaLocation | XmlSchemaValidationFlags.ReportValidationWarnings;

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Xml;
+using VectorMath;
 
 namespace DOEgbXML
 {
@@ -22,17 +23,18 @@ namespace DOEgbXML
         public class Tolerances
         {
             public const double ToleranceDefault = -999;
-            public const double VolumeTolerance = 1.0;
-            public const double AreaTolerance = 1.0;
-            public const double SpaceAreaPercentageTolerance = 0.025;
+            public const double VolumePercentageTolerance = 0.05; //percentage (as in 0.05 = 5%)
+            public const double AreaPercentageTolerance = 0.05; //percentage (as in 0.05 = 5%)
+            public const double AreaTolerance = 1; //absolute tolerance in square feet
+            public const double crossProductTolerance = 0.01; //degrees
 
             //Level (aka - story) height difference tolerance in feet
             public const double LevelHeightTolerance = 0.1;
             public const double VectorAngleTolerance = 2.5;
             public const double SpaceAreaTolerance = 1;
             //all count tolerances
-            public const double SpaceCountTolerance = 0;
-            public const double LevelCountTolerance = 0;
+            public const int SpaceCountTolerance = 0;
+            public const int LevelCountTolerance = 0;
             public const double SurfaceCountTolerance = 0;
             public const double ExteriorWallCountTolerance = 0;
             public const double InteriorWallCountTolerance = 0;
@@ -56,7 +58,7 @@ namespace DOEgbXML
             public const double SurfaceInsPtXTolerance = 0.5; //feet
             public const double SurfaceInsPtYTolerance = 0.5; //feet
             public const double SurfaceInsPtZTolerance = 0.5; //feet
-            public const double SurfacePLCoordTolerance = 0.5; //feet (3 inches)
+            public const double SurfacePLCoordTolerance = 1.0; //feet (12 inches)
             public const double SliverDimensionTolerance = 0.25; //feet
             public const double SurfaceAreaPercentageTolerance = 0.025;
 
@@ -184,5 +186,13 @@ namespace DOEgbXML
                 return retdoc;
             }
         }
+
+        public class EdgeFamily
+        {
+            public List<Vector.MemorySafe_CartCoord> startendpt;
+            public string sbdec;
+            public List<EdgeFamily> relatedEdges;
+        }
+
     }
 }

@@ -1,8 +1,24 @@
-﻿
-.table td
-{
-    font-size: 12px;
-    text-align: center;
+﻿*{
+    font-family:'Segoe UI'
+}
+
+.resultsTable{
+   border: 1px solid;
+   border-color:dimgray;
+   width:75%;
+   border-collapse:collapse;
+   background-color:#e6e6e6;
+   font-weight:bold;
+   text-align:center;
+}
+
+.resultsTable tr{
+    height:27.5px;
+}
+
+.resultsTable td {
+    border:1px solid;
+    padding-left:3px;
 }
 
 #signin

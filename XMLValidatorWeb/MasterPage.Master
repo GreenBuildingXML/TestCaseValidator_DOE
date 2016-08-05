@@ -7,22 +7,34 @@
     <title></title>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
-    <link rel="stylesheet" href="~/bootstrap/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="~/css/gbXML.css" />
-    <script language="javascript" type="text/javascript">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.3/jquery.min.js"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link href="<%=ResolveClientUrl("~/css/gbXML.css")%>" rel="stylesheet" />
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
 
-    </script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+ 
+    
+
+    
     
 </head>
 <body>
     <form id="form1" runat="server">
 
-    <div class="branding">
-        <img id="Img1" runat="server" class="advantix-logo" src="~/Images/header_new.png"
-            alt="logo" />
-        <img id="Img2" runat="server" class="designguide-logo" src="~/Images/header01.jpg"
-            alt="logo" />
-    </div>
+        <div class="navbar navbar-fixed-top" style="background-color:white;right:0;left:0;z-index:1030;position:fixed;min-height:150px;padding:20px">
+            <div class="branding">
+            <img id="Img1" runat="server" class="advantix-logo" src="~/Images/brandmark-gbxml-small.png"
+                alt="logo" />
+            </div>
+        </div>
+
+   
+    
+    
 
     <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server" />
 

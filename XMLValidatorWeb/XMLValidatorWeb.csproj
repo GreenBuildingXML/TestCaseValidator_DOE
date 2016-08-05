@@ -50,6 +50,14 @@
     <PackageAsSingleFile>true</PackageAsSingleFile>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="log4net, Version=1.2.15.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
+      <HintPath>..\packages\log4net.2.0.5\lib\net40-full\log4net.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.9.0.1\lib\net40\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -65,6 +73,10 @@
     <Reference Include="System.EnterpriseServices" />
     <Reference Include="System.Web.Mobile" />
     <Reference Include="System.Xml.Linq" />
+    <Reference Include="VectorMath, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\VectorMath\VectorMath\bin\Debug\VectorMath.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Content Include="bootstrap\css\bootstrap-responsive.css" />
@@ -75,26 +87,27 @@
     <Content Include="bootstrap\img\glyphicons-halflings.png" />
     <Content Include="bootstrap\js\bootstrap.js" />
     <Content Include="bootstrap\js\bootstrap.min.js" />
+    <Content Include="css\datatables.min.css" />
     <Content Include="css\gbXML.css" />
+    <Content Include="css\jquery.multilevelpushmenu.css" />
+    <Content Include="Images\brandmark-gbxml-small.png" />
     <Content Include="Images\header01.jpg" />
     <Content Include="Images\header_new.png" />
     <Content Include="Images\TmpImage.gif" />
     <Content Include="Default.aspx" />
     <Content Include="Pages\PrintFriendlyTablePage.aspx" />
     <Content Include="Pages\TestPage.aspx" />
-    <Content Include="Scripts\jquery-1.4.1-vsdoc.js" />
-    <Content Include="Scripts\jquery-1.4.1.js" />
-    <Content Include="Scripts\jquery-1.4.1.min.js" />
-    <Content Include="SupportFiles\TestFiles\Test Case 1 - Standard File.xml" />
-    <Content Include="SupportFiles\TestFiles\Test Case 2 - Standard File.xml" />
-    <Content Include="SupportFiles\TestFiles\Test Case 25 - Standard File.xml" />
-    <Content Include="SupportFiles\TestFiles\Test Case 28 - Standard File.xml" />
-    <Content Include="SupportFiles\TestFiles\Test Case 3 - Standard File.xml" />
-    <Content Include="SupportFiles\TestFiles\Test Case 4 - Standard File.xml" />
-    <Content Include="SupportFiles\TestFiles\Test Case 5 - Standard File.xml" />
-    <Content Include="SupportFiles\TestFiles\Test Case 7 - Standard File.xml" />
-    <Content Include="SupportFiles\TestFiles\Test Case 8 - Standard File.xml" />
+    <Content Include="Scripts\FileSaver.js" />
+    <Content Include="Scripts\jquery-ui.js" />
+    <Content Include="Scripts\jquery.fileupload.js" />
+    <Content Include="Scripts\jquery.iframe-transport.js" />
+    <Content Include="Scripts\jquery.multilevelpushmenu.js" />
     <Content Include="Pages\TestDetailPage.aspx" />
+    <Content Include="SupportFiles\TestFiles\Test Case 12 - Standard File 6-0-1.xml" />
+    <Content Include="SupportFiles\TestFiles\Test Case 3 - Standard File 6-0-1.xml" />
+    <Content Include="SupportFiles\TestFiles\Test Case 6 - Standard File 6-0-1.xml" />
+    <Content Include="SupportFiles\TestFiles\Test Case 7 - Standard File 6-0-1.xml" />
+    <Content Include="SupportFiles\TestFiles\Test Case 8 - Standard File 6-0-1.xml" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
@@ -106,6 +119,9 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Pages\AjaxHandler.ashx.cs">
+      <DependentUpon>AjaxHandler.ashx</DependentUpon>
+    </Compile>
     <Compile Include="DOEgbXMLClass\gbXML2IDF.cs" />
     <Compile Include="DOEgbXMLClass\DOEgbXMLBasics.cs" />
     <Compile Include="DOEgbXMLClass\DOEgbXMLenum.cs" />
@@ -152,14 +168,16 @@
     <Compile Include="Pages\TestDetailPage.aspx.designer.cs">
       <DependentUpon>TestDetailPage.aspx</DependentUpon>
     </Compile>
-    <Compile Include="DOEgbXMLClass\Vector.cs" />
     <Compile Include="SupportFiles\Conversions.cs" />
+    <Compile Include="SupportFiles\Reporting.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="MasterPage.Master" />
+    <Content Include="packages.config" />
+    <Content Include="Pages\AjaxHandler.ashx" />
     <None Include="Properties\PublishProfiles\GBXML Beta.pubxml" />
     <Content Include="SupportFiles\XSD\GreenBuildingXML_Ver5.10.xsd">
       <SubType>Designer</SubType>

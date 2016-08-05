@@ -16,9 +16,9 @@ namespace DOEgbXML
         public double Tilt;
         public double Height;
         public double Width;
-        public Vector.CartCoord InsertionPoint;
-        public List<Vector.CartCoord> PlCoords;
-        public Vector.CartVect PlRHRVector;
+        public Vector.MemorySafe_CartCoord InsertionPoint;
+        public List<Vector.MemorySafe_CartCoord> PlCoords;
+        public Vector.MemorySafe_CartVect PlRHRVector;
     }
     class SurfaceResults
     {
